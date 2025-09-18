@@ -1,8 +1,8 @@
 <section class="section-container pb-3" id="footer" aria-labelled="Footer">
     <div class="container-fluid">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6">
+            <div class="row gap-5 mb-5 justify-content-between">
+                <div class="col-12 col-md-5">
                     <img src="images/consultax-logo.png" class="footer-logo"/>
                     <p class="footer-comp-desc">
                         Consultax Chartered is a team of
@@ -26,7 +26,7 @@
                         expert guidance.
                     </p>
                 </div>
-                <div class="col-12 col-md-3 text-center">
+                <div class="col-12 col-md-2">
                     <p class="foot-link-head">Quick Links</p>
                     <ul>
                         <li class="foot-link-li"><a href="#" class="foot-links">About Us</a></li>
@@ -36,7 +36,7 @@
                         <li class="foot-link-li"><a href="#" class="foot-links">Terms & Conditions</a></li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-3 text-end">
+                <div class="col-12 col-md-2">
                     <p class="foot-link-head">Our Services</p>
                     <ul>
                         <li class="foot-link-li"><a href="#" class="foot-links">Bookkeeping</a></li>
@@ -50,6 +50,25 @@
                     </ul>
                 </div>
             </div>
+            <!-- Social Icons for Mobile screen -->
+            <div class="container my-5 d-block d-md-none no-pad-mob mb-5">
+            <div class="row">
+                <div class="col-12 d-flex flex-row justify-content-between">
+                    <a href="https://www.facebook.com/consultaxaccountants" target="_blank" class="col-6">
+                        <div class="d-flex flex-row align-items-center">
+                            <img src="images/fb-logo.png" class="foot-social-icons"/>
+                            <p class="mb-0 ms-3 foot-social-text">Facebook</p>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="col-6">
+                        <div class="d-flex flex-row  align-items-center">
+                            <img src="images/insta-logo.png" class="foot-social-icons"/>
+                            <p class="mb-0 ms-3 foot-social-text">Instagram</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
     <hr class="foot-hr"/>
@@ -59,7 +78,7 @@
                 <div class="col-12 col-md-8 align-items-center">
                       <p class="mb-0 copyright-txt">&copy; <?php echo date("Y"); ?> Consultax. All rights reserved.</p>
                 </div>
-                <div class="col-12 col-md-4 d-flex flex-row justify-content-between">
+                <div class="d-none d-md-flex col-12 col-md-4 d-flex flex-row justify-content-between">
                     <a href="https://www.facebook.com/consultaxaccountants" target="_blank">
                         <div class="d-flex flex-row align-items-center">
                             <img src="images/fb-logo.png" class="foot-social-icons"/>
