@@ -33,12 +33,12 @@
                             </p>
                         </div>
                         <div class="d-flex w-100 flex-column order-2 order-md-1 flex-md-row justify-content-between align-items-center mt-3 mb-5">
-                            <a class="hero-contact-btn align-self-md-end">Consult Now</a>
+                            <a href="tel:+442030846407" class="hero-contact-btn align-self-md-end">Consult Now</a>
                             <img src="images/Ratings.png" class="img-fluid ms-auto rating-img"/>
                         </div>
                         <div class="d-flex mt-5 order-1 order-md-2">
                             <p class="hero-para">
-                                Experienced <span class="hero-link-bold"><a href="tel:+442030846407" class="hero-link-bold-a">UK Tax Accountant</a></span> and <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Specialist Tax Advisor</a></span>, providing tailored <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Tax
+                                Experienced <span class="hero-link-bold"><a class="hero-link-bold-a">UK Tax Accountant</a></span> and <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Specialist Tax Advisor</a></span>, providing tailored <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Tax
                                 Planning Services</a></span> to
                                 individuals and businesses across the UK. Effortlessly manage your taxes, unlock
                                 greater returns, and maintain full compliance with trusted expertise.

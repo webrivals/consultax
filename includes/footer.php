@@ -29,7 +29,7 @@
                 <div class="col-12 col-md-2">
                     <p class="foot-link-head">Quick Links</p>
                     <ul>
-                        <li class="foot-link-li"><a href="#" class="foot-links">About Us</a></li>
+                        <li class="foot-link-li"><a href="about.php" class="foot-links">About Us</a></li>
                         <li class="foot-link-li"><a href="#" class="foot-links">Contact Us</a></li>
                         <li class="foot-link-li"><a href="#" class="foot-links">Blogs</a></li>
                         <li class="foot-link-li"><a href="#" class="foot-links">Privacy Policy</a></li>
