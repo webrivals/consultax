@@ -21,7 +21,7 @@
     </header>
     <!-- Main Section -->
     <main>
-        <div class="containe-fluid bg-theme-primary text-white">
+        <div class="containe-fluid text-white bg-theme-primary mt-5">
             <div class="container">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb d-flex flex-row justify-content-center align-items-center p-5">
@@ -54,10 +54,10 @@
                 </div>
                 <div class="row flex-row-reverse d-flex flex-row justify-content-between mt-5">
                     <p class="section-head">About CEO, <span class="fw-semibold txt-theme-secondary">Mr. Varun Gupta</span></p>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-5">
                         <img src="images/CEO.jpg" class="img-fluid img-bdr"/>
                     </div>
-                    <div class="col-12 col-md-7 my-auto">
+                    <div class="col-12 col-md-6 my-auto">
                         <p class="mt-4 mt-md-0 content-para">Founder and director graduated from University of Warwick with a First Class in BSc (Hons) in
                                                 Accounting &amp; Finance and undertook his professional training contract with
                                                 PriceWaterhouseCoopers, leading “Big Four” company. As friends and family were keen to utilise his

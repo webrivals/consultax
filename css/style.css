@@ -63,6 +63,14 @@ a{
     border: 0;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
+.nav-item-navbar .nav-link-navbar.active {
+  text-decoration: underline !important;
+  text-decoration-color: var(--bg-secondary) !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 4px !important;
+}
+
+
 #hero-section{
     background: url(../images/hero-bg.jpg) no-repeat center center;
     background-size: cover;
