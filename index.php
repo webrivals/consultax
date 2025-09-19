@@ -525,7 +525,7 @@
                 <div class="container d-block d-md-none">
                     <div class="text-center mt-4">
                         <p class="section-stamps">Core Values</p>
-                        <p class="section-head">What We Stand For</p>
+                        <p class="section-head">What We Stand For ?</p>
                     </div>
                     <div class="row">
                         <div class="col-12 no-pad-mob">
