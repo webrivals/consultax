@@ -45,7 +45,7 @@
                         <img src="images/about-page-img.jpg" class="img-fluid img-bdr"/>
                     </div>
                     <div class="col-12 col-md-7 my-auto">
-                        <p class="content-para">We're a modern, tax-savvy firm based in London and the Midlands, supporting local businesses and
+                        <p class="mt-4 mt-md-0  content-para">We're a modern, tax-savvy firm based in London and the Midlands, supporting local businesses and
                             individuals with smart, all-around financial services. Our goal is simple: to make managing money
                             easier, save you time, and help you keep more of what you earn. With smart technology at our core,
                             we deliver trusted tools and clear insights to strengthen your financial future.
@@ -58,7 +58,7 @@
                         <img src="images/CEO.jpg" class="img-fluid img-bdr"/>
                     </div>
                     <div class="col-12 col-md-7 my-auto">
-                        <p class="content-para">Founder and director graduated from University of Warwick with a First Class in BSc (Hons) in
+                        <p class="mt-4 mt-md-0 content-para">Founder and director graduated from University of Warwick with a First Class in BSc (Hons) in
                                                 Accounting &amp; Finance and undertook his professional training contract with
                                                 PriceWaterhouseCoopers, leading “Big Four” company. As friends and family were keen to utilise his
                                                 experience in their business, with particular emphasis on strategic development, he decided to take
@@ -72,7 +72,7 @@
             </div>
         </div>
         <!-- About us page skills and expertize section -->
-        <div class="container-fluid p-5 mt-5" style="background:#f1f1f1;">
+        <div class="container-fluid p-md-5 mt-5 py-5" style="background:#f1f1f1;">
             <div class="container">
                 <p class="section-head"> For our Skills and Expertise, Clients Choose Us based on following </p>
                 <div class="row">
