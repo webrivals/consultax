@@ -300,7 +300,7 @@
                         </div>
                     </div>
                     
-                   <div class="row mt-5 d-none d-md-block">
+                   <div class="row mt-5 d-none d-md-flex">
                     <!-- Scroll Spy nav tabs here here -->
                         <div class="col-12 col-md-4">
                             <div class="d-flex align-items-start">
@@ -488,10 +488,11 @@
                 </div>
             </div>
         </section>
-        <!-- Core values Section -->
+        <!-- Core Values -->
          <section class="section-container no-pad-mb" id="coreValues" aria-labelled="Core Values Section">
             <div class="container-fluid">
-                <div class="container">
+                <!-- Core values Desktop Section -->
+                <div class="container d-none d-md-block">
                     <div class="text-center mt-4">
                         <p class="section-stamps">Core Values</p>
                         <p class="section-head">What We Stand For ?</p>
@@ -520,6 +521,42 @@
                         </div>
                     </div>
                 </div>
+                <!-- Core values Mobile Section -->
+                <div class="container d-block d-md-none">
+                    <div class="text-center mt-4">
+                        <p class="section-stamps">Core Values</p>
+                        <p class="section-head">What We Stand For</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 no-pad-mob">
+                            <div class="feature-card-mob">
+                                <p class="feature-head-mob">CLIENT COMMITMENT</p>
+                                <p class="feature-desc-mob text-dark">Businesses save up to 7% of their net GST monthly, while individuals make the most by filing with us. Get expert guidance, faster processing, and hassle free compliance ensuring you keep more of what you earn, every single month.</p>
+                                <div class="feature-card-btm text-center">
+                                    <a href="#" class="mt-3 feat-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                </div>
+                            </div>
+                        <div class="col-12 mt-5">
+                            <div class="feature-card-mob">
+                                <p class="feature-head-mob">EXPERTISE</p>
+                                <p class="feature-desc-mob text-dark">Cut through compliance bottlenecks with intelligent automation: file GST returns in a third of the time, reconcile invoices at 5× the standard rate, and generate e-waybills in seconds. Individual tax returns completed in under minutes with accuracy built in.</p>
+                                <div class="feature-card-btm text-center">
+                                    <a href="#" class="mt-3 feat-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-5">
+                            <div class="feature-card-mob">
+                                <p class="feature-head-mob">INTEGRITY</p>
+                                <p class="feature-desc-mob text-dark">Our systems are built to deliver accurate, real time compliance across VAT, GST, payroll, and corporate tax obligations. Whether you re a business or an individual, we ensure every submission meets HMRC standards first time, every time.</p>
+                                <div class="feature-card-btm text-center">
+                                    <a href="#" class="mt-3 feat-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
          </section>
         <!-- CTA Section -->

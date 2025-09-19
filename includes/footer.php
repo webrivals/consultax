@@ -81,7 +81,7 @@
                 <div class="d-none d-md-flex col-12 col-md-4 d-flex flex-row justify-content-between">
                     <a href="https://www.facebook.com/consultaxaccountants" target="_blank">
                         <div class="d-flex flex-row align-items-center">
-                            <img src="images/fb-logo.png" class="foot-social-icons"/>
+                            <img src="images/FB-logo.png" class="foot-social-icons"/>
                             <p class="mb-0 ms-3 foot-social-text">Facebook</p>
                         </div>
                     </a>

@@ -16,7 +16,7 @@
         <div class="container no-pad-mob">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid no-pad-mob">
-                    <a class="navbar-brand" href="#"><img src="images/consultax-logo1.png" class="navbar-logo" alt="Consultax-logo"/></a>
+                    <a class="navbar-brand" href="#"><img src="images/Consultax-logo1.png" class="navbar-logo" alt="Consultax-logo"/></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
