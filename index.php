@@ -38,7 +38,7 @@
                         </div>
                         <div class="d-flex mt-5 order-1 order-md-2">
                             <p class="hero-para">
-                                Experienced <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">UK Tax Accountant</a></span> and <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Specialist Tax Advisor</a></span>, providing tailored <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Tax
+                                Experienced <span class="hero-link-bold"><a href="tel:+442030846407" class="hero-link-bold-a">UK Tax Accountant</a></span> and <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Specialist Tax Advisor</a></span>, providing tailored <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Tax
                                 Planning Services</a></span> to
                                 individuals and businesses across the UK. Effortlessly manage your taxes, unlock
                                 greater returns, and maintain full compliance with trusted expertise.
@@ -531,7 +531,7 @@
                         <div class="col-12 no-pad-mob">
                             <div class="feature-card-mob">
                                 <p class="feature-head-mob">CLIENT COMMITMENT</p>
-                                <p class="feature-desc-mob text-dark">Businesses save up to 7% of their net GST monthly, while individuals make the most by filing with us. Get expert guidance, faster processing, and hassle free compliance ensuring you keep more of what you earn, every single month.</p>
+                                <p class="feature-desc-mob text-dark">You're never just a number. We listen closely, tailor every solution, and put your needs at the centre of everything we do.</p>
                                 <div class="feature-card-btm text-center">
                                     <a href="#" class="mt-3 feat-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
@@ -539,7 +539,7 @@
                         <div class="col-12 mt-5">
                             <div class="feature-card-mob">
                                 <p class="feature-head-mob">EXPERTISE</p>
-                                <p class="feature-desc-mob text-dark">Cut through compliance bottlenecks with intelligent automation: file GST returns in a third of the time, reconcile invoices at 5× the standard rate, and generate e-waybills in seconds. Individual tax returns completed in under minutes with accuracy built in.</p>
+                                <p class="feature-desc-mob text-dark">Tax is our speciality. Our qualified team stays ahead of the curve to deliver precise, compliant, and forward-thinking advice.</p>
                                 <div class="feature-card-btm text-center">
                                     <a href="#" class="mt-3 feat-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
@@ -548,7 +548,7 @@
                         <div class="col-12 mt-5">
                             <div class="feature-card-mob">
                                 <p class="feature-head-mob">INTEGRITY</p>
-                                <p class="feature-desc-mob text-dark">Our systems are built to deliver accurate, real time compliance across VAT, GST, payroll, and corporate tax obligations. Whether you re a business or an individual, we ensure every submission meets HMRC standards first time, every time.</p>
+                                <p class="feature-desc-mob text-dark">We do what’s right - always. Clear advice, honest communication, and full transparency are the foundation of our work.</p>
                                 <div class="feature-card-btm text-center">
                                     <a href="#" class="mt-3 feat-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
@@ -570,7 +570,7 @@
                                 <p class="cta-tagline">Accounting with Purpose </p>
                             </div>
                             <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center">
-                                <a href="#" class="text-decoration-none cta-redirect">Request Your Consultation Today</a>
+                                <a href="tel:+442030846407" class="text-decoration-none cta-redirect">Request Your Consultation Today</a>
                             </div>
                         </div>
                         <div class="row mt-5">

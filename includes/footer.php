@@ -56,13 +56,13 @@
                 <div class="col-12 d-flex flex-row justify-content-between">
                     <a href="https://www.facebook.com/consultaxaccountants" target="_blank" class="col-6">
                         <div class="d-flex flex-row align-items-center">
-                            <img src="images/fb-logo.png" class="foot-social-icons"/>
+                            <img src="images/FB-logo.png" class="foot-social-icons"/>
                             <p class="mb-0 ms-3 foot-social-text">Facebook</p>
                         </div>
                     </a>
                     <a href="#" target="_blank" class="col-6">
                         <div class="d-flex flex-row  align-items-center">
-                            <img src="images/insta-logo.png" class="foot-social-icons"/>
+                            <img src="images/Insta-logo.png" class="foot-social-icons"/>
                             <p class="mb-0 ms-3 foot-social-text">Instagram</p>
                         </div>
                     </a>
@@ -87,7 +87,7 @@
                     </a>
                     <a href="#" target="_blank">
                         <div class="d-flex flex-row align-items-center">
-                            <img src="images/insta-logo.png" class="foot-social-icons"/>
+                            <img src="images/Insta-logo.png" class="foot-social-icons"/>
                             <p class="mb-0 ms-3 foot-social-text">Instagram</p>
                         </div>
                     </a>
