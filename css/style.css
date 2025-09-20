@@ -28,6 +28,9 @@ body{
     position: relative;
     background:black;
 }
+.bdr-radi{
+    border-radius: var(--border-radius) !important;
+}
 .br{
     border:1px solid red;/** TEST CLASS Remove when in Live**/
 }
@@ -124,7 +127,7 @@ ul{
     border-radius:5px;
 }
 .section-head{
-    font-size: 60px;
+    font-size: 45px;
     color:var(--bg-primary);
     font-weight:400;
     margin-top:20px;
@@ -697,6 +700,127 @@ ul li{
 #abt-card-1{
     background-color: var(--bg-primary) !important;
 }
+/* 
+.dropdown-menu{
+    width:90% !important;
+     white-space: normal !important;
+    word-wrap: break-word; 
+}
+.dropdown-menu .dropdown-item,
+.dropdown-menu .nav-link-navbar {
+  display: block;
+  white-space: normal !important; 
+} */
+
+
+
+/* Self Assessment Tax Returns */
+
+.work-method-card{
+    padding:15px;
+    background:#ffffff;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+.wm-card-title{
+    color:var(--bg-primary);
+    font-size:25px;
+    font-weight:500;
+}
+.wm-card-desc{
+    font-size: 18px;
+}
+.tbl-head{
+    font-size:22px;
+    font-weight: 500;
+}
+.tbl-col-head{
+    font-size:18px;
+    color:var(--bg-primary) !important;
+    font-weight:500;
+}
+.tbl-col-desc{
+    font-size:18px;
+}
+.section-sub-head{
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--color-primary);
+}
+.vap-li{
+    font-size: 20px;
+    font-weight: 500;
+    color:#000000;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.vap-li {
+    position: relative;
+    padding-left: 50px; 
+    margin-bottom: 10px;
+    margin-top:15px;
+}
+
+.vap-li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/vap-li-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.byct-btn{
+    background: var(--bg-primary);
+    padding:12px 20px;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: var(--border-radius);
+    /* box-shadow: var(--box-shadow); */
+}
+.faqs-question{
+    font-size:22px;
+    font-weight:500;
+    color:var(--bg-secondary);
+}
+.faqs-answer{
+    font-size:20px;
+    font-weight:400;
+    color: var(--bg-primary);
+}
+.accordion-item, .accordion-header, .accordion-button{
+    border-radius:var(--border-radius) !important;
+}
+.accordion .accordion-item {
+    margin-bottom: 20px;
+}
+.child-accordion {
+    margin-top: 20px;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+    outline:none !important;
+    background: #ffffff !important;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -706,6 +830,14 @@ ul li{
 /* Large tablets & small desktops */
 @media (max-width: 1200px) {
   
+}
+
+/* Show dropdown on hover (desktop only) */
+@media (min-width: 992px) { /* only on lg+ screens */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
 }
 
 /* Tablets (portrait + landscape) */
@@ -984,6 +1116,16 @@ ul li{
         font-size: 15px;
         font-weight: 600;
         border:1px solid var(--bg-primary);
+    }
+    .faqs-question{
+        font-size:20px;
+        font-weight:500;
+        color:var(--bg-secondary);
+    }
+    .faqs-answer{
+        font-size:18px;
+        font-weight:400;
+        color:var(--bg-primary);
     }
 
 }

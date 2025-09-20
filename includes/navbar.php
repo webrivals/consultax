@@ -20,13 +20,17 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                    <div class="collapse navbar-collapse" id="navbarText">
+                    <!-- <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav ms-lg-5 me-auto mb-2 mb-lg-0 w-100 justify-content-between">
                             <li class="nav-item-navbar">
                                 <a class="nav-link-navbar active" aria-current="page" href="index.php">Home</a>
                             </li>
                             <li class="nav-item-navbar">
-                                <a class="nav-link-navbar" href="#">Services</a>
+                                <a class="nav-link-navbar dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Services</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="nav-link-navbar" href="#">Action</a></li>
+                                    <li><a class="nav-link-navbar" href="#">Another action</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link-navbar" href="#">Who We Serve</a>
@@ -36,6 +40,56 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link-navbar" href="about.php">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link-navbar" href="#">Referrals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link-navbar contact-btn p-2 text-white" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ms-lg-5 me-auto mb-2 mb-lg-0 w-100 justify-content-between">
+                            <li class="nav-item-navbar">
+                                <a class="nav-link-navbar active" aria-current="page" href="index.php">Home</a>
+                            </li>
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link-navbar dropdown-toggle" href="#" role="button">
+                                    Services
+                                </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="nav-link-navbar dropdown-item" href="self-assessment-tax-returns.php">Self Assessment Tax Return</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Bookkeeping</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Company Formation</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Payroll Services</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Personal Tax</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">VAT</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Tax Planning</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Management Accounts</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Dubai Tax Accountant</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link-navbar dropdown-toggle" href="#"  role="button">Who We Serve</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Ecommerce</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Landlords</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Sole Traders</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Limited Companies</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Small And Medium Businesses</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link-navbar" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link-navbar dropdown-toggle" href="about.php" role="button">About</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">My Experience</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="#">Bespoke Accounting Approach</a></li>
+                                    </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link-navbar" href="#">Referrals</a>
