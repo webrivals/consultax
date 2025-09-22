@@ -16,10 +16,10 @@
     --border-radius:10px;
     --box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
 }
-.bg-theme-primary{background: var(--bg-primary);}
-.bg-theme-secondary{background: var(--bg-secondary);}
-.txt-theme-primary{color:var(--color-primary);}
-.txt-theme-secondary{color:var(--color-secondary);}
+.bg-theme-primary{background: var(--bg-primary) !important;}
+.bg-theme-secondary{background: var(--bg-secondary) !important;}
+.txt-theme-primary{color:var(--color-primary) !important;}
+.txt-theme-secondary{color:var(--color-secondary) !important;}
 body{
     line-height: 1.6;
     font-family: 'Satoshi', sans-serif !important;
@@ -131,7 +131,7 @@ ul{
     color:var(--bg-primary);
     font-weight:400;
     margin-top:20px;
-    margin-bottom:30px;
+    margin-bottom:15px;
 }
 .review-card-bg{
     background:#ffffff;
@@ -434,6 +434,13 @@ ul{
     font-weight: 700;
     border:1px solid var(--bg-primary);
 }
+.cta-redirect-page {
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: var(--border-radius);
+    font-size: 18px;
+    font-weight: 500;
+}
 .cta-tagline{
     color:var(--color-primary);
     font-size: 45px;
@@ -668,7 +675,6 @@ ul li{
     font-size: 16px;
     font-weight: 400;
 }
-
 .breadcrumb-item+.breadcrumb-item::before{
     color:#1A8FE3 !important
 }
@@ -814,13 +820,50 @@ ul {
     background: #ffffff !important;
 }
 
+/* Bookkeeping */
 
+.commit-head{
+    color:var(--color-primary);
+    font-size: 22px;
+}
+.commit-desc{
+    color:#000000;
+    font-weight:400;
+    font-size: 22px;
+}
+.section-sub-head .mtd-blt-icon{
+    height:32px !important;
+    width:32px !important;
+    margin-bottom:5px;
+}
+.bkeep-sec-card{
+    padding:15px;
+    background:#ffffff;
+    border-radius:var(--border-radius);
+    height:auto;
+    position: relative;
+}
+.service-hl{
+    color: var(---color-orange);
+    font-weight: 500;
+    font-size:18px;
+    background:white;
+    border-radius: 10px 10px 0px 0px;
+    padding:5px 20px;
+    position:absolute;
+    left:0;
+    top:-30px;
+}
+.abt-card-head{
+    margin-top:20px;
+}
+/* Peronal Tax */
 
-
-
-
-
-
+.htags-method{
+    color:var(---bg-orange);
+    font-size: 16px;
+    margin-left: auto;
+}
 
 
 
@@ -974,6 +1017,19 @@ ul {
     .blog-redirect{
         font-size: 16px;
     }
+    .vap-li::before{
+        top:15%;
+    }
+    .commit-head{
+        color:var(--color-primary);
+        font-size: 18px !important;
+    }
+    .commit-desc{
+        color:#000000;
+        font-weight:400;
+        font-size: 18px !important;
+    }
+    
 
 }
 
@@ -1127,5 +1183,6 @@ ul {
         font-weight:400;
         color:var(--bg-primary);
     }
+    
 
 }

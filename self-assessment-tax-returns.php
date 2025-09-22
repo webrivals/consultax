@@ -269,6 +269,7 @@
                     </div>
                 </div>
             </div>
+            <!--FAQS Section-->
             <section style="margin-top:65px;">
                 <div class="container-fluid mt-5 pb-5" style="background:#f1f1f1;">
                     <div class="container">
