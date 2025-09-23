@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landlords</title>
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet"/>
+    <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
+    <!-- Font -->
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,300,400,500,700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <navbar>
+            <?php include 'includes/navbar.php'; ?>            
+        </navbar>
+    </header>
+    <!-- Main Section -->
+    <main>
+        <div class="containe-fluid text-white bg-theme-primary mt-5">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb d-flex flex-row justify-content-center align-items-center p-5">
+                        <li class="breadcrumb-item"><a href="index.php" class="txt-theme-secondary display-6 fw-medium">Home</a></li>
+                        <li class="breadcrumb-item text-white display-1 fw-bolder active" aria-current="page">LandLords</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="container-fluid my-5">
+            <div class="container">
+                <h1 class="section-head">Landlord Specialist Accountants</h1>
+                <p class="section-para">
+                    Whether you own a single buy-to-let or are building a property portfolio, partnering with a
+                    knowledgeable accountant can be a strategic asset. They not only streamline your financial
+                    management but also provide insights to support growth and informed investment decisions.
+                </p>
+                <h2 class="section-sub-head">
+                    Hassle-Free Accounting for Landlords
+                </h2>
+                <p class="section-para">
+                    At Consultax Chartered Accountants, we take the stress out of managing your property finances.
+                    From rental income and expenses to tax reliefs, our tailored services keep everything accurate and
+                    compliant. We’ll help you maximise savings and stay HMRC-ready, so you can focus on growing your
+                    portfolio with confidence. Let us handle the numbers - while you build your investment success.
+                </p>
+                <h2 class="section-sub-head">
+                    Accountants Committed to Your Success                
+                </h2>
+                <p class="section-para">
+                    Reliable, proactive, and results-driven - we apply the same level of dedication to your success that
+                    you bring to your business every day.
+                </p>
+                    <ul class="mt-2">
+                        <li class="vap-li">
+                            <span class="commit-head">Insightful Advice That Moves You Forward :</span> <span class="commit-desc">We go beyond the numbers to offer guidance that’s tailored, and built for growth.</span>
+                        </li>
+                        <li class="vap-li">
+                            <span class="commit-head">Personalised Service That Feels Like Partnership :</span> <span class="commit-desc">Your goals matter. That’s why we offer attentive, custom support.</span>
+                        </li>
+                        <li class="vap-li">
+                            <span class="commit-head">Financial Clarity You Can Trust :</span> <span class="commit-desc">We prioritise clear communication, accounting support you can understand and rely on.</span>
+                        </li>
+                    </ul>    
+            </div>
+        </div>
+        <!-- Our Expertise section -->
+        <div class="container-fluid py-5" style="background:#f1f1f1;">
+            <div class="container">
+                <h2 class="section-head">Our Expertise: Helpful Services at a Glance</h2>
+                <p class="section-para">Running a business comes with its challenges. Let Consultax Chartered Accountants for Landlords
+                    take care of your tax, accounting, bookkeeping, and payroll. With our expert support, you’ll have
+                    more time to concentrate on driving your business forward.
+                </p>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6">
+                        <div class="bkeep-sec-card" id="abt-card-1">
+                            <p class="abt-card-head" style="color:#ffffff;">Client Meetings That Add Value</p>
+                            <p class="abt-card-desc" style="color:#ffffff;">
+                                We conduct regular tax planning meetings with our landlord clients to identify tax-saving
+                                opportunities and support smarter financial decisions. From refinancing advice and risk reviews to
+                                deal evaluations and general guidance, we&#39;re here to keep you one step ahead. Our focus is making
+                                sure your property assets work hard to grow your wealth efficiently and effectively.
+                            </p>
+                        </div>
+                        </div>
+                        <div class="col-12 col-md-6 mt-4 mt-md-0">
+                            <div class="bkeep-sec-card">
+                                <p class="abt-card-head">Capital Gains Tax Made Simple</p>
+                                <p class="abt-card-desc">
+                                    When selling property, capital gains tax can take away a large share of your profits. At 
+                                    Consultax Chartered Accountants, we guide landlords through the complexities of CGT, ensuring
+                                    you make the most of reliefs and exemptions. With smart planning and expert advice, we minimise
+                                    your liability and maximise what you keep. 
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="row mt-0 mt-md-4">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                        <div class="bkeep-sec-card">
+                            <p class="abt-card-head">Rental Accounts</p>
+                            <p class="abt-card-desc">
+                                Keeping on top of rental accounts can be time-consuming. At Consultax, we handle everything from
+                                income and expenses to tax deductions, ensuring your records are accurate and compliant. Our
+                                expert team helps you claim all the reliefs you’re entitled to, so nothing gets missed. With us
+                                managing the numbers, you’re free to focus on growing your property portfolio with confidence.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                        <div class="bkeep-sec-card">
+                            <p class="abt-card-head">Smart Investment Advice for Landlords</p>
+                            <p class="abt-card-desc">
+                                Property investment is all about making the right choices at the right time. At Consultax, we offer
+                                tailored advice to help you grow, manage, and protect your portfolio. Whether you&#39;re expanding or
+                                fine-tuning existing assets, our expert insight keeps you ahead of the curve. We’ll help you avoid
+                                costly mistakes and make confident, informed decisions that deliver long-term value. 
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="row mt-0 mt-md-4">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                        <div class="bkeep-sec-card">
+                            <p class="abt-card-head">Your Finances, Our Priority</p>
+                            <p class="abt-card-desc">
+                                We’re here to take the stress out of managing your finances. Our expert team partners with you to
+                                simplify complex financial matters. Together, we create a clear and structured plan tailored to your
+                                needs. Every step is fully aligned with your personal and business goals. The result is a strategy 
+                                that’s easy to understand and effortless to follow.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                        <div class="bkeep-sec-card">
+                            <p class="abt-card-head">Your Trusted Financial Partner</p>
+                            <p class="abt-card-desc">
+                                With us, you’re not just hiring an accountant—you’re gaining a reliable partner. Your dedicated account
+                                manager will provide ongoing support and guidance. Expert advice is always within reach whenever you need it. 
+                                Together, we ensure your finances stay on track with confidence. Our focus is to help you save time, reduce stress, 
+                                and achieve lasting growth.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <!-- FAQS SECTION-->
+            <div class="container-fluid mt-5 pb-5">
+                <div class="container">
+                <p class="section-head">Frequently Asked Questions</p>
+                <div class="accordion" id="LLORDACC">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#LLORD-one" aria-expanded="true" aria-controls="LLORD-one">
+                                <p class="mb-0 faqs-question">What Financial Records Do I Need To Keep As A Landlord?</p>
+                            </button>
+                        </h2>
+                        <div id="LLORD-one" class="accordion-collapse collapse" >
+                            <div class="accordion-body">
+                                <p class="faqs-answer">
+                                    As a landlord, you must keep detailed records of all rental income, expenses, receipts, invoices, and
+                                    any relevant tax documents. This includes maintenance costs, insurance premiums, mortgage
+                                    interest, and property-related bills. Proper record-keeping ensures you stay compliant and can
+                                    maximise allowable tax deductions.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#LLORD-two" aria-expanded="false" aria-controls="LLORD-two">
+                                <p class="mb-0 faqs-question">What Expenses Can Claim To Reduce Landlord Tax?</p>
+                            </button>
+                        </h2>
+                        <div id="LLORD-two" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                            <p class="faqs-answer">
+                                As a landlord, you are eligible to claim for:
+                                <ul class="faqs-answer">
+                                    <li>• &nbsp;&nbsp;Insurance</li>
+                                    <li>• &nbsp;&nbsp;General maintenance and repairs</li>
+                                    <li>• &nbsp;&nbsp;Travel costs</li>
+                                    <li>• &nbsp;&nbsp;Fees for professionals (accountancy, conveyancing and interior design)</li>
+                                    <li>• &nbsp;&nbsp;Ground rents and service charges</li>
+                                    <li>• &nbsp;&nbsp;Water rates, council tax, gas and electricity</li>
+                                    <li>• &nbsp;&nbsp;Gardening and cleaning costs</li>
+                                    <li>• &nbsp;&nbsp;Direct costs (eg phone calls, stationery and advertising for new tenants)</li>
+                                </ul>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#LLORD-three" aria-expanded="false" aria-controls="LLORD-three">
+                                <p class="mb-0 faqs-question">Do Landlords Need Services Of An Accountant?</p>
+                            </button>
+                        </h2>
+                        <div id="LLORD-three" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <p class="faqs-answer">
+                                    If you earn personal rental income, you&#39;re required to register for self-assessment and submit annual
+                                    tax returns. If you manage a property portfolio, it can be parallel to running a Limited Company,
+                                    which may prove to be a more tax-efficient structure than owning properties personally. Navigating
+                                    multiple rental accounts, filing expenses, and handling tax returns can be complex, so expert
+                                    guidance is essential to keep everything on track.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#LLORD-four" aria-expanded="false" aria-controls="LLORD-four">
+                                <p class="mb-0 faqs-question">Have You Forgotten To Declare Your Rental Income?</p>
+                            </button>
+                        </h2>
+                        <div id="LLORD-four" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <p class="faqs-answer">
+                                    Failing to do so can lead to penalties and interest from HMRC. However, if you realise the oversight,
+                                    you can make a voluntary disclosure to HMRC, potentially reducing any penalties. It’s always better
+                                    to address the issue sooner rather than later to avoid further complications.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <footer>
+        <?php include 'includes/footer.php'; ?>            
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--JavaScript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+<script src="js/marquee.js"></script>
+<script src="js/counter.js"></script>
+</body>
+</html>

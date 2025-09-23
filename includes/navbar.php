@@ -45,10 +45,10 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link-navbar dropdown-toggle" href="#"  role="button">Who We Serve</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="nav-link-navbar dropdown-item" href="#">Ecommerce</a></li>
-                                        <li><a class="nav-link-navbar dropdown-item" href="#">Landlords</a></li>
-                                        <li><a class="nav-link-navbar dropdown-item" href="#">Sole Traders</a></li>
-                                        <li><a class="nav-link-navbar dropdown-item" href="#">Limited Companies</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="ecommerce.php">Ecommerce</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="landlords.php">Landlords</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="sole-traders.php">Sole Traders</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="limited-companies.php">Limited Companies</a></li>
                                         <li><a class="nav-link-navbar dropdown-item" href="#">Small And Medium Businesses</a></li>
                                     </ul>
                             </li>
