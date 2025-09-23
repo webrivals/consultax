@@ -38,7 +38,7 @@
                                         <li><a class="nav-link-navbar dropdown-item" href="personal-tax.php">Personal Tax</a></li>
                                         <li><a class="nav-link-navbar dropdown-item" href="vat.php">VAT</a></li>
                                         <li><a class="nav-link-navbar dropdown-item" href="tax-planning.php">Tax Planning</a></li>
-                                        <li><a class="nav-link-navbar dropdown-item" href="#">Management Accounts</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="management-accounts.php">Management Accounts</a></li>
                                         <li><a class="nav-link-navbar dropdown-item" href="dubai-tax-accountant.php">Dubai Tax Accountant</a></li>
                                     </ul>
                             </li>
