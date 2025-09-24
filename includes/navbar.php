@@ -56,10 +56,10 @@
                                 <a class="nav-link-navbar" href="#">Pricing</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link-navbar dropdown-toggle" href="about.php" role="button">About</a>
+                                <a class="nav-link-navbar dropdown-toggle" href="#" role="button">About</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="nav-link-navbar dropdown-item" href="#">My Experience</a></li>
-                                        <li><a class="nav-link-navbar dropdown-item" href="#">Bespoke Accounting Approach</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="about.php">Our Values</a></li>
+                                        <li><a class="nav-link-navbar dropdown-item" href="bespoke-accounting-approach.php">Bespoke Accounting Approach</a></li>
                                     </ul>
                             </li>
                             <li class="nav-item">

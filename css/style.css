@@ -692,7 +692,7 @@ ul li{
     padding:15px;
     background:#ffffff;
     border-radius:var(--border-radius);
-    height:200px;
+    height:235px;
 }
 .abt-card-head{
     color: var(--bg-primary);
@@ -865,8 +865,37 @@ ul {
     margin-left: auto;
 }
 
+/* Bespoke Accounting Approach*/
 
-
+.custom-service-card{
+    background:var(--bg-primary);
+    padding:15px;
+    height:100px;
+    position:relative;
+}
+.custom-card-head{
+    color:white;
+    font-weight: 400;
+    font-size:28px;
+    
+}
+.plus-mark{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    top: 15px;
+    right: 15px;
+}
+.feature-star{
+    height:24px;
+    width:24px;
+}
+.bespoke-sec-card{
+    padding:15px;
+    background:#ffffff;
+    border-radius:var(--border-radius);
+    height:270px;
+}
 
 /* Default: Desktop / Large screens (no media query needed) */
 
@@ -1182,6 +1211,14 @@ ul {
         font-size:18px;
         font-weight:400;
         color:var(--bg-primary);
+    }
+    .bespoke-sec-card{
+        height:auto;
+    }
+    .custom-card-head {
+        color: white;
+        font-weight: 400;
+        font-size: 25px;
     }
     
 
