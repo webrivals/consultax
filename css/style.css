@@ -26,7 +26,6 @@ body{
     box-sizing: border-box;
     overflow-x: hidden !important;
     position: relative;
-    background:black;
 }
 .bdr-radi{
     border-radius: var(--border-radius) !important;
@@ -72,7 +71,23 @@ a{
   text-decoration-thickness: 2px !important;
   text-underline-offset: 4px !important;
 }
-
+#breadcrumb-bg{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M1202.223543850186 76.66693254814624L1235.6089052686737 30.715924683343886 1149.9897127622262 3.6133864880135036z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M356.95791631049644 211.69432603894884L317.99782283531374 131.81429671849327 238.1177935148582 170.77439019367597 277.07788699004084 250.65441951413152z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M689.6373790107218 339.41992455625586L630.8970369719376 274.18216556263474 565.6592779783165 332.922507601419 624.3996200171007 398.1602665950401z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1160.7148184990378 392.4953310250586L1107.862718668275 300.9528088314747 996.9749852932807 426.00221967441104z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1077.0000079610206 130.80269209811655L1124.0593256557993 227.288591949822 1245.2585165859682 108.4566654818012z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M989.1596110126528 153.87037838003596L973.7967798439483 28.750159227621268 848.6765606915337 44.1129903963257 864.0393918602381 169.2332095487404z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M375.001623515752 200.96600342806406L295.8254061543953 262.8252440136636 428.202375713473 350.65994976289886z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M286.6197638906595 520.8103137716516L358.9538313909354 585.9402006894129 351.7496508084208 448.4762462713757z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M379.20663161986465 59.31656585515013L291.52936331630985 22.09977350623855 279.54280894471987 172.22407213602645z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M817.8656586613962 439.7894971654486L802.5620752441191 585.3933672530204 948.1659453316909 600.6969506702975 963.469528748968 455.09308058272575z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.bcrumb-icon{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 17px;
+    margin-right: 12px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: " \005C " !important; 
+  color:#1A8FE3 !important;
+}
 #hero-section{
     background: url(../images/hero-bg.jpg) no-repeat center center;
     background-size: cover;
@@ -305,7 +320,6 @@ ul{
     transition: transform 0.5s ease, opacity 0.5s ease;
     opacity: 0;
 }
-
 .feature-box:hover .overlay-sheet > * {
     transform: translateY(0);
     opacity: 1;
@@ -530,7 +544,6 @@ ul{
   font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
   white-space: nowrap;
 }
-
 .marquee-content li img {
   width: 100%;
 }
@@ -542,6 +555,11 @@ ul{
 .blog-title{
     color: var(--bg-primary);
     font-size: 22px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* show only 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .blog-calendar-icon{
     width:20px;
@@ -675,9 +693,6 @@ ul li{
     font-size: 16px;
     font-weight: 400;
 }
-.breadcrumb-item+.breadcrumb-item::before{
-    color:#1A8FE3 !important
-}
 .img-bdr{
     border-radius: var(--border-radius);
 }
@@ -706,19 +721,6 @@ ul li{
 #abt-card-1{
     background-color: var(--bg-primary) !important;
 }
-/* 
-.dropdown-menu{
-    width:90% !important;
-     white-space: normal !important;
-    word-wrap: break-word; 
-}
-.dropdown-menu .dropdown-item,
-.dropdown-menu .nav-link-navbar {
-  display: block;
-  white-space: normal !important; 
-} */
-
-
 
 /* Self Assessment Tax Returns */
 
@@ -782,7 +784,46 @@ ul {
     background-size: contain;
     background-repeat: no-repeat;
 }
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.6; /* initial opacity */
+    transition: opacity 0.3s ease;
+    background: #1A8FE3;
+}
 
+  #scrollTopBtn:hover {
+    opacity: 1; /* full opacity on hover */
+  }
+
+  /* WhatsApp Button */
+  #whatsappBtn {
+    position: fixed;
+    bottom: 20px; /* above scroll-to-top button */
+    right: 20px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #whatsappBtn img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+
+  #whatsappBtn img:hover {
+    transform: scale(1.1);
+  }
 .byct-btn{
     background: var(--bg-primary);
     padding:12px 20px;
@@ -802,22 +843,30 @@ ul {
     font-weight:400;
     color: var(--bg-primary);
 }
-.accordion-item, .accordion-header, .accordion-button{
-    border-radius:var(--border-radius) !important;
+.accordion{
+    background: #ffffff !important;
 }
-.accordion .accordion-item {
+.accordion-item{
     margin-bottom: 20px;
+    border-radius: var(--border-radius);
+    background: none;
+}
+.accordion-button{
+    border-radius: var(--border-radius) !important;
+    outline:2px solid #f1f1f1;
 }
 .child-accordion {
     margin-top: 20px;
 }
-.accordion-button:focus {
-    box-shadow: none !important;
-}
+/* Remove blue background when accordion is open */
 .accordion-button:not(.collapsed) {
-    box-shadow: none !important;
-    outline:none !important;
-    background: #ffffff !important;
+    background-color: #fff !important;
+    box-shadow: none; /* remove inner shadow */
+}
+
+/* Optional: Remove focus outline */
+.accordion-button:focus {
+    box-shadow: none;
 }
 
 /* Bookkeeping */
@@ -835,6 +884,7 @@ ul {
     height:32px !important;
     width:32px !important;
     margin-bottom:5px;
+    margin-right: 15px;
 }
 .bkeep-sec-card{
     padding:15px;
@@ -897,6 +947,9 @@ ul {
     height:270px;
 }
 
+
+
+
 /* Default: Desktop / Large screens (no media query needed) */
 
 /* Large tablets & small desktops */
@@ -919,7 +972,9 @@ ul {
 
 /* Large phones / small tablets */
 @media (max-width: 768px) {
-  
+  #breadcrumb-bg::before {
+    transform: translateY(0); /* fallback for small screens */
+  }
 }
 
 /* Portrait phones */
@@ -930,7 +985,6 @@ ul {
     #hero-section{
         height:auto !important;
     }
-   
   .marquee:before, .marquee:after { 
     width: 5rem;    
     }
@@ -1074,7 +1128,7 @@ ul {
     .section-head{
         font-size: 30px !important;
         font-weight: 500;
-        margin-bottom:50px;
+        /* margin-bottom:50px; */
     }
     .section-stamps{
         font-size: 14px;
@@ -1220,6 +1274,14 @@ ul {
         font-weight: 400;
         font-size: 25px;
     }
+    .breadcrumb-item + .breadcrumb-item::before {
+        display: none;
+    }
+    .bcrumb-icon {
+        height: 28px;
+        width: 28px;
+        margin-bottom: 15px;
+        margin-right: 3px;
+    }   
     
-
 }

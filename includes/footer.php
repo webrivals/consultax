@@ -29,7 +29,7 @@
                 <div class="col-12 col-md-2">
                     <p class="foot-link-head">Quick Links</p>
                     <ul>
-                        <li class="foot-link-li"><a href="about.php" class="foot-links">About Us</a></li>
+                        <li class="foot-link-li"><a href="about.php" class="foot-links">About</a></li>
                         <li class="foot-link-li"><a href="#" class="foot-links">Contact Us</a></li>
                         <li class="foot-link-li"><a href="#" class="foot-links">Blogs</a></li>
                         <li class="foot-link-li"><a href="#" class="foot-links">Privacy Policy</a></li>
@@ -39,14 +39,14 @@
                 <div class="col-12 col-md-2">
                     <p class="foot-link-head">Our Services</p>
                     <ul>
-                        <li class="foot-link-li"><a href="#" class="foot-links">Bookkeeping</a></li>
-                        <li class="foot-link-li"><a href="#" class="foot-links">Company Formation</a></li>
-                        <li class="foot-link-li"><a href="#" class="foot-links">Payroll Services</a></li>
-                        <li class="foot-link-li"><a href="#" class="foot-links">Personal Tax</a></li>
-                        <li class="foot-link-li"><a href="#" class="foot-links">VAT Return</a></li>
-                        <li class="foot-link-li"><a href="#" class="foot-links">Tax Planning</a></li>
-                        <li class="foot-link-li"><a href="#" class="foot-links">Management Accounts</a></li>
-                        <li class="foot-link-li"><a href="#" class="foot-links">Expat Tax</a></li>
+                        <li class="foot-link-li"><a href="bookkeeping.php" class="foot-links">Bookkeeping</a></li>
+                        <li class="foot-link-li"><a href="company-formation.php" class="foot-links">Company Formation</a></li>
+                        <li class="foot-link-li"><a href="payroll-services.php" class="foot-links">Payroll Services</a></li>
+                        <li class="foot-link-li"><a href="personal-tax.php" class="foot-links">Personal Tax</a></li>
+                        <li class="foot-link-li"><a href="vat.php" class="foot-links">VAT Return</a></li>
+                        <li class="foot-link-li"><a href="tax-planning.php" class="foot-links">Tax Planning</a></li>
+                        <li class="foot-link-li"><a href="management-accounts.php" class="foot-links">Management Accounts</a></li>
+                        <li class="foot-link-li"><a href="expat-tax.php" class="foot-links">Expat Tax</a></li>
                     </ul>
                 </div>
             </div>

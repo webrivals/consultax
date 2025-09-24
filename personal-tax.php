@@ -21,41 +21,22 @@
     </header>
     <!-- Main Section -->
     <main>
-        <div class="containe-fluid text-white bg-theme-primary mt-5">
-            <div class="container">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb d-flex flex-row justify-content-center align-items-center p-5">
-                        <li class="breadcrumb-item"><a href="index.php" class="txt-theme-secondary display-6 fw-medium">Home</a></li>
-                        <li class="breadcrumb-item text-white display-1 fw-bolder active" aria-current="page">Personal Tax</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
+        <?php include 'includes/breadcrumbs.php'; ?>
         <div class="container-fluid my-5">
             <div class="container">
                 <h1 class="section-head">Personal Tax</h1>
                 <p class="section-para">
                     Optimise Your Finances with Trusted Tax Expertise<br/>
                     Take control of your finances with expert personal tax support. From self-assessment to smart tax planning, we help you keep more of what you earn.<br/>
-                </p>        
-                    <div class="row">
-                        <div class="col-12 d-flex flex-column  justify-content-start align-items-start">
-                            <p class="section-para">Your peace of mind, our priority. Let’s make tax simple.</p>
-                            <a href="tel:+442030846407" class="text-decoration-none bg-theme-secondary cta-redirect-page">Request Your Consultation Today</a>
-                        </div>
-                    </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="container">
-                <h2 class="section-sub-head">Expert Guidance. Hassle-Free Filing. Tailored to You.</h2>
+                </p>
+                <h2 class="section-head">Expert Guidance. Hassle-Free Filing. Tailored to You.</h2>
                 <p class="section-para">
                     Need to file your tax return with confidence? We are here to help. From simple submissions to
                     complex tax matters, we provide clear, tailored advice that keeps you compliant and in control.
                     <br/>
                     Whether you&#39;re a freelancer, landlord, or high earner, we’ll help minimise your liabilities and
                     maximise your financial wellbeing - all with precision and a personal touch.    
-                </p>
+                </p>        
             </div>
         </div>
         <!-- Methodology Personal Tax Section -->
@@ -217,49 +198,23 @@
                 </div>
             </section>
     </main>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
     <footer>
         <?php include 'includes/footer.php'; ?>            
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Scroll to Top Button -->
+    <div id="scrollTopBtn" title="Go to top">
+        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26.9997 53.6666C41.7273 53.6666 53.6663 41.7275 53.6663 26.9999C53.6663 12.2723 41.7273 0.333252 26.9997 0.333252C12.2721 0.333252 0.333008 12.2723 0.333008 26.9999C0.333008 41.7275 12.2721 53.6666 26.9997 53.6666Z" fill="#0E456D"/>
+            <path d="M35.5595 21.1066L28.8929 14.4399C28.6449 14.19 28.35 13.9916 28.0251 13.8562C27.7001 13.7208 27.3515 13.6511 26.9995 13.6511C26.6475 13.6511 26.2989 13.7208 25.974 13.8562C25.649 13.9916 25.3541 14.19 25.1062 14.4399L18.4395 21.1066C17.9374 21.6087 17.6553 22.2898 17.6553 22.9999C17.6553 23.7101 17.9374 24.3911 18.4395 24.8933C18.9417 25.3954 19.6227 25.6775 20.3329 25.6775C21.043 25.6775 21.724 25.3954 22.2262 24.8933L24.3329 22.7599V37.6666C24.3329 38.3738 24.6138 39.0521 25.1139 39.5522C25.614 40.0523 26.2923 40.3333 26.9995 40.3333C27.7068 40.3333 28.385 40.0523 28.8851 39.5522C29.3852 39.0521 29.6662 38.3738 29.6662 37.6666V22.7599L31.7729 24.8933C32.0208 25.1432 32.3157 25.3416 32.6406 25.477C32.9656 25.6123 33.3142 25.682 33.6662 25.682C34.0182 25.682 34.3668 25.6123 34.6917 25.477C35.0167 25.3416 35.3116 25.1432 35.5595 24.8933C35.8095 24.6454 36.0078 24.3504 36.1432 24.0255C36.2786 23.7005 36.3483 23.352 36.3483 22.9999C36.3483 22.6479 36.2786 22.2993 36.1432 21.9744C36.0078 21.6494 35.8095 21.3545 35.5595 21.1066Z" fill="white"/>
+        </svg>
+    </div>
+    <!-- WhatsApp Chat Icon -->
+    <a href="https://wa.me/442030846407" target="_blank" id="whatsappBtn" title="Chat with us">
+        <img src="images/wa-icon.svg" alt="WhatsApp Chat" class="whatsapp-icon"/>
+    </a>
 <!--JavaScript-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
-<script src="js/marquee.js"></script>
-<script src="js/counter.js"></script>
+<script src="js/breadcrumb.js"></script>
+<script src="js/scroll-top.js"></script>
 </body>
 </html>
