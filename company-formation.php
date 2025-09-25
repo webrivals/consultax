@@ -10,6 +10,8 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
     <!-- Font -->
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,300,400,500,700,900&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <?php include 'includes/header.php'; ?>
 </head>
 <body>
 <!-- Header -->
@@ -30,16 +32,16 @@
                 <h2 class="section-sub-head">Are You Ready To Form Your Own Company?</h2>
                 <p class="section-para">Establishing a company protects your business assets and ensures personal and business finances remain distinct.</p>
                 <ul class="mt-5">
-                    <li class="vap-li">
+                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="500">
                         <span class="commit-head">Trusted and Approved :</span> <span class="commit-desc">Officially recognised by Companies House as a fully authorised formation agent.</span>
                     </li>
-                    <li class="vap-li">
+                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="600">
                         <span class="commit-head">Expert UK Support :</span> <span class="commit-desc">Our senior specialists offer tailored, one-to-one help via phone, email, and live chat.</span>
                     </li>
-                    <li class="vap-li">
+                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="700">
                         <span class="commit-head">Time and Cost Efficient :</span> <span class="commit-desc">Swift, stress-free service that lets you gets on with growing your business.</span>
                     </li>
-                    <li class="vap-li">
+                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800">
                         <span class="commit-head">Accountancy You Can Rely On :</span> <span class="commit-desc">Professional accountants ensuring accurate records and full compliance post-formation.</span>
                     </li>
                 </ul>
@@ -50,7 +52,7 @@
             <div class="container">
                     <h2 class="section-head mt-5">Our Working Methodology</h2>
                     <div class="mt-4">
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             Business Filing Made Simple
                         </p>
                         <p class="section-para">
@@ -59,7 +61,7 @@
                             and on time. Stay compliant, avoid penalties, and focus on growing your business, while we keep
                             you up-to-date with every legal requirement. Peace of mind, sorted.
                         </p>
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             Get Your Address Registered
                         </p>
                         <p class="section-para">
@@ -69,7 +71,7 @@
                             your privacy and maintaining a professional image. With our service, you can register your address
                             with confidence, knowing it complies with Companies House regulations.
                         </p>
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             VAT Registration
                         </p>
                         <p class="section-para">
@@ -80,7 +82,7 @@
                             expertise, you can focus on growing your business while staying fully compliant. Simplify your VAT
                             registration with us.
                         </p>
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             Payroll Registration
                         </p>
                         <p class="section-para">
@@ -92,7 +94,7 @@
                             processing. Trust Consultax Chartered Accountant to manage your payroll registration with precision
                             and ease.
                         </p>
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             Guidance in Opening a Bank Account
                         </p>
                         <p class="section-para">
@@ -102,7 +104,7 @@
                             met. With our correct guidance, you can navigate the bank account opening process efficiently,
                             saving you time and reducing potential obstacles.
                         </p>
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             Company Registration for Corporation Tax
                         </p>
                         <p class="section-para">
@@ -113,7 +115,7 @@
                             tax registration is accurate, giving you peace of mind to focus on growing your business. Let us
                             manage the business details, so you’re ready for every tax season with confidence.
                         </p>
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             Support in Securing Business Finance
                         </p>
                         <p class="section-para">
@@ -122,7 +124,7 @@
                             right funding options. No jargon - just clear, practical support to help you secure the finance and
                             move your business forward with confidence.
                         </p>
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             Expert Help with Business Plans
                         </p>
                         <p class="section-para">
@@ -213,17 +215,7 @@
     <footer>
         <?php include 'includes/footer.php'; ?>            
     </footer>
-    <!-- Scroll to Top Button -->
-    <div id="scrollTopBtn" title="Go to top">
-        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M26.9997 53.6666C41.7273 53.6666 53.6663 41.7275 53.6663 26.9999C53.6663 12.2723 41.7273 0.333252 26.9997 0.333252C12.2721 0.333252 0.333008 12.2723 0.333008 26.9999C0.333008 41.7275 12.2721 53.6666 26.9997 53.6666Z" fill="#0E456D"/>
-            <path d="M35.5595 21.1066L28.8929 14.4399C28.6449 14.19 28.35 13.9916 28.0251 13.8562C27.7001 13.7208 27.3515 13.6511 26.9995 13.6511C26.6475 13.6511 26.2989 13.7208 25.974 13.8562C25.649 13.9916 25.3541 14.19 25.1062 14.4399L18.4395 21.1066C17.9374 21.6087 17.6553 22.2898 17.6553 22.9999C17.6553 23.7101 17.9374 24.3911 18.4395 24.8933C18.9417 25.3954 19.6227 25.6775 20.3329 25.6775C21.043 25.6775 21.724 25.3954 22.2262 24.8933L24.3329 22.7599V37.6666C24.3329 38.3738 24.6138 39.0521 25.1139 39.5522C25.614 40.0523 26.2923 40.3333 26.9995 40.3333C27.7068 40.3333 28.385 40.0523 28.8851 39.5522C29.3852 39.0521 29.6662 38.3738 29.6662 37.6666V22.7599L31.7729 24.8933C32.0208 25.1432 32.3157 25.3416 32.6406 25.477C32.9656 25.6123 33.3142 25.682 33.6662 25.682C34.0182 25.682 34.3668 25.6123 34.6917 25.477C35.0167 25.3416 35.3116 25.1432 35.5595 24.8933C35.8095 24.6454 36.0078 24.3504 36.1432 24.0255C36.2786 23.7005 36.3483 23.352 36.3483 22.9999C36.3483 22.6479 36.2786 22.2993 36.1432 21.9744C36.0078 21.6494 35.8095 21.3545 35.5595 21.1066Z" fill="white"/>
-        </svg>
-    </div>
-    <!-- WhatsApp Chat Icon -->
-    <a href="https://wa.me/442030846407" target="_blank" id="whatsappBtn" title="Chat with us">
-        <img src="images/wa-icon.svg" alt="WhatsApp Chat" class="whatsapp-icon"/>
-    </a>
+    <?php include 'includes/scroll-top.php'; ?>
 <!--JavaScript-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 <script src="js/breadcrumb.js"></script>

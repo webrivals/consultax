@@ -10,6 +10,8 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
     <!-- Font -->
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,300,400,500,700,900&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <?php include 'includes/header.php'; ?>
 </head>
 <body>
 <!-- Header -->
@@ -84,8 +86,9 @@
                     business activities while we maintain the integrity and accuracy of your financial data.
                 </p>
                 <div class="row mt-5">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="400">
                         <div class="bkeep-sec-card" id="abt-card-1">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head" style="color:#ffffff;">Company Formation</p>
                             <p class="abt-card-desc" style="color:#ffffff;">
                                 Thinking of launching your own limited company? We ensure your journey begins with confidence, guiding you 
@@ -94,8 +97,9 @@
                             </p>
                         </div>
                         </div>
-                        <div class="col-12 col-md-6 mt-4 mt-md-0">
+                        <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                             <div class="bkeep-sec-card">
+                                <img src="images/asterisk.svg" class="feature-star"/>
                                 <p class="abt-card-head">Payroll</p>
                                 <p class="abt-card-desc">
                                     Managing payroll can be complex while growing a limited company. At Consultax Accounting, we provide a 
@@ -106,8 +110,9 @@
                         </div>
                 </div>
                 <div class="row mt-0 mt-md-4">
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Preparation of Annual Accounts</p>
                             <p class="abt-card-desc">
                                 Preparing accurate annual accounts is essential for every limited company. At Consultax Chartered Accountants, 
@@ -116,8 +121,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Corporation Tax and Personal Tax Services</p>
                             <p class="abt-card-desc">
                                We provide comprehensive tax advisory services for limited companies and their directors. Our team prepares 
@@ -129,8 +135,9 @@
                     </div>  
                 </div>
                 <div class="row mt-0 mt-md-4 d-flex flex-row justify-content-center">
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">VAT Registration and Returns</p>
                             <p class="abt-card-desc">
                                 VAT compliance is critical, and early registration offers financial and reputational advantages. We provide a fully 
@@ -150,23 +157,23 @@
                     you can focus on scaling your company. Here’s what sets us apart:
                 </p>
                 <div class="row">
-                    <ul>
-                        <li class="vap-li">
+                    <ul class="list-unstyled d-flex flex-wrap">
+                        <li class="vap-li col-12 col-md-4 mb-3">
                             <span class="commit-head">Stay Ahead, Not Behind</span>
                         </li>
-                        <li class="vap-li">
+                        <li class="vap-li col-12 col-md-4 mb-3">
                             <span class="commit-head">Accuracy You Can Rely On</span>
                         </li>
-                        <li class="vap-li">
+                        <li class="vap-li col-12 col-md-4 mb-3">
                             <span class="commit-head">Time Back in Your Hands</span>
                         </li>
-                        <li class="vap-li">
+                        <li class="vap-li col-12 col-md-4 mb-3">
                             <span class="commit-head">Deadlines? Handled.</span>
                         </li>
-                        <li class="vap-li">
+                        <li class="vap-li col-12 col-md-4 mb-3">
                             <span class="commit-head">Smarter Tax Efficiency</span>
                         </li>
-                        <li class="vap-li">
+                        <li class="vap-li col-12 col-md-4 mb-3">
                             <span class="commit-head">Fast, Clear, Actionable</span>
                         </li>
                     </ul>

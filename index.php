@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet"/>
     <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
+     <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet"/>
     <!-- Font -->
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,300,400,500,700,900&display=swap" rel="stylesheet"/>
+    <!-- AOS CSS -->
+    <?php include 'includes/header.php'; ?>
+
 </head>
 <body data-bs-spy="scroll" data-bs-target="#v-pills-tab" data-bs-smooth-scroll="true" tabindex="0">
 <!-- Header -->
@@ -23,7 +26,7 @@
     <!-- Main Section -->
     <main>
         <!-- Hero Section -->
-        <section id="hero-section" class="py-5 section-container" aria-labelled="Hero Section">
+        <section id="hero-section" class="py-5 section-container" aria-labelled="Hero Section" data-aos="fade-up">
             <div class="container-fluid no-pad-mob">
                 <div class="container">
                     <div class="d-flex flex-column justify-content-between">
@@ -33,11 +36,14 @@
                                 Modern Accounting
                             </p>
                         </div>
-                        <div class="d-flex w-100 flex-column order-2 order-md-1 flex-md-row justify-content-between align-items-center mt-3 mb-5">
-                            <a href="tel:+442030846407" class="hero-contact-btn align-self-md-end">Consult Now</a>
-                            <img src="images/Ratings.png" class="img-fluid ms-auto rating-img"/>
+                        <div class="d-flex w-100 flex-column order-2 order-md-1 flex-lg-row justify-content-center justify-content-lg-between align-items-center mt-3 mb-0">
+                            <a href="tel:+442030846407" class="hero-contact-btn align-self-lg-end" data-aos="zoom-in"
+                            data-aos-easing="linear"
+                            data-aos-duration="500">Consult Now</a>
+                            <img src="images/Ratings.png" class="img-fluid ms-lg-auto d-none d-md-block rating-img"/>
                         </div>
-                        <div class="d-flex mt-5 order-1 order-md-2">
+                        <!-- Hero Section Para for Desktop Screens -->
+                        <div class="mt-5 order-1 order-md-2 d-none d-lg-flex">
                             <p class="hero-para">
                                 Experienced <span class="hero-link-bold"><a class="hero-link-bold-a">UK Tax Accountant</a></span> and <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Specialist Tax Advisor</a></span>, providing tailored <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Tax
                                 Planning Services</a></span> to
@@ -45,6 +51,16 @@
                                 greater returns, and maintain full compliance with trusted expertise.
                             </p>
                         </div>
+                        <!-- Hero Section Para for Mobile/Tablet Screens -->                         
+                        <div class="mt-5 mb-0 mb-md-5 mb-lg-0 d-flex d-md-none flex-row justify-content-center typewriter"> 
+                            <span class="hero-link-bold typewriter-wrapper">
+                                <a href="#" class="hero-link-bold-a typed" aria-hidden="true"></a>
+                            </span>
+                        </div>
+                        <img src="images/Ratings.png" class="img-fluid ms-auto d-block d-md-none rating-img"/>
+                        <p class="hero-para d-block d-lg-none">
+                            Experienced in guiding individuals and businesses across the UK, helping them effortlessly manage their taxes, maximize returns, and maintain full compliance with trusted expertise.
+                        </p>
                     </div>
                 </div>
             </div>  
@@ -191,8 +207,8 @@
                 </div>
          </section>
         
-        <!-- Tesimonials Section 2 -->
-         <div class="container-fluid">
+        <!-- Tesimonials Section version 1.2 Development Phase -->
+         <!-- <div class="container-fluid">
             <div class="container">
                 <div class="testimonial-carousel" style="border:2px solid red;">
                     <div class="d-flex flex-column align-items-center gap-3 testimonial-group">
@@ -231,7 +247,7 @@
                     </div>
                 </div>
             </div>
-         </div>
+         </div> -->
          
 
     <!-- Milestones Counter -->
@@ -243,21 +259,21 @@
                         <p class="section-head">Proud moments built on trust and results</p>
                     </div>
                     <div class="d-flex flex-column w-100">
-                        <div class="row d-flex flex-row justify-content-between align-items-center mb-3 counter-box">
+                        <div class="row d-flex flex-row justify-content-between align-items-center mb-3 counter-box" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="500">
                             <p class="col-12 col-md-8 mb-0 milestone-txt">Total Projects Completed</p>
-                            <p class="col-12 col-md-4 mb-0">
+                            <p class="col-12 col-md-4 mb-0 text-center text-md-start">
                                 <span class="col-12 col-md-4 mb-0 milestone-count count">12</span><span class="milestone-count">K</span>
                             </p>    
                         </div>
-                        <div class="row d-flex flex-row justify-content-between align-items-center mb-3 counter-box">
+                        <div class="row d-flex flex-row justify-content-between align-items-center mb-3 counter-box" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="500">
                             <p class="col-12 col-md-8 mb-0 milestone-txt">Happy & Satisfied Clients </p>
                             <p class="col-12 col-md-4 mb-0 milestone-count count">900</p>
                         </div>
-                        <div class="row d-flex flex-row justify-content-between align-items-center mb-3 counter-box">
+                        <div class="row d-flex flex-row justify-content-between align-items-center mb-3 counter-box" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="500">
                             <p class="col-12 col-md-8 mb-0 milestone-txt">Average Service Score</p>
                             <p class="col-12 col-md-4 mb-0 milestone-count count">4.9</p>
                         </div>
-                        <div class="row d-flex flex-row justify-content-between align-items-center mb-3 counter-box">
+                        <div class="row d-flex flex-row justify-content-between align-items-center mb-3 counter-box" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="500">
                             <p class="col-12 col-md-8 mb-0 milestone-txt">Years of Experience</p>
                             <p class="col-12 col-md-4 mb-0 milestone-count count">10+</p>
                         </div>
@@ -275,19 +291,19 @@
                 </div>
                     <div class="row d-flex flex-column feature-pack">
                         <div class="col-12 feature-box feature-1">
-                            <p class="feature-head">Maximize your Tax Savings</p>
+                            <p class="feature-head" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600" >Maximize your Tax Savings</p>
                             <div class="overlay-sheet">
                                 <p class="feature-desc">Businesses save up to 7% of their net GST monthly, while individuals make the most by filing with us. Get expert guidance, faster processing, and hassle free compliance ensuring you keep more of what you earn, every single month.</p>
                             </div>
                         </div>
                         <div class="col-12 feature-box feature-2">
-                            <p class="feature-head">Unmatched Efficiency</p>
+                            <p class="feature-head" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">Unmatched Efficiency</p>
                             <div class="overlay-sheet">
                                 <p class="feature-desc">Cut through compliance bottlenecks with intelligent automation: file GST returns in a third of the time, reconcile invoices at 5× the standard rate, and generate e-waybills in seconds. Individual tax returns completed in under minutes with accuracy built in.</p>
                             </div>
                         </div>
                         <div class="col-12 feature-box feature-3">
-                            <p class="feature-head">Precision Led Compliance</p>
+                            <p class="feature-head" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">Precision Led Compliance</p>
                             <div class="overlay-sheet">
                                 <p class="feature-desc">Our systems are built to deliver accurate, real time compliance across VAT, GST, payroll, and corporate tax obligations. Whether you re a business or an individual, we ensure every submission meets HMRC standards first time, every time.</p>
                             </div>
@@ -303,28 +319,28 @@
                     <div class="row">
                         <div class="col-12 no-pad-mob">
                             <div class="feature-card-mob">
-                                <p class="feature-head-mob">Maximize your Tax Savings</p>
+                                <p class="feature-head-mob" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600" >Maximize your Tax Savings</p>
                                 <p class="feature-desc-mob text-dark">Businesses save up to 7% of their net GST monthly, while individuals make the most by filing with us. Get expert guidance, faster processing, and hassle free compliance ensuring you keep more of what you earn, every single month.</p>
-                                <div class="feature-card-btm text-center">
+                                <!-- <div class="feature-card-btm text-center">
                                     <a href="#" class="mt-3 feat-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
-                                </div>
+                                </div> -->
                             </div>
                         <div class="col-12 mt-5">
                             <div class="feature-card-mob">
-                                <p class="feature-head-mob">Unmatched Efficiency</p>
+                                <p class="feature-head-mob" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600" >Unmatched Efficiency</p>
                                 <p class="feature-desc-mob text-dark">Cut through compliance bottlenecks with intelligent automation: file GST returns in a third of the time, reconcile invoices at 5× the standard rate, and generate e-waybills in seconds. Individual tax returns completed in under minutes with accuracy built in.</p>
-                                <div class="feature-card-btm text-center">
+                                <!-- <div class="feature-card-btm text-center">
                                     <a href="#" class="mt-3 feat-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="col-12 mt-5">
                             <div class="feature-card-mob">
-                                <p class="feature-head-mob">Precision Led Compliance</p>
+                                <p class="feature-head-mob" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600" >Precision Led Compliance</p>
                                 <p class="feature-desc-mob text-dark">Our systems are built to deliver accurate, real time compliance across VAT, GST, payroll, and corporate tax obligations. Whether you re a business or an individual, we ensure every submission meets HMRC standards first time, every time.</p>
-                                <div class="feature-card-btm text-center">
+                                <!-- <div class="feature-card-btm text-center">
                                     <a href="#" class="mt-3 feat-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -347,17 +363,17 @@
                         </div>
                     </div>
                     
-                   <div class="row mt-5 d-none d-md-flex">
+                   <div class="row mt-5 d-none d-lg-flex">
                     <!-- Scroll Spy nav tabs here here -->
                         <div class="col-12 col-md-4">
-                            <div class="d-flex align-items-start">
-                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                <a class="nav-link-offer active" href="#TaxPlanningAndCompliance">Tax Planning and Compliance</a>
-                                <a class="nav-link-offer" href="#VATAndGSTAdvisory">VAT and GST Advisory</a>
-                                <a class="nav-link-offer" href="#PayrollServices">Payroll Services</a>
-                                <a class="nav-link-offer" href="#BookkeepingAndAccountsPreparation">Bookkeeping and Accounts Preparation</a>
-                                <a class="nav-link-offer" href="#FinancialPlanningAndForecasting">Financial Planning and Forecasting</a>
-                                <a class="nav-link-offer" href="#SelfAssessmentTaxReturns">Self-Assessment Tax Returns</a>
+                            <div class="d-flex align-items-start h-100">
+                            <div class="nav flex-column nav-pills justify-content-between h-100 me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link-offer active" href="#TaxPlanningAndCompliance" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">Tax Planning and Compliance</a>
+                                <a class="nav-link-offer" href="#VATAndGSTAdvisory" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">VAT and GST Advisory</a>
+                                <a class="nav-link-offer" href="#PayrollServices" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">Payroll Services</a>
+                                <a class="nav-link-offer" href="#BookkeepingAndAccountsPreparation" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">Bookkeeping and Accounts Preparation</a>
+                                <a class="nav-link-offer" href="#FinancialPlanningAndForecasting" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">Financial Planning and Forecasting</a>
+                                <a class="nav-link-offer" href="#SelfAssessmentTaxReturns" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">Self-Assessment Tax Returns</a>
                             </div>
                             </div>
                         </div>
@@ -366,7 +382,7 @@
                             <div id="TaxPlanningAndCompliance" class="offer-item">
                                 <img src="images/offer-card1.png" class="offer-imgs"/>
                                 <h4 class="offer-panel-head">Tax Planning and Compliance</h4>
-                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                <div class="d-flex flex-md-column justify-content-md-start flex-lg-row justify-content-lg-between align-items-lg-center">
                                     <p class="offer-panel-desc">From personal tax returns to corporate tax strategies, we help you stay ahead and save more.</p>
                                     <a href="#" class="text-decoration-none offer-link">Know More</a>
                                 </div>
@@ -415,60 +431,60 @@
                         </div>
                     </div>
                     <!-- We offer Section for Mobile -->
-                    <div class="row d-block d-md-none mb-5">
+                    <div class="row d-block d-lg-none mb-5">
                         <div class="col-12 no-pad-mob">
-                            <div id="TaxPlanningAndCompliance" class="mt-5 offer-item no-pad-mob">
+                            <div id="TaxPlanningAndCompliance" class="mt-5 mt-md-2 offer-item no-pad-mob">
                                 <h4 class="offer-panel-head-mob">Tax Planning and Compliance</h4>
                                 <img src="images/offer-card1.png" class="offer-imgs"/>
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">From personal tax returns to corporate tax strategies, we help you stay ahead and save more.</p>
                                     <!-- <a href="#" class="text-decoration-none align-self-center offer-link">Know More</a> -->
-                                    <a href="#" class="mt-2 align-self-center offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                     <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
                             </div>
-                            <div id="VATAndGSTAdvisory" class="mt-5 offer-item no-pad-mob">
+                            <div id="VATAndGSTAdvisory" class="mt-5 mt-md-2 offer-item no-pad-mob">
                                 <h4 class="offer-panel-head-mob">VAT and GST Advisory</h4>
                                 <img src="images/offer-card2.jpg" class="offer-imgs"/>
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Navigate the complexities of VAT and GST with expert support that ensures full accuracy and maximised savings.</p>
                                     <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
-                                     <a href="#" class="mt-2 align-self-center offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                     <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
                             </div>
-                            <div id="PayrollServices" class="mt-5 offer-item no-pad-mob">
+                            <div id="PayrollServices" class="mt-5 mt-md-2 offer-item no-pad-mob">
                                 <h4 class="offer-panel-head-mob">Payroll Services</h4>
                                 <img src="images/offer-card3.jpg" class="offer-imgs"/>
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Hassle-free payroll solutions, RTI submissions, and auto-enrolment support for businesses of all sizes.</p>
                                     <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
-                                     <a href="#" class="mt-2 align-self-center offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                     <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>  
                             </div>
-                            <div id="BookkeepingAndAccountsPreparation" class="mt-5 offer-item no-pad-mob">
+                            <div id="BookkeepingAndAccountsPreparation" class="mt-5 mt-md-2 offer-item no-pad-mob">
                                 <h4 class="offer-panel-head-mob">Bookkeeping and Accounts Preparation</h4>
                                 <img src="images/offer-card4.jpg" class="offer-imgs"/>
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Maintain accurate records, ensure full HMRC compliance, simplify finances, and manage your accounts with ease.</p>
                                     <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
-                                     <a href="#" class="mt-2 align-self-center offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                     <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>  
                             </div>
-                            <div id="FinancialPlanningAndForecasting" class="mt-5 offer-item no-pad-mob">
+                            <div id="FinancialPlanningAndForecasting" class="mt-5 mt-md-2 offer-item no-pad-mob">
                                 <h4 class="offer-panel-head-mob">Business Advisory and Financial Forecasting</h4>
                                 <img src="images/offer-card5.jpg" class="offer-imgs"/>
                                  <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Gain clarity on your finances with expert insights, tailored to help you grow and make informed decisions.</p>
                                     <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
-                                     <a href="#" class="mt-2 align-self-center offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                     <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
                             </div>
-                            <div id="SelfAssessmentTaxReturns" class="mt-5 offer-item no-pad-mob">
+                            <div id="SelfAssessmentTaxReturns" class="mt-5 mt-md-2 offer-item no-pad-mob">
                                 <h4 class="offer-panel-head-mob">Self-Assessment Tax Returns</h4>
                                 <img src="images/offer-card6.jpg" class="offer-imgs"/>
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Your tax return, Our professional priority. Navigate your tax responsibilities with clarity and assurance through our Self-Assessment service.</p>
                                     <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
-                                     <a href="#" class="mt-2 align-self-center offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                     <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
                             </div>
                         </div>
@@ -484,10 +500,10 @@
                         <p class="section-stamps">Principles</p>
                         <p class="section-head">Why Choose Consultax ?</p>
                     </div>
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column mt-5">
                             <div class="row d-flex">
-                                <div class="col-12 col-md-2 d-flex justify-content-center align-items-center principle-icon-div">
-                                    <img src="images/principle-1.png" class="principle-imgs"/>
+                                <div class="col-12 col-md-2 d-flex justify-content-center align-items-center align-items-md-start principle-icon-div">
+                                    <img src="images/principle-1.png" class="principle-imgs"  data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" />
                                 </div>
                                 <div class="col-12 col-md-10 d-flex flex-column text-start justify-content-center principle-text-div">
                                     <p class="principle-head">Remarkably Simple</p>
@@ -495,8 +511,8 @@
                                 </div>
                             </div>
                             <div class="row d-flex mt-5">
-                                <div class="col-12 col-md-2 d-flex justify-content-center align-items-center principle-icon-div">
-                                    <img src="images/principle-2.png" class="principle-imgs"/>
+                                <div class="col-12 col-md-2 d-flex justify-content-center align-items-center align-items-md-start principle-icon-div">
+                                    <img src="images/principle-2.png" class="principle-imgs"  data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" />
                                 </div>
                                 <div class="col-12 col-md-10 d-flex flex-column text-start justify-content-center principle-text-div">
                                     <p class="principle-head">Genuinely Transparent</p>
@@ -504,8 +520,8 @@
                                 </div>
                             </div>
                             <div class="row d-flex mt-5">
-                                <div class="col-12 col-md-2 d-flex justify-content-center align-items-center principle-icon-div">
-                                    <img src="images/principle-3.png" class="principle-imgs"/>
+                                <div class="col-12 col-md-2 d-flex justify-content-center align-items-center align-items-md-start principle-icon-div">
+                                    <img src="images/principle-3.png" class="principle-imgs"  data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800" />
                                 </div>
                                 <div class="col-12 col-md-10 d-flex flex-column text-start justify-content-center principle-text-div">
                                     <p class="principle-head">Peace of Mind</p>
@@ -513,8 +529,8 @@
                                 </div>
                             </div>
                             <div class="row d-flex mt-5">
-                                <div class="col-12 col-md-2 d-flex justify-content-center align-items-center principle-icon-div">
-                                    <img src="images/principle-4.png" class="principle-imgs"/>
+                                <div class="col-12 col-md-2 d-flex justify-content-center align-items-center align-items-md-start principle-icon-div">
+                                    <img src="images/principle-4.png" class="principle-imgs"  data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800" />
                                 </div>
                                 <div class="col-12 col-md-10 d-flex flex-column text-start justify-content-between principle-text-div">
                                     <p class="principle-head">No Hidden Charges</p>
@@ -522,8 +538,8 @@
                                 </div>
                             </div>
                             <div class="row d-flex mt-5">
-                                <div class="col-12 col-md-2 d-flex justify-content-center align-items-center principle-icon-div">
-                                    <img src="images/principle-5.png" class="principle-imgs"/>
+                                <div class="col-12 col-md-2 d-flex justify-content-center align-items-center align-items-md-start principle-icon-div">
+                                    <img src="images/principle-5.png" class="principle-imgs"  data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800" />
                                 </div>
                                 <div class="col-12 col-md-10 d-flex flex-column text-start justify-content-center principle-text-div">
                                     <p class="principle-head">Refer a Friend</p>
@@ -549,19 +565,19 @@
                     </p>
                     <div class="row d-flex flex-column feature-pack mt-5">
                         <div class="col-12 feature-box core-value-1">
-                            <p class="feature-head">CLIENT COMMITMENT</p>
+                            <p class="feature-head" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600" >CLIENT COMMITMENT</p>
                             <div class="overlay-sheet">
                                 <p class="feature-desc">You're never just a number. We listen closely, tailor every solution, and put your needs at the centre of everything we do.</p>
                             </div>
                         </div>
                         <div class="col-12 feature-box core-value-2">
-                            <p class="feature-head">EXPERTISE</p>
+                            <p class="feature-head" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600" >EXPERTISE</p>
                             <div class="overlay-sheet">
                                 <p class="feature-desc">Tax is our speciality. Our qualified team stays ahead of the curve to deliver precise, compliant, and forward-thinking advice.</p>
                             </div>
                         </div>
                         <div class="col-12 feature-box core-value-3">
-                            <p class="feature-head">INTEGRITY</p>
+                            <p class="feature-head" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600" >INTEGRITY</p>
                             <div class="overlay-sheet">
                                 <p class="feature-desc">We do what’s right - always. Clear advice, honest communication, and full transparency are the foundation of our work.</p>
                             </div>
@@ -617,7 +633,7 @@
                                 <p class="cta-tagline">Accounting with Purpose </p>
                             </div>
                             <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center">
-                                <a href="tel:+442030846407" class="text-decoration-none cta-redirect">Request Your Consultation Today</a>
+                                <a href="tel:+442030846407" class="text-decoration-none cta-redirect" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800" >Request Your Consultation Today</a>
                             </div>
                         </div>
                         <div class="row mt-5">
@@ -661,54 +677,54 @@
                             <p class="section-head">Our Latest Blog Articles</p>
                         </div>
                         <div class="row mt-5">
-                            <div class="col-12 col-md-4">
-                                <div class="d-flex flex-column  mt-5 mt-md-0 blog-card">
+                            <div class="col-12 col-lg-4" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800" >
+                                <div class="d-flex flex-column mt-5 mt-lg-0 blog-card">
                                     <img src="images/blog-1.png" class="blog-card-img"/>
                                     <div class="p-3">
                                     <p class="blog-title">The Role of Chartered Accountants in driving Business Growth</p>
-                                    <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
-                                        <div class="d-flex flex-row">
-                                            <img src="images/calendar.png" class="blog-calendar-icon"/>
-                                            <p class="blog-date">Jan 27, 2025</p>
+                                        <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
+                                            <div class="d-flex flex-row">
+                                                <img src="images/calendar.png" class="blog-calendar-icon"/>
+                                                <p class="blog-date">Jan 27, 2025</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#" class="text-decoration-none blog-redirect">Read More</a>
+                                            </div>
                                         </div>
-                                        <div class="d-flex">
-                                            <a href="#" class="text-decoration-none blog-redirect">Read More</a>
-                                    </div>
-                                    </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4">
-                                <div class="d-flex flex-column  mt-5 mt-md-0 blog-card">
+                            <div class="col-12 col-lg-4" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="1000">
+                                <div class="d-flex flex-column mt-5 mt-lg-0 blog-card">
                                     <img src="images/blog-2.png" class="blog-card-img"/>
                                     <div class="p-3">
-                                    <p class="blog-title">Why Outsourcing Your Accounting Needs is Essential for Driving Business Growth</p>
-                                    <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
-                                        <div class="d-flex flex-row">
-                                            <img src="images/calendar.png" class="blog-calendar-icon"/>
-                                            <p class="blog-date">Jan 27, 2025</p>
+                                        <p class="blog-title">Why Outsourcing Your Accounting Needs is Essential for Driving Business Growth</p>
+                                            <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
+                                                <div class="d-flex flex-row">
+                                                    <img src="images/calendar.png" class="blog-calendar-icon"/>
+                                                    <p class="blog-date">Jan 27, 2025</p>
+                                                </div>
+                                            <div class="d-flex">
+                                                <a href="#" class="text-decoration-none blog-redirect">Read More</a>
+                                            </div>
                                         </div>
-                                        <div class="d-flex">
-                                            <a href="#" class="text-decoration-none blog-redirect">Read More</a>
-                                    </div>
-                                    </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4">
-                                <div class="d-flex flex-column  mt-5 mt-md-0 blog-card">
+                            <div class="col-12 col-lg-4" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="1200">
+                                <div class="d-flex flex-column mt-5 mt-lg-0 blog-card">
                                     <img src="images/blog-1.png" class="blog-card-img"/>
                                     <div class="p-3">
-                                    <p class="blog-title">Expert Tax Planning Tips for Expats and NRIs and more</p>
-                                    <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
-                                        <div class="d-flex flex-row">
-                                            <img src="images/calendar.png" class="blog-calendar-icon"/>
-                                            <p class="blog-date">Jan 27, 2025</p>
+                                        <p class="blog-title">Expert Tax Planning Tips for Expats and NRIs and more</p>
+                                            <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
+                                                <div class="d-flex flex-row">
+                                                    <img src="images/calendar.png" class="blog-calendar-icon"/>
+                                                    <p class="blog-date">Jan 27, 2025</p>
+                                                </div>
+                                            <div class="d-flex">
+                                                <a href="#" class="text-decoration-none blog-redirect">Read More</a>
+                                            </div>
                                         </div>
-                                        <div class="d-flex">
-                                            <a href="#" class="text-decoration-none blog-redirect">Read More</a>
-                                    </div>
-                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -726,19 +742,19 @@
                             <p class="section-para text-white">Have any questions about our services or just want to talk with us? Please reach out.</p>
                         </div>
                         <div class="row mt-5">
-                            <div class="col-12 col-md-4 mt-5 mt-md-0">
+                            <div class="col-12 col-lg-4 mt-5 mt-lg-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
                                 <div class="d-flex flex-column justify-content-center align-items-center p-3 contact-card">
                                     <svg fill="#0E456D" width="64px" height="64px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" stroke="#0E456D"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z" fill-rule="evenodd"></path> </g></svg>
                                     <a href="mailto:sales@consultax.co.uk" class="text-decoration-none contact-link">sales@consultax.co.uk</a>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4 mt-5 mt-md-0">
+                            <div class="col-12 col-lg-4 mt-5 mt-lg-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
                                 <div class="d-flex flex-column justify-content-center align-items-center p-3 contact-card">
                                     <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z" stroke="#0E456D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                                     <a href="tel:+442030846407" class="text-decoration-none contact-link">(+44) 2030846407</a>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4 mt-5 mt-md-0">
+                            <div class="col-12 col-lg-4 mt-5 mt-lg-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
                                 <div class="d-flex flex-column justify-content-center align-items-center p-3 contact-card">
                                     <svg width="64px" height="64px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#0E456D"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#0E456D" d="M192 128v704h384V128H192zm-32-64h448a32 32 0 0 1 32 32v768a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32z"></path><path fill="#0E456D" d="M256 256h256v64H256v-64zm0 192h256v64H256v-64zm0 192h256v64H256v-64zm384-128h128v64H640v-64zm0 128h128v64H640v-64zM64 832h896v64H64v-64z"></path><path fill="#0E456D" d="M640 384v448h192V384H640zm-32-64h256a32 32 0 0 1 32 32v512a32 32 0 0 1-32 32H608a32 32 0 0 1-32-32V352a32 32 0 0 1 32-32z"></path></g></svg>
                                     <a href="https://maps.app.goo.gl/YQVGu7MvkKGMXZW56" class="text-decoration-none contact-link text-center" target="_blank">71 75 Shelton Street, Covent Garden, London WC2H 9JQ</a>
@@ -747,29 +763,52 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid">
-
-                </div>
             </section>
         </main>
         <footer>
             <?php include 'includes/footer.php'; ?>            
         </footer>
-    <!-- Scroll to Top Button -->
-    <div id="scrollTopBtn" title="Go to top">
-        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M26.9997 53.6666C41.7273 53.6666 53.6663 41.7275 53.6663 26.9999C53.6663 12.2723 41.7273 0.333252 26.9997 0.333252C12.2721 0.333252 0.333008 12.2723 0.333008 26.9999C0.333008 41.7275 12.2721 53.6666 26.9997 53.6666Z" fill="#0E456D"/>
-            <path d="M35.5595 21.1066L28.8929 14.4399C28.6449 14.19 28.35 13.9916 28.0251 13.8562C27.7001 13.7208 27.3515 13.6511 26.9995 13.6511C26.6475 13.6511 26.2989 13.7208 25.974 13.8562C25.649 13.9916 25.3541 14.19 25.1062 14.4399L18.4395 21.1066C17.9374 21.6087 17.6553 22.2898 17.6553 22.9999C17.6553 23.7101 17.9374 24.3911 18.4395 24.8933C18.9417 25.3954 19.6227 25.6775 20.3329 25.6775C21.043 25.6775 21.724 25.3954 22.2262 24.8933L24.3329 22.7599V37.6666C24.3329 38.3738 24.6138 39.0521 25.1139 39.5522C25.614 40.0523 26.2923 40.3333 26.9995 40.3333C27.7068 40.3333 28.385 40.0523 28.8851 39.5522C29.3852 39.0521 29.6662 38.3738 29.6662 37.6666V22.7599L31.7729 24.8933C32.0208 25.1432 32.3157 25.3416 32.6406 25.477C32.9656 25.6123 33.3142 25.682 33.6662 25.682C34.0182 25.682 34.3668 25.6123 34.6917 25.477C35.0167 25.3416 35.3116 25.1432 35.5595 24.8933C35.8095 24.6454 36.0078 24.3504 36.1432 24.0255C36.2786 23.7005 36.3483 23.352 36.3483 22.9999C36.3483 22.6479 36.2786 22.2993 36.1432 21.9744C36.0078 21.6494 35.8095 21.3545 35.5595 21.1066Z" fill="white"/>
-        </svg>
-    </div>
-    <!-- WhatsApp Chat Icon -->
-    <a href="https://wa.me/442030846407" target="_blank" id="whatsappBtn" title="Chat with us">
-        <img src="images/wa-icon.svg" alt="WhatsApp Chat" class="whatsapp-icon"/>
-    </a>
-<!--JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
-<script src="js/marquee.js"></script>
-<script src="js/counter.js"></script>
-<script src="js/scroll-top.js"></script>
+        <?php include 'includes/scroll-top.php'; ?>
+    
+    <!--JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <script src="js/marquee.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/scroll-top.js"></script>
+    <script>
+    const words = ["UK Tax Accountant...", "Specialist Tax Advisor...", "Tax Planning Services..."];
+    const typedEl = document.querySelector(".typed");
+    let wordIndex = 0;
+    let charIndex = 0;
+    let typing = true;
+
+    function typeWriter() {
+    const currentWord = words[wordIndex];
+
+    if (typing) {
+        typedEl.textContent = currentWord.slice(0, charIndex + 1);
+        charIndex++;
+
+        if (charIndex === currentWord.length) {
+        typing = false;
+        setTimeout(typeWriter, 1500); // pause at end
+        return;
+        }
+    } else {
+        charIndex--;
+        typedEl.textContent = currentWord.slice(0, charIndex);
+
+        if (charIndex === 0) {
+        typing = true;
+        wordIndex = (wordIndex + 1) % words.length;
+        }
+    }
+
+    setTimeout(typeWriter, 150); // typing speed
+    }
+
+    typeWriter();
+
+    </script>
 </body>
 </html>

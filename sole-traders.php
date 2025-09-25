@@ -10,6 +10,8 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
     <!-- Font -->
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,300,400,500,700,900&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <?php include 'includes/header.php'; ?>
 </head>
 <body>
 <!-- Header -->
@@ -67,8 +69,9 @@
                     designed to ease your workload and maximise your income.
                 </p>
                 <div class="row mt-5">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                         <div class="bkeep-sec-card" id="abt-card-1">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head" style="color:#ffffff;">Tax Returns</p>
                             <p class="abt-card-desc" style="color:#ffffff;">
                                 We will manage your tax return from start to submission, ensuring it’s accurate, on time, and fully
@@ -77,8 +80,9 @@
                             </p>
                         </div>
                         </div>
-                        <div class="col-12 col-md-6 mt-4 mt-md-0">
+                        <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
                             <div class="bkeep-sec-card">
+                                <img src="images/asterisk.svg" class="feature-star"/>
                                 <p class="abt-card-head">Effortless Bookkeeping</p>
                                 <p class="abt-card-desc">
                                     We keep your records accurate and up to date using accounting software XERO. No stress, no
@@ -89,8 +93,9 @@
                         </div>
                 </div>
                 <div class="row mt-0 mt-md-4">
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">VAT Registration and Returns</p>
                             <p class="abt-card-desc">
                                 If VAT applies to your business, we will handle the full process - from registration to accurate, on-
@@ -99,8 +104,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Maximise Your Business Expenses</p>
                             <p class="abt-card-desc">
                                 We will ensure every allowable expense is tracked and claimed, helping you reduce your tax bill and
@@ -110,8 +116,9 @@
                     </div>  
                 </div>
                 <div class="row mt-0 mt-md-4 d-flex flex-row justify-content-center">
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Smart Tax Planning for Sole Traders</p>
                             <p class="abt-card-desc">
                                 Effective tax planning helps you keep more of your profits. We will identify allowances, reliefs, and

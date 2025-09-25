@@ -41,22 +41,11 @@ body{
 }
 .testimonial-group{
     gap:5px !important;
-    animation: scroll 15s infinite linear;
-    
+    animation: scroll 15s infinite linear;   
 }
 @keyframes scroll {
     0% { transform: translateY(0); }
     100% { transform: translateY(-100%); } /* scrolls full height */
-}
-.testimonial-card{
-    background:orange;
-    height:100px;
-    width:100px;
-}
-
-
-.br{
-    border:1px solid red;/** TEST CLASS Remove when in Live**/
 }
 .head-1{
     font-size: var(--txt-head);
@@ -96,6 +85,40 @@ a{
   text-decoration-thickness: 2px !important;
   text-underline-offset: 4px !important;
 }
+/* style applied to links while keeping Bootstrap behavior */
+.navbar-nav .nav-link.nav-link-navbar {
+  padding: 0.5rem 1rem;           /* safe explicit padding */
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-primary) !important;
+  text-decoration: none !important;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out;
+}
+
+/* active underline (matches your visual style) */
+.navbar-nav .nav-link.nav-link-navbar.active {
+  text-decoration: underline !important;
+  text-decoration-color: var(--bg-secondary) !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 4px !important;
+}
+
+/* dropdown menu items (use Bootstrap .dropdown-item but adapt color) */
+.dropdown-menu .dropdown-item {
+  color: var(--color-primary) !important;
+  font-weight: 500;
+}
+
+/* give dropdown items hover color */
+.dropdown-menu .dropdown-item:hover {
+  color: #062f49 !important;
+}
+
+/* toggler color */
+.navbar-toggler { border-color: var(--color-primary) !important; }
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%230E456D' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
 #breadcrumb-bg{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M1202.223543850186 76.66693254814624L1235.6089052686737 30.715924683343886 1149.9897127622262 3.6133864880135036z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M356.95791631049644 211.69432603894884L317.99782283531374 131.81429671849327 238.1177935148582 170.77439019367597 277.07788699004084 250.65441951413152z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M689.6373790107218 339.41992455625586L630.8970369719376 274.18216556263474 565.6592779783165 332.922507601419 624.3996200171007 398.1602665950401z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1160.7148184990378 392.4953310250586L1107.862718668275 300.9528088314747 996.9749852932807 426.00221967441104z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1077.0000079610206 130.80269209811655L1124.0593256557993 227.288591949822 1245.2585165859682 108.4566654818012z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M989.1596110126528 153.87037838003596L973.7967798439483 28.750159227621268 848.6765606915337 44.1129903963257 864.0393918602381 169.2332095487404z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M375.001623515752 200.96600342806406L295.8254061543953 262.8252440136636 428.202375713473 350.65994976289886z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M286.6197638906595 520.8103137716516L358.9538313909354 585.9402006894129 351.7496508084208 448.4762462713757z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M379.20663161986465 59.31656585515013L291.52936331630985 22.09977350623855 279.54280894471987 172.22407213602645z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M817.8656586613962 439.7894971654486L802.5620752441191 585.3933672530204 948.1659453316909 600.6969506702975 963.469528748968 455.09308058272575z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
     background-size: cover;
@@ -129,7 +152,6 @@ a{
     color:#ffffff;
 }
 .hero-link-bold{
-    
     color:#ffffff;
 }
 .hero-link-bold-a{
@@ -151,6 +173,46 @@ a{
     padding: 40px 0px 40px;
     position: relative;
     /* margin:80px 0px 80px; */
+}
+.typewriter-wrapper {
+  display: inline-block;
+  position: relative;
+}
+.typewriter-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #1A8FE3; /* cursor */
+}
+.typing {
+  display: inline-block;
+  animation: typing 2.5s steps(30, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }  /* only as wide as this text */
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+.typewriter {
+  font-family: monospace;
+  font-size: 1.2em;
+}
+
+.typewriter-wrapper .typed::after {
+  content: "|";           /* blinking cursor */
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }
 ul{
         padding-left: 0px !important;
@@ -1000,7 +1062,106 @@ ul {
   #breadcrumb-bg::before {
     transform: translateY(0); /* fallback for small screens */
   }
+  .hero-head {
+        font-size:60px;
+        color: #ffffff;
+        font-weight: 700;
+    }
+    .hero-para {
+        font-size: 22px;
+        color: #ffffff;
+        text-align: center;
+    }
+    #hero-section{
+        height:auto;
+    }
+    .ms-auto {
+        margin-left: 0 !important;
+    }
+    .rating-img{
+        margin-top:40px;
+    }
+    .section-stamps{
+        font-size: 14px;
+    }
+    .milestone-txt{
+        font-size: 28px;
+    }
+    .milestone-count{
+        font-size:70px;
+    }
+    .feature-head{
+        font-size: 20px;
+    }
+    .feature-desc{
+        font-size: 18px;
+    }
+    .feature-box{
+        height:330px;
+    }
+    .offer-panel-head-mob {
+        font-size: 25px;
+    }
+    .principle-imgs{
+        height:40px;
+        width:40px;
+    }
+    .principle-head {
+        font-size: 22px;
+    }
+    .principle-imgs {
+        height: 80px;
+        width: 80px;
+    }
+    .principle-desc {
+        font-size: 18px;
+    }
+    .section-para{
+        text-align: center;
+    }
+    .offer-panel-desc-mob {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .section-head-cta{
+        font-size: 25px;
+    }
+    .cta-tagline{
+        font-size: 22px;
+    }
+    .cta-redirect {
+        padding: 15px 25px;
+        font-size: 18px;
+    }
+    .cta-para {
+        font-size: 20px;
+    }
+    .contact-bg{
+        height: auto;
+        background:var(--bg-primary);
+    }
+    .foot-link-head{
+        margin-top: 20px;
+    }
+    .footer-comp-desc {
+        font-size: 20px;
+        color: var(--bg-primary);
+    }
+    .foot-social-text{
+        font-size: 20px;
+    }
+    .foot-social-icons{
+        height:30px;
+        width:30px;
+    }
+    .copyright-txt{
+        font-size: 20px;
+    }
+    .blog-title {
+        font-weight: 500;
+    }
 }
+
 
 /* Portrait phones */
 @media (max-width: 600px) {
@@ -1038,6 +1199,7 @@ ul {
         font-size: 35px;
         color: #ffffff;
         font-weight: 700;
+        text-align: center;
     }
     .rating-img{
         margin-top:30px;
@@ -1063,7 +1225,7 @@ ul {
         width:84px;
     }
     .hero-para{
-        font-size: 18px;
+        font-size: 16px;
         color: #ffffff;
         text-align: center;
     }
@@ -1080,8 +1242,8 @@ ul {
         background: #32CD32;
         padding: 15px 25px;
         border-radius: var(--border-radius);
-        font-size: 20px;
-        font-weight: 700;
+        font-size: 18px;
+        font-weight: 600;
         margin-block: 20px;
         border: 1px solid var(--bg-primary);
     }
@@ -1137,8 +1299,23 @@ ul {
         font-weight:400;
         font-size: 18px !important;
     }
-    
-
+    .hero-contact-btn {
+        color: #ffffff;
+        background: var(--bg-secondary);
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 18px  !important;
+        font-weight: 600;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+    .navbar-logo {
+        width: 180px;
+        height: 60px;
+    }
+    .rating-img{
+        margin-block:40px;
+    }   
 }
 
 /* Extra small phones */
@@ -1161,7 +1338,7 @@ ul {
         padding: 3px 10px;
     }
     .section-para{
-        font-size: 16px;
+        font-size: 18px;
         /* text-align: center; */
     }
     .hero-head{
@@ -1173,7 +1350,7 @@ ul {
         text-align: center;
     }
     .rating-img{
-        margin-top:60px;
+        margin-block:40px;
     }
     .carousel-inner{
         padding:0px !important;
@@ -1208,7 +1385,7 @@ ul {
         padding:0px !important;
     }
     .hero-link-bold-a{
-        font-size: 18px;
+        font-size: 20px;
     }
     /* .ratings-stars{
         height:64px;
@@ -1307,6 +1484,11 @@ ul {
         width: 28px;
         margin-bottom: 15px;
         margin-right: 3px;
-    }   
+    }
+    .navbar-logo {
+        width: 140px;
+        height: 60px;
+    }
+    
     
 }

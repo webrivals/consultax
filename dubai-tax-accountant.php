@@ -10,6 +10,8 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
     <!-- Font -->
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,300,400,500,700,900&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <?php include 'includes/header.php'; ?>
 </head>
 <body>
 <!-- Header -->
@@ -51,7 +53,7 @@
                         </div>
                     </div>
                     <div class="col-12 mt-5 mb-3 text-center">
-                        <a href="tel:+442030846407" class="text-decoration-none bg-theme-secondary cta-redirect-page">Request Your Consultation Today</a>
+                        <a href="tel:+442030846407" class="text-decoration-none bg-theme-secondary cta-redirect-page" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900" >Request Your Consultation Today</a>
                     </div>
                 </div>
                 <!-- Dubai Taxes Table-->
@@ -106,8 +108,9 @@
             <div class="container">
                 <h2 class="section-head"> A Breakdown of Our Technical Services </h2>
                 <div class="row mt-5">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
                         <div class="bkeep-sec-card" id="abt-card-1">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head" style="color:#ffffff;">Smart Bookkeeping Solutions</p>
                             <p class="abt-card-desc" style="color:#ffffff;">From invoicing to real-time expense tracking, our bookkeeping services are designed to streamline
                                 your financial operations. Gain actionable insights and maintain full visibility over your cash flow and
@@ -116,8 +119,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mt-5 mt-md-0">
+                    <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Accurate Reconciliation</p>
                             <p class="abt-card-desc">
                                 From invoicing to real-time expense tracking, our bookkeeping services streamline your financial operations. 
@@ -129,8 +133,9 @@
                     </div>
                 </div>
                 <div class="row mt-md-4">
-                    <div class="col-12 col-md-6 mt-5 mt-md-0">
+                    <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Payroll Management</p>
                             <p class="abt-card-desc">
                                 We handle every aspect of payroll - from accurate salary calculations and statutory deductions to
@@ -139,8 +144,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mt-5 mt-md-0">
+                    <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Financial Reporting and Audit</p>
                             <p class="abt-card-desc">Our expert accountants deliver in-depth financial reporting and audit services, ensuring 
                                 every transaction is accurately documented and compliant with regulations. With a focus on precision, we provide 
@@ -156,7 +162,7 @@
             <div class="container">
                     <h2 class="section-head mt-5">Our Working Methodology</h2>
                     <div class="mt-4">
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="400"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             Reliable Accounting Solutions
                         </p>
                         <p class="section-para">
@@ -164,7 +170,7 @@
                             stress out of your tax affairs. With our full-spectrum accounting services - personal and business
                             you’ll have the clarity and confidence to move forward, knowing your finances are in expert hands.
                         </p>
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             Choosing the Right Business Structure in Dubai
                         </p>
                         <p class="section-para">
@@ -173,7 +179,7 @@
                             compliant. With the right foundation in place, you&#39;ll be free to grow your business with confidence
                             and clarity.
                         </p>
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="600"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             Strategic Tax Planning
                         </p>
                         <p class="section-para">
@@ -181,7 +187,7 @@
                             Consultax, we provide tailored advice to help individuals and businesses reduce liabilities, maximise
                             allowances, and stay ahead of shifting tax rules.
                         </p>
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="700"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             Proactive Tax Risk Management
                         </p>
                         <p class="section-para">
@@ -189,7 +195,7 @@
                             spotting potential risks early and ensuring you stay fully compliant without overpaying. With expert
                             insight, we help protect your position and keep your tax affairs on solid ground.
                         </p>
-                        <p class="section-sub-head"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
+                        <p class="section-sub-head" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800"><svg class="mtd-blt-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.6064 28.5356C58.2731 30.0754 58.2731 33.9244 55.6065 35.4639L15.7278 58.4879C13.0611 60.0274 9.72779 58.1031 9.72779 55.0239L9.72779 8.97594C9.72779 5.89674 13.0611 3.97223 15.7278 5.51183L55.6064 28.5356Z" fill="#1A8FE3"/></svg>
                             UK Non-Resident Tax Support for Dubai Residents
                         </p>
                         <p class="section-para">
@@ -263,17 +269,7 @@
     <footer>
         <?php include 'includes/footer.php'; ?>            
     </footer>
-    <!-- Scroll to Top Button -->
-    <div id="scrollTopBtn" title="Go to top">
-        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M26.9997 53.6666C41.7273 53.6666 53.6663 41.7275 53.6663 26.9999C53.6663 12.2723 41.7273 0.333252 26.9997 0.333252C12.2721 0.333252 0.333008 12.2723 0.333008 26.9999C0.333008 41.7275 12.2721 53.6666 26.9997 53.6666Z" fill="#0E456D"/>
-            <path d="M35.5595 21.1066L28.8929 14.4399C28.6449 14.19 28.35 13.9916 28.0251 13.8562C27.7001 13.7208 27.3515 13.6511 26.9995 13.6511C26.6475 13.6511 26.2989 13.7208 25.974 13.8562C25.649 13.9916 25.3541 14.19 25.1062 14.4399L18.4395 21.1066C17.9374 21.6087 17.6553 22.2898 17.6553 22.9999C17.6553 23.7101 17.9374 24.3911 18.4395 24.8933C18.9417 25.3954 19.6227 25.6775 20.3329 25.6775C21.043 25.6775 21.724 25.3954 22.2262 24.8933L24.3329 22.7599V37.6666C24.3329 38.3738 24.6138 39.0521 25.1139 39.5522C25.614 40.0523 26.2923 40.3333 26.9995 40.3333C27.7068 40.3333 28.385 40.0523 28.8851 39.5522C29.3852 39.0521 29.6662 38.3738 29.6662 37.6666V22.7599L31.7729 24.8933C32.0208 25.1432 32.3157 25.3416 32.6406 25.477C32.9656 25.6123 33.3142 25.682 33.6662 25.682C34.0182 25.682 34.3668 25.6123 34.6917 25.477C35.0167 25.3416 35.3116 25.1432 35.5595 24.8933C35.8095 24.6454 36.0078 24.3504 36.1432 24.0255C36.2786 23.7005 36.3483 23.352 36.3483 22.9999C36.3483 22.6479 36.2786 22.2993 36.1432 21.9744C36.0078 21.6494 35.8095 21.3545 35.5595 21.1066Z" fill="white"/>
-        </svg>
-    </div>
-    <!-- WhatsApp Chat Icon -->
-    <a href="https://wa.me/442030846407" target="_blank" id="whatsappBtn" title="Chat with us">
-        <img src="images/wa-icon.svg" alt="WhatsApp Chat" class="whatsapp-icon"/>
-    </a>
+    <?php include 'includes/scroll-top.php'; ?>
 <!--JavaScript-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 <script src="js/breadcrumb.js"></script>

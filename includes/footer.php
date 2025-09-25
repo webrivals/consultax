@@ -1,8 +1,9 @@
+<body> 
 <section class="section-container pb-3" id="footer" aria-labelled="Footer">
     <div class="container-fluid">
         <div class="container">
             <div class="row gap-5 mb-5 justify-content-between">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-lg-5">
                     <img src="images/consultax-logo.png" class="footer-logo"/>
                     <p class="footer-comp-desc">
                         Consultax Chartered is a team of
@@ -26,7 +27,7 @@
                         expert guidance.
                     </p>
                 </div>
-                <div class="col-12 col-md-2">
+                <div class="col-12 col-lg-2">
                     <p class="foot-link-head">Quick Links</p>
                     <ul>
                         <li class="foot-link-li"><a href="about.php" class="foot-links">About</a></li>
@@ -36,7 +37,7 @@
                         <li class="foot-link-li"><a href="#" class="foot-links">Terms & Conditions</a></li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-2">
+                <div class="col-12 col-lg-2">
                     <p class="foot-link-head">Our Services</p>
                     <ul>
                         <li class="foot-link-li"><a href="bookkeeping.php" class="foot-links">Bookkeeping</a></li>
@@ -61,7 +62,7 @@
                         </div>
                     </a>
                     <a href="#" target="_blank" class="col-6">
-                        <div class="d-flex flex-row  align-items-center">
+                        <div class="d-flex flex-row align-items-center">
                             <img src="images/Insta-logo.png" class="foot-social-icons"/>
                             <p class="mb-0 ms-3 foot-social-text">Instagram</p>
                         </div>
@@ -74,21 +75,21 @@
     <hr class="foot-hr"/>
     <div class="container-fluid">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-8 align-items-center">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-7 col-lg-8 align-items-center">
                       <p class="mb-0 copyright-txt">&copy; <?php echo date("Y"); ?> Consultax. All rights reserved.</p>
                 </div>
-                <div class="d-none d-md-flex col-12 col-md-4 d-flex flex-row justify-content-between">
+                <div class="d-none d-md-flex col-12 col-md-5 col-lg-4 d-flex flex-row justify-content-between">
                     <a href="https://www.facebook.com/consultaxaccountants" target="_blank">
                         <div class="d-flex flex-row align-items-center">
                             <img src="images/FB-logo.png" class="foot-social-icons"/>
-                            <p class="mb-0 ms-3 foot-social-text">Facebook</p>
+                            <p class="mb-0 ms-1 foot-social-text">Facebook</p>
                         </div>
                     </a>
                     <a href="#" target="_blank">
                         <div class="d-flex flex-row align-items-center">
                             <img src="images/Insta-logo.png" class="foot-social-icons"/>
-                            <p class="mb-0 ms-3 foot-social-text">Instagram</p>
+                            <p class="mb-0 ms-1 foot-social-text">Instagram</p>
                         </div>
                     </a>
                 </div>
@@ -96,3 +97,11 @@
         </div>
     </div>
 </section>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true      // animate only once while scrolling
+  });
+</script>
+</body>

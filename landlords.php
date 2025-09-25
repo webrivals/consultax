@@ -10,6 +10,9 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
     <!-- Font -->
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,300,400,500,700,900&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <?php include 'includes/header.php'; ?>
+
 </head>
 <body>
 <!-- Header -->
@@ -69,8 +72,9 @@
                     more time to concentrate on driving your business forward.
                 </p>
                 <div class="row mt-5">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="400">
                         <div class="bkeep-sec-card" id="abt-card-1">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head" style="color:#ffffff;">Client Meetings That Add Value</p>
                             <p class="abt-card-desc" style="color:#ffffff;">
                                 We conduct regular tax planning meetings with our landlord clients to identify tax-saving
@@ -80,8 +84,9 @@
                             </p>
                         </div>
                         </div>
-                        <div class="col-12 col-md-6 mt-4 mt-md-0">
+                        <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                             <div class="bkeep-sec-card">
+                                <img src="images/asterisk.svg" class="feature-star"/>
                                 <p class="abt-card-head">Capital Gains Tax Made Simple</p>
                                 <p class="abt-card-desc">
                                     When selling property, capital gains tax can take away a large share of your profits. At 
@@ -93,8 +98,9 @@
                         </div>
                 </div>
                 <div class="row mt-0 mt-md-4">
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Rental Accounts</p>
                             <p class="abt-card-desc">
                                 Keeping on top of rental accounts can be time-consuming. At Consultax, we handle everything from
@@ -104,8 +110,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Smart Investment Advice for Landlords</p>
                             <p class="abt-card-desc">
                                 Property investment is all about making the right choices at the right time. At Consultax, we offer
@@ -117,8 +124,9 @@
                     </div>  
                 </div>
                 <div class="row mt-0 mt-md-4">
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Your Finances, Our Priority</p>
                             <p class="abt-card-desc">
                                 We’re here to take the stress out of managing your finances. Our expert team partners with you to
@@ -128,8 +136,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900">
                         <div class="bkeep-sec-card">
+                            <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Your Trusted Financial Partner</p>
                             <p class="abt-card-desc">
                                 With us, you’re not just hiring an accountant—you’re gaining a reliable partner. Your dedicated account
