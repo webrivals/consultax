@@ -190,6 +190,50 @@
                     </div>
                 </div>
          </section>
+        
+        <!-- Tesimonials Section 2 -->
+         <div class="container-fluid">
+            <div class="container">
+                <div class="testimonial-carousel" style="border:2px solid red;">
+                    <div class="d-flex flex-column align-items-center gap-3 testimonial-group">
+                        <div class="testimonial-card">
+                            card 1
+                        </div>
+                        <div class="testimonial-card">
+                            card 2
+                        </div>
+                        <div class="testimonial-card">
+                            card 3
+                        </div>
+                        <div class="testimonial-card">
+                            card 4
+                        </div>
+                        <div class="testimonial-card">
+                            card 5
+                        </div>
+                    </div>
+                    <div aria-hiiden class="d-flex flex-column align-items-center testimonial-group pt-4">
+                        <div class="testimonial-card">
+                            card 1
+                        </div>
+                        <div class="testimonial-card">
+                            card 2
+                        </div>
+                        <div class="testimonial-card">
+                            card 3
+                        </div>
+                        <div class="testimonial-card">
+                            card 4
+                        </div>
+                        <div class="testimonial-card">
+                            card 5
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         
+
     <!-- Milestones Counter -->
      <section id="milestones" class="section-container" aria-labelled="Milestones Section">
         <div class="container-fluid">

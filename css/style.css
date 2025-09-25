@@ -30,6 +30,31 @@ body{
 .bdr-radi{
     border-radius: var(--border-radius) !important;
 }
+.testimonial-carousel{
+    overflow-y:auto;
+    gap:5px;
+    height:60vh;
+    padding-right:20px;
+}
+.testimonial-carousel::-webkit-scrollbar{
+    display: none;
+}
+.testimonial-group{
+    gap:5px !important;
+    animation: scroll 15s infinite linear;
+    
+}
+@keyframes scroll {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); } /* scrolls full height */
+}
+.testimonial-card{
+    background:orange;
+    height:100px;
+    width:100px;
+}
+
+
 .br{
     border:1px solid red;/** TEST CLASS Remove when in Live**/
 }
