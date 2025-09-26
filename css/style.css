@@ -30,29 +30,6 @@ body{
 .bdr-radi{
     border-radius: var(--border-radius) !important;
 }
-/* 
-.testimonial-carousel{
-    overflow-y:auto;
-    gap:5px;
-    height:70vh;
-    padding-right:20px;
-    cursor: pointer;
-}
-.testimonial-carousel::-webkit-scrollbar{
-    display: none;
-}
-.testimonial-group{
-    gap:5px !important;
-    animation: scroll 15s infinite linear;   
-}
-.testimonial-carousel .testimonial-group:hover{
-    animation-play-state: paused;
-}
-@keyframes scroll {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-100%); } 
-} */
-
 .testimonial-carousel {
   overflow: hidden;
   height: 60vh; /* adjust as you want */
@@ -62,8 +39,9 @@ body{
 #reviews {
   display: flex;
   flex-direction: column;
-  animation: scrollReviews 30s linear infinite;
+  animation: scrollReviews 90s linear infinite;
 }
+
 
 @keyframes scrollReviews {
   0% { transform: translateY(0); }
