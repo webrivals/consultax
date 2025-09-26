@@ -17,7 +17,7 @@
 <!-- Header -->
     <header>
         <!-- Navbar -->
-        <navbar>
+        <navbar class="sticky-top">
             <?php include 'includes/navbar.php'; ?>            
         </navbar>
     </header>
@@ -28,9 +28,9 @@
             <div class="container">
                 <p class="section-head">Payroll Services</p>
                 <p class="section-para">Trusted payroll expertise that empowers your team and fuels your business growth.</p>
-                <p class="section-sub-head">Customised Payroll Solutions for Seamless Business Efficiency</p>
+                <p class="section-sub-head mt-4">Customised Payroll Solutions for Seamless Business Efficiency</p>
                 <p class="section-para">Let us handle all aspects of your payroll so you can focus on running your business.</p>
-                <p class="section-sub-head">Simplify Your Payroll with Professional Precision</p>
+                <p class="section-sub-head mt-4">Simplify Your Payroll with Professional Precision</p>
                 <p class="section-para">At Consultax Accounting Services, we deliver fully tailored payroll solutions to suit your business.
                     From accurate salary processing to WPS submissions, we manage the entire payroll management -
                     ensuring compliance, clarity, and complete peace of mind.
@@ -118,6 +118,7 @@
                     </div>
             </div>
         </div>
+        <?php include 'includes/contact-us.php'; ?>
         <!-- FAQS SECTION-->
         <div class="container-fluid mt-5 pb-5">
                     <div class="container">
@@ -202,7 +203,7 @@
     </footer>
     <?php include 'includes/scroll-top.php'; ?>
 <!--JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+ <?php include 'includes/script.php'; ?>
 <script src="js/breadcrumb.js"></script>
 <script src="js/scroll-top.js"></script>
 </body>

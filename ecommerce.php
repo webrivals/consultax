@@ -17,7 +17,7 @@
 <!-- Header -->
     <header>
         <!-- Navbar -->
-        <navbar>
+        <navbar class="sticky-top">
             <?php include 'includes/navbar.php'; ?>            
         </navbar>
     </header>
@@ -30,7 +30,7 @@
                 <p class="section-para">
                     Team Up with Consultax Chartered Accountant and Stay on Top of eCommerce Industry!
                 </p>
-                <h2 class="section-sub-head">
+                <h2 class="section-sub-head mt-4">
                     Strategic Accounting Services for eCommerce Growth
                 </h2>
                 <p class="section-para">
@@ -38,14 +38,14 @@
                     tailored services. Our focus is on saving you time, improving accuracy, and driving long-term success.
                     Ready to increase profits and elevate your business? Let’s make it happen.
                 </p>
-                <h2 class="section-sub-head">
+                <h2 class="section-sub-head mt-4">
                     Accountants Committed to Your Success                
                 </h2>
                 <p class="section-para">
                     Reliable, proactive, and results-driven - we apply the same level of dedication to your success that
                     you bring to your business every day.
                 </p>
-                <p class="mt-4 mb-3 section-sub-head">Take a Look at Our Value-Added Points:</p>
+                <p class="mt-4 mb-3 section-sub-head mt-4">Take a Look at Our Value-Added Points:</p>
                     <ul class="mt-2">
                         <li class="vap-li">
                             <span class="commit-head">Insightful Advice That Moves You Forward :</span> <span class="commit-desc">We go beyond the numbers to offer guidance that’s tailored, and built for growth.</span>
@@ -57,7 +57,7 @@
                             <span class="commit-head">Financial Clarity You Can Trust :</span> <span class="commit-desc">We prioritise clear communication, accounting support you can understand and rely on.</span>
                         </li>
                     </ul>   
-                    <h2 class="mt-4 section-sub-head">How We Support your eCommerce Success</h2>
+                    <h2 class="mt-4 section-head mt-5">How We Support your eCommerce Success</h2>
                         <p class="section-para">
                             At Consultax Chartered Accountants, we specialise in managing the financial side of fast-moving
                             eCommerce businesses. Whether you&#39;re selling across multiple platforms, handling returns, or
@@ -160,6 +160,7 @@
                 </div>
             </div>
         </div>
+        <?php include 'includes/contact-us.php'; ?>
         <!-- FAQS SECTION-->
             <div class="container-fluid mt-5 pb-5">
                 <div class="container">
@@ -255,7 +256,7 @@
     </footer>
     <?php include 'includes/scroll-top.php'; ?>
 <!--JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+<?php include 'includes/script.php'; ?>
 <script src="js/scroll-top.js"></script>
 <script src="js/breadcrumb.js"></script>
 </body>

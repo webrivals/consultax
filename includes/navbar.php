@@ -11,7 +11,7 @@
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <div class="container-fluid" style="background:#ffffff !important;">
+    <div class="container-fluid shadow-bottom" style="background:#ffffff !important;">
         <div class="container no-pad-mob">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid no-pad-mob">
@@ -89,7 +89,6 @@
                         <li class="nav-item">
                         <a class="nav-link-navbar contact-btn p-2 text-white" href="#">Contact</a>
                         </li>
-
                     </ul>
                 </div>
             
@@ -97,6 +96,5 @@
         </div>
         </div>
 
-    
 </body>
 </html>

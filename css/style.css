@@ -30,11 +30,13 @@ body{
 .bdr-radi{
     border-radius: var(--border-radius) !important;
 }
+/* 
 .testimonial-carousel{
     overflow-y:auto;
     gap:5px;
-    height:60vh;
+    height:70vh;
     padding-right:20px;
+    cursor: pointer;
 }
 .testimonial-carousel::-webkit-scrollbar{
     display: none;
@@ -43,10 +45,36 @@ body{
     gap:5px !important;
     animation: scroll 15s infinite linear;   
 }
+.testimonial-carousel .testimonial-group:hover{
+    animation-play-state: paused;
+}
 @keyframes scroll {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-100%); } /* scrolls full height */
+    100% { transform: translateY(-100%); } 
+} */
+
+.testimonial-carousel {
+  overflow: hidden;
+  height: 60vh; /* adjust as you want */
+  position: relative;
 }
+
+#reviews {
+  display: flex;
+  flex-direction: column;
+  animation: scrollReviews 30s linear infinite;
+}
+
+@keyframes scrollReviews {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); } /* scroll half, because of duplication */
+}
+
+/* Optional: pause on hover */
+.testimonial-carousel:hover #reviews {
+  animation-play-state: paused;
+}
+
 .head-1{
     font-size: var(--txt-head);
 }
@@ -79,6 +107,7 @@ a{
     border: 0;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
+
 .nav-item-navbar .nav-link-navbar.active {
   text-decoration: underline !important;
   text-decoration-color: var(--bg-secondary) !important;
@@ -125,6 +154,7 @@ a{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    margin-top:100px !important;
 }
 .bcrumb-icon{
     height: 40px;
@@ -233,7 +263,6 @@ ul{
     color:var(--bg-primary);
     font-weight:400;
     margin-top:20px;
-    margin-bottom:15px;
 }
 .review-card-bg{
     background:#ffffff;
@@ -278,6 +307,9 @@ ul{
     color: var(--color-primary);
     margin-left:5px;
     font-weight: 500;
+}
+.review-avatar{
+    margin-right:8px !important;
 }
 .feefo-redirect-btn {
   position: absolute;
@@ -541,6 +573,10 @@ ul{
     border-radius: var(--border-radius);
     font-size: 18px;
     font-weight: 500;
+    transition: .2s linear;
+}
+.cta-redirect-page:hover{
+    background:#32CD32 !important;
 }
 .cta-tagline{
     color:var(--color-primary);
@@ -687,14 +723,24 @@ ul{
     font-size: 28px;
     margin-top: 40px;
 }
-.footer-logo{
-    height:150px;
-    width:300px;
+.footer-logo {
+    height: 100px;
+    width: 280px;
+    margin-bottom: 45px;
 }
 .footer-comp-desc{
     font-size: 22px;
     color: var(--bg-primary);
 }
+.shadow-top {
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 -2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.shadow-bottom {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
 .foot-link-head{
     color:var(--bg-primary);
     font-weight: 600;
@@ -1033,7 +1079,12 @@ ul {
     border-radius:var(--border-radius);
     height:270px;
 }
-
+#cta-div{
+    background: url('../images/cta-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+}
 
 
 
@@ -1115,9 +1166,6 @@ ul {
     }
     .principle-desc {
         font-size: 18px;
-    }
-    .section-para{
-        text-align: center;
     }
     .offer-panel-desc-mob {
         font-size: 18px;
@@ -1210,9 +1258,9 @@ ul {
     .feature-desc-mob{
         font-size: 18px;
     }
-    .no-pad-mob{
+    /* .no-pad-mob{
         padding:0px !important;
-    }
+    } */
     .principle-head{
         text-align: center;
         margin-top:15px;
@@ -1315,6 +1363,9 @@ ul {
     }
     .rating-img{
         margin-block:40px;
+    }
+    .bespoke-sec-card {
+        height: auto;
     }   
 }
 
@@ -1330,7 +1381,6 @@ ul {
     .section-head{
         font-size: 30px !important;
         font-weight: 500;
-        /* margin-bottom:50px; */
     }
     .section-stamps{
         font-size: 14px;
@@ -1339,7 +1389,7 @@ ul {
     }
     .section-para{
         font-size: 18px;
-        /* text-align: center; */
+        text-align: left;
     }
     .hero-head{
         font-size:25px;
@@ -1401,7 +1451,7 @@ ul {
         text-align: center;
     }
     .principle-desc{
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
     }
     .principle-imgs{
@@ -1423,7 +1473,7 @@ ul {
         font-weight:500;
     }
     .footer-comp-desc{
-        font-size: 16px;
+        font-size: 18px;
     }
     .foot-link-head{
         margin-top: 20px;
@@ -1432,7 +1482,7 @@ ul {
         margin-top:20px;
     }
     .foot-links {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
     }
     .copyright-txt{

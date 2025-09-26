@@ -17,7 +17,7 @@
 <!-- Header -->
     <header>
         <!-- Navbar -->
-        <navbar>
+        <navbar class="sticky-top">
             <?php include 'includes/navbar.php'; ?>            
         </navbar>
     </header>
@@ -30,7 +30,7 @@
                 <p class="section-para">
                     You grow your business - we will manage the numbers with precision and care.
                 </p>
-                <h2 class="section-sub-head">
+                <h2 class="section-sub-head mt-4">
                     Sole Trader Accounting Made Simple
                 </h2>
                 <p class="section-para">
@@ -40,14 +40,14 @@
                     Whether you’re starting out or well established, we will handle the numbers, save you money, and
                     free up your time - so you can focus on growing your business.
                 </p>
-                <h2 class="section-sub-head">
+                <h2 class="section-sub-head mt-4">
                     Accountants Committed to Your Success                
                 </h2>
                 <p class="section-para">
                     Reliable, proactive, and results-driven - we apply the same level of dedication to your success that
                     you bring to your business every day.
                 </p>
-                    <ul class="mt-2">
+                    <ul class="mt-3">
                         <li class="vap-li">
                             <span class="commit-head">Insightful Advice That Moves You Forward :</span> <span class="commit-desc">We go beyond the numbers to offer guidance that’s tailored, and built for growth.</span>
                         </li>
@@ -130,6 +130,7 @@
                 </div>
             </div>
         </div>
+        <?php include 'includes/contact-us.php'; ?>
         <!-- FAQS SECTION-->
             <div class="container-fluid mt-5 pb-5">
                 <div class="container">
@@ -236,7 +237,7 @@
         <img src="images/wa-icon.svg" alt="WhatsApp Chat" class="whatsapp-icon"/>
     </a>
 <!--JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+<?php include 'includes/script.php'; ?>
 <script src="js/breadcrumb.js"></script>
 <script src="js/scroll-top.js"></script>
 </body>

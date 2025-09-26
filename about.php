@@ -17,7 +17,7 @@
 <!-- Header -->
     <header>
         <!-- Navbar -->
-        <navbar>
+        <navbar class="sticky-top">
             <?php include 'includes/navbar.php'; ?>            
         </navbar>
     </header>
@@ -52,13 +52,13 @@
                     </div>
                     <div class="col-12 col-md-6 my-auto">
                         <p class="mt-4 mt-md-0 section-para">Founder and director graduated from University of Warwick with a First Class in BSc (Hons) in
-                                                Accounting &amp; Finance and undertook his professional training contract with
-                                                PriceWaterhouseCoopers, leading “Big Four” company. As friends and family were keen to utilise his
-                                                experience in their business, with particular emphasis on strategic development, he decided to take
-                                                the plunge which opened the doors for consultax and there has been no looking back. He spent
-                                                considerable time working on leading FTSE 100 clients in Telecommunications, Healthcare, Real
-                                                Estate, Oil E&amp;P blended with growing Entrepreneurial clients where he gained broad experience
-                                                across the different industries.
+                            Accounting &amp; Finance and undertook his professional training contract with
+                            PriceWaterhouseCoopers, leading “Big Four” company. As friends and family were keen to utilise his
+                            experience in their business, with particular emphasis on strategic development, he decided to take
+                            the plunge which opened the doors for consultax and there has been no looking back. He spent
+                            considerable time working on leading FTSE 100 clients in Telecommunications, Healthcare, Real
+                            Estate, Oil E&amp;P blended with growing Entrepreneurial clients where he gained broad experience
+                            across the different industries.
                         </p>
                     </div>
                 </div>
@@ -122,13 +122,14 @@
                 </div>
             </div>
         </div>
+        <?php include 'includes/contact-us.php'; ?>
     </main>
     <footer>
         <?php include 'includes/footer.php'; ?>            
     </footer>
     <?php include 'includes/scroll-top.php'; ?>
 <!--JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+ <?php include 'includes/script.php'; ?>
 <script src="js/breadcrumb.js"></script>
 <script src="js/scroll-top.js"></script>
 </body>

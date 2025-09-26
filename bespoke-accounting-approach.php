@@ -17,7 +17,7 @@
 <!-- Header -->
     <header>
         <!-- Navbar -->
-        <navbar>
+        <navbar class="sticky-top">
             <?php include 'includes/navbar.php'; ?>            
         </navbar>
     </header>
@@ -139,17 +139,17 @@
                     can confidently focus on what you do best, knowing that your financial foundation is in expert
                     hands.
                 </p>
-                <ul class="mt-5">
-                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="500">
+                <ul class="mt-3">
+                    <li class="vap-li">
                         <span class="commit-head">Expertise in all areas of Finance and Accounting sector</span>
                     </li>
-                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="700">
+                    <li class="vap-li">
                         <span class="commit-head">In-depth understanding of local and international tax regulations</span>
                     </li>
-                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="900">
+                    <li class="vap-li">
                         <span class="commit-head">Assist in preparing detailed reports that highlight your business’s potential</span>
                     </li>
-                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="1000">
+                    <li class="vap-li">
                         <span class="commit-head">Strong command of audit procedures and risk assessment methodologies</span>
                     </li>
                 </ul>
@@ -161,7 +161,7 @@
     </footer>
     <?php include 'includes/scroll-top.php'; ?>
 <!--JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+ <?php include 'includes/script.php'; ?>
 <script src="js/breadcrumb.js"></script>
 <script src="js/scroll-top.js"></script>
 </body>

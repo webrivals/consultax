@@ -18,7 +18,7 @@
 <!-- Header -->
     <header>
         <!-- Navbar -->
-        <navbar>
+        <navbar class="sticky-top">
             <?php include 'includes/navbar.php'; ?>            
         </navbar>
     </header>
@@ -34,7 +34,7 @@
                     knowledgeable accountant can be a strategic asset. They not only streamline your financial
                     management but also provide insights to support growth and informed investment decisions.
                 </p>
-                <h2 class="section-sub-head">
+                <h2 class="section-sub-head mt-4">
                     Hassle-Free Accounting for Landlords
                 </h2>
                 <p class="section-para">
@@ -43,7 +43,7 @@
                     compliant. We’ll help you maximise savings and stay HMRC-ready, so you can focus on growing your
                     portfolio with confidence. Let us handle the numbers - while you build your investment success.
                 </p>
-                <h2 class="section-sub-head">
+                <h2 class="section-sub-head mt-4">
                     Accountants Committed to Your Success                
                 </h2>
                 <p class="section-para">
@@ -151,6 +151,7 @@
                 </div>
             </div>
         </div>
+        <?php include 'includes/contact-us.php'; ?>
         <!-- FAQS SECTION-->
             <div class="container-fluid mt-5 pb-5">
                 <div class="container">
@@ -250,7 +251,7 @@
         <img src="images/wa-icon.svg" alt="WhatsApp Chat" class="whatsapp-icon"/>
     </a>
 <!--JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+ <?php include 'includes/script.php'; ?>
 <script src="js/scroll-top.js"></script>
 <script src="js/breadcrumb.js"></script>
 </body>

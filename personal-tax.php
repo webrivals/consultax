@@ -17,7 +17,7 @@
 <!-- Header -->
     <header>
         <!-- Navbar -->
-        <navbar>
+        <navbar class="sticky-top">
             <?php include 'includes/navbar.php'; ?>            
         </navbar>
     </header>
@@ -128,7 +128,7 @@
                 </div>
             </div>
         </div>
-
+        <?php include 'includes/contact-us.php'; ?>
         <!-- FAQS SECTION-->
         <div class="container-fluid mt-5 pb-5">
                     <div class="container">
@@ -208,7 +208,7 @@
     </footer>
     <?php include 'includes/scroll-top.php'; ?>
 <!--JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+ <?php include 'includes/script.php'; ?>
 <script src="js/breadcrumb.js"></script>
 <script src="js/scroll-top.js"></script>
 </body>

@@ -17,7 +17,7 @@
 <!-- Header -->
     <header>
         <!-- Navbar -->
-        <navbar>
+        <navbar class="sticky-top">
             <?php include 'includes/navbar.php'; ?>            
         </navbar>
     </header>
@@ -34,21 +34,21 @@
                     companies across the region. We work in close partnership with our clients to improve operational
                     efficiency, drive cost savings, and support long-term personal and business financial growth.
                 </p>
-                <h2 class="section-sub-head">
+                <h2 class="section-sub-head mt-4">
                     Simplified Accounting For Limited Companies
                 </h2>
                 <p class="section-para">
                     Focus on growth, not paperwork. Consultax provides clear, reliable accounting support tailored to
                     the needs of limited companies.
                 </p>
-                <h2 class="section-sub-head">
+                <h2 class="section-sub-head mt-4">
                     Accountants Committed to Your Success                
                 </h2>
                 <p class="section-para">
                     Reliable, proactive, and results-driven - we apply the same level of dedication to your success that
                     you bring to your business every day.
                 </p>
-                    <ul class="mt-2">
+                    <ul class="mt-3">
                         <li class="vap-li">
                             <span class="commit-head">Insightful Advice That Moves You Forward :</span> <span class="commit-desc">We go beyond the numbers to offer guidance that’s tailored, and built for growth.</span>
                         </li>
@@ -180,6 +180,7 @@
                 </div>
             </div>
         </div>
+        <?php include 'includes/contact-us.php'; ?>
         <!-- FAQS SECTION-->
             <div class="container-fluid mt-5 pb-5">
                 <div class="container">
@@ -290,7 +291,7 @@
     </a>
 
 <!--JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+<?php include 'includes/script.php'; ?>
 <script src="js/breadcrumb.js"></script>
 <script src="js/scroll-top.js"></script>
 </body>

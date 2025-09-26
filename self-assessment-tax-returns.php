@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Assessment Tax Returns</title>
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet"/>
     <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
+     <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet"/>
     <!-- Font -->
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,300,400,500,700,900&display=swap" rel="stylesheet">
     <!-- AOS CSS -->
@@ -15,9 +15,9 @@
 </head>
 <body>
 <!-- Header -->
-    <header>
+    <header class="sticky-top">
         <!-- Navbar -->
-        <navbar>
+        <navbar >
             <?php include 'includes/navbar.php'; ?>            
         </navbar>
     </header>
@@ -188,7 +188,7 @@
                     </div>
                 </div>
                 <p class="mt-4 mb-3 section-sub-head">Take a Look at Our Value-Added Points:</p>
-                    <div class="row mt-4">
+                    <div class="row mt-2">
                         <div class="col-12 col-md-6">
                             <ul>
                                 <li class="vap-li">
@@ -254,6 +254,7 @@
                     </div>
                 </div>
             </div>
+            <?php include 'includes/contact-us.php'; ?>
             <!--FAQS Section-->
             <section style="margin-top:65px;">
                 <div class="container-fluid mt-5 pb-5">
@@ -371,7 +372,7 @@
         });
     });
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+<?php include 'includes/script.php'; ?>
 <script src="js/breadcrumb.js"></script>
 <script src="js/scroll-top.js"></script>
 </body>

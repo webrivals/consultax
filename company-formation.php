@@ -17,7 +17,7 @@
 <!-- Header -->
     <header>
         <!-- Navbar -->
-        <navbar>
+        <navbar class="sticky-top">
             <?php include 'includes/navbar.php'; ?>            
         </navbar>
     </header>
@@ -27,21 +27,21 @@
         <div class="container-fluid mt-5 mb-5">
             <div class="container">
                 <h1 class="section-head">Company Formation</h1>
-                <h2 class="section-sub-head">Start Your Business Journey Here</h2>
+                <h2 class="section-sub-head mt-4">Start Your Business Journey Here</h2>
                 <p class="section-para">Smart, simple, and ready for success.</p>
-                <h2 class="section-sub-head">Are You Ready To Form Your Own Company?</h2>
+                <h2 class="section-sub-head mt-4" >Are You Ready To Form Your Own Company?</h2>
                 <p class="section-para">Establishing a company protects your business assets and ensures personal and business finances remain distinct.</p>
-                <ul class="mt-5">
-                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="500">
+                <ul class="mt-3">
+                    <li class="vap-li">
                         <span class="commit-head">Trusted and Approved :</span> <span class="commit-desc">Officially recognised by Companies House as a fully authorised formation agent.</span>
                     </li>
-                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="600">
+                    <li class="vap-li">
                         <span class="commit-head">Expert UK Support :</span> <span class="commit-desc">Our senior specialists offer tailored, one-to-one help via phone, email, and live chat.</span>
                     </li>
-                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="700">
+                    <li class="vap-li">
                         <span class="commit-head">Time and Cost Efficient :</span> <span class="commit-desc">Swift, stress-free service that lets you gets on with growing your business.</span>
                     </li>
-                    <li class="vap-li" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800">
+                    <li class="vap-li">
                         <span class="commit-head">Accountancy You Can Rely On :</span> <span class="commit-desc">Professional accountants ensuring accurate records and full compliance post-formation.</span>
                     </li>
                 </ul>
@@ -137,6 +137,7 @@
                     </div>
             </div>
         </div>
+        <?php include 'includes/contact-us.php'; ?>
         <!-- FAQS SECTION-->
         <div class="container-fluid mt-5 pb-5">
                     <div class="container">
@@ -148,7 +149,7 @@
                                         <p class="mb-0 faqs-question">What is Company Formation, and Why Do Person Need It?</p>
                                     </button>
                                 </h2>
-                                <div id="CF-one" class="accordion-collapse collapse" >
+                                <div id="CF-one" class="accordion-collapse collapse" data-bs-parent="CompanyFormation" >
                                     <div class="accordion-body">
                                         <p class="faqs-answer">Company formation is the process of legally registering your business as a separate entity, typically
                                             with Companies House in the UK. Forming a company provides personal liability protection,
@@ -217,7 +218,7 @@
     </footer>
     <?php include 'includes/scroll-top.php'; ?>
 <!--JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+ <?php include 'includes/script.php'; ?>
 <script src="js/breadcrumb.js"></script>
 <script src="js/scroll-top.js"></script>
 </body>
