@@ -41,8 +41,6 @@ body{
   flex-direction: column;
   animation: scrollReviews 90s linear infinite;
 }
-
-
 @keyframes scrollReviews {
   0% { transform: translateY(0); }
   100% { transform: translateY(-50%); } /* scroll half, because of duplication */
@@ -236,6 +234,9 @@ ul{
     display: inline-block;
     border-radius:5px;
 }
+.home-head-margin{
+    margin-bottom:30px;
+}
 .section-head{
     font-size: 45px;
     color:var(--bg-primary);
@@ -250,7 +251,15 @@ ul{
     box-shadow: var(--box-shadow);
     position: relative;
 }
-
+.read-review{
+    background:#0E456D;
+    color:#ffffff;
+    padding:5px 10px;
+    margin-top:15px;
+    align-self: center;
+    border-radius:5px;
+    font-size:15px;
+}
 .ratings-pack{
     width:30%;
     margin-top:20px;
@@ -735,10 +744,14 @@ ul li{
 .foot-link-li{
     margin-top:30px;
 }
-.foot-links{
-    font-size: 20px;
-    color:var(--bg-primary);
-    font-weight: 400;
+.foot-links {
+  font-size: 20px;
+  color: var(--bg-primary);
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+.foot-links:hover {
+  color: #1A8FE3 !important;
 }
 .foot-hr{
     background:var(--bg-primary);
@@ -944,6 +957,14 @@ ul {
     border-radius: var(--border-radius);
     /* box-shadow: var(--box-shadow); */
 }
+.accordion{
+    background:black !important;
+    border:none;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
 .faqs-question{
     font-size:22px;
     font-weight:500;
@@ -1065,6 +1086,52 @@ ul {
 }
 
 
+/* Price Page */
+.price-card-title{
+    font-size: 30px;
+    margin-top:30px;
+    color:var(--color-primary);
+}
+.price-txt{
+    font-weight: 600;
+    color:#1A8FE3;
+    font-size: 60px;
+    margin-top:20px;
+}
+.price-type{
+    font-size: 16px;
+    color:#f1f1f1 !important;
+}
+.chk-mark-span{
+    margin-right:10px;
+}
+.price-card-features{
+    font-size: 18px;
+    font-weight: 400;
+}
+.card{
+    border:none !important;
+}
+.price-buy {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.price-buy:hover {
+  background: var(--bg-secondary) !important;
+}
+.price-buy:hover ~ svg path
+{
+  fill: #32CD32; /* green */
+  transition: fill 0.3s ease-in-out;
+}
+.price-page-links {
+    color:#000000;
+    font-weight: 500;
+}
+#pricing-bg{
+    background-size:cover;
+    background-position: center center;
+}
 
 /* Default: Desktop / Large screens (no media query needed) */
 
@@ -1078,6 +1145,9 @@ ul {
   .nav-item.dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+  }
+  .dropdown-item{
+    padding:10px;
   }
 }
 
@@ -1197,6 +1267,7 @@ ul {
     #hero-section{
         height:auto !important;
     }
+    .hero
   .marquee:before, .marquee:after { 
     width: 5rem;    
     }
@@ -1209,7 +1280,7 @@ ul {
         font-weight:500;
     }
     .milestone-txt {
-        font-size: 22px;
+        font-size: 20px;
         text-align: center;
     }
     .milestone-count {
@@ -1314,7 +1385,7 @@ ul {
         font-size: 16px;
     }
     .vap-li::before{
-        top:15%;
+        top:25%;
     }
     .commit-head{
         color:var(--color-primary);
@@ -1344,7 +1415,67 @@ ul {
     }
     .bespoke-sec-card {
         height: auto;
-    }   
+    }
+    .review-star{
+        height:24px;
+        width:24px;
+    }
+    .review-head{
+        font-size: 20px;
+    }
+    .review-para{
+        font-size: 18px;
+    }
+    .review-avatar{
+        height:40px;
+        width:40px;
+    }
+    .cmt-author{
+        font-size: 16px;
+    }
+    .section-head{
+        margin-bottom:40px;
+    }
+    .section-stamps{
+        margin-top: 50px;
+    }
+    #cta-div{
+        height:auto !important;
+        background:linear-gradient(#062f49,#0E456D);
+    }
+    .cta-redirect-page{
+        color: #ffffff;
+        padding: 12px 10px;
+        border-radius: var(--border-radius);
+        font-size: 16px;
+    }
+    .cta-btn-div{
+        margin:40px 0px 30px !important;
+    }
+    .cta-div-para{
+        width:100% !important;
+    }
+    .vap-li::before {
+        transform: translateY(-20%);
+    }
+    .faqs-question, .faqs-answer{
+        font-size: 18px;
+    }
+    .cta-svg-icon{
+        height:20px;
+        width:20px;
+    }
+    .abt-sec-card{
+        height:auto;
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+        display: none;
+    }
+    .section-sub-head{
+        font-size: 25px;
+        font-weight: 500;
+        color: var(--color-primary);
+    }
 }
 
 /* Extra small phones */
@@ -1415,10 +1546,6 @@ ul {
     .hero-link-bold-a{
         font-size: 20px;
     }
-    /* .ratings-stars{
-        height:64px;
-        width:64px;
-    } */
     .hero-contact-btn{
         font-size: 16px;
         padding:7px 12px;
@@ -1487,7 +1614,7 @@ ul {
         border:1px solid var(--bg-primary);
     }
     .faqs-question{
-        font-size:20px;
+        font-size:18px;
         font-weight:500;
         color:var(--bg-secondary);
     }
@@ -1516,6 +1643,9 @@ ul {
     .navbar-logo {
         width: 140px;
         height: 60px;
+    }
+    .cta-redirect-page{
+        font-size: 14px;
     }
     
     

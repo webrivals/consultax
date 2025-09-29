@@ -16,9 +16,11 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target="#v-pills-tab" data-bs-smooth-scroll="true" tabindex="0">
 <!-- Header -->
-    <navbar class="sticky-top">
+ <header class="sticky-top">
+    <navbar>
             <?php include 'includes/navbar.php'; ?>            
     </navbar>
+ </header>
     <!-- Main Section -->
     <main>
         <!-- Hero Section -->
@@ -63,24 +65,23 @@
         </section>
         <!-- Main Section -->
         <!-- Tesimonials Section -->
-         <div class="container-fluid mb-5">
+         <div class="container-fluid mb-5 mt-5">
             <div class="container">
                 <div class="text-center mt-4">
                         <p class="section-stamps">Testimonials</p>
                         <p class="section-head">What our clients say</p>
                     </div>
                 <div class="row d-flex flex-row justify-content-center">
-                    <div class="col-10">
+                    <div class="col-12 col-md-10">
                         <div class="testimonial-carousel">
                             <div class="testimonial-group" id="reviews">
-                                    <!-- Here the feefo review will appear -->
+                                    <!-- Here the feefo reviews will appear -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
          </div>
-
     <!-- Milestones Counter -->
      <section id="milestones" class="section-container" aria-labelled="Milestones Section">
         <div class="container-fluid">
@@ -215,7 +216,7 @@
                                 <h4 class="offer-panel-head">Tax Planning and Compliance</h4>
                                 <div class="d-flex flex-md-column justify-content-md-start flex-lg-row justify-content-lg-between align-items-lg-center">
                                     <p class="offer-panel-desc">From personal tax returns to corporate tax strategies, we help you stay ahead and save more.</p>
-                                    <a href="#" class="text-decoration-none offer-link">Know More</a>
+                                    <a href="tax-planning.php" class="text-decoration-none offer-link">Know More</a>
                                 </div>
                                 <p class="offer-panel-desc">From personal tax returns to corporate tax strategies, we help you stay ahead and save more.</p>
                             </div>
@@ -224,7 +225,7 @@
                                 <h4 class="offer-panel-head">VAT and GST Advisory</h4>
                                 <div class="d-flex flex-row justify-content-between align-items-center">
                                     <p class="offer-panel-desc">Navigate the complexities of VAT and GST with expert support that ensures full accuracy and maximised savings.</p>
-                                    <a href="#" class="text-decoration-none offer-link">Know More</a>
+                                    <a href="vat.php" class="text-decoration-none offer-link">Know More</a>
                                 </div>
                             </div>
                             <div id="PayrollServices" class="offer-item">
@@ -232,7 +233,7 @@
                                 <h4 class="offer-panel-head">Payroll Services</h4>
                                 <div class="d-flex flex-row justify-content-between align-items-center">
                                     <p class="offer-panel-desc">Hassle-free payroll solutions, RTI submissions, and auto-enrolment support for businesses of all sizes.</p>
-                                    <a href="#" class="text-decoration-none offer-link">Know More</a>
+                                    <a href="payroll-services.php" class="text-decoration-none offer-link">Know More</a>
                                 </div>  
                             </div>
                             <div id="BookkeepingAndAccountsPreparation" class="offer-item">
@@ -240,7 +241,7 @@
                                 <h4 class="offer-panel-head">Bookkeeping and Accounts Preparation</h4>
                                 <div class="d-flex flex-row justify-content-between align-items-center">
                                     <p class="offer-panel-desc">Maintain accurate records, ensure full HMRC compliance, simplify finances, and manage your accounts with ease.</p>
-                                    <a href="#" class="text-decoration-none offer-link">Know More</a>
+                                    <a href="bookkeeping.php" class="text-decoration-none offer-link">Know More</a>
                                 </div>  
                             </div>
                             <div id="FinancialPlanningAndForecasting" class="offer-item">
@@ -256,7 +257,7 @@
                                 <h4 class="offer-panel-head">Self-Assessment Tax Returns</h4>
                                 <div class="d-flex flex-row justify-content-between align-items-center">
                                     <p class="offer-panel-desc">Your tax return, Our professional priority. Navigate your tax responsibilities with clarity and assurance through our Self-Assessment service.</p>
-                                    <a href="#" class="text-decoration-none offer-link">Know More</a>
+                                    <a href="self-assessment-tax-returns.php" class="text-decoration-none offer-link">Know More</a>
                                 </div>
                             </div>
                         </div>
@@ -270,7 +271,7 @@
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">From personal tax returns to corporate tax strategies, we help you stay ahead and save more.</p>
                                     <!-- <a href="#" class="text-decoration-none align-self-center offer-link">Know More</a> -->
-                                     <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                     <a href="tax-planning.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
                             </div>
                             <div id="VATAndGSTAdvisory" class="mt-5 mt-md-2 offer-item no-pad-mob">
@@ -279,7 +280,7 @@
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Navigate the complexities of VAT and GST with expert support that ensures full accuracy and maximised savings.</p>
                                     <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
-                                     <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                     <a href="vat.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
                             </div>
                             <div id="PayrollServices" class="mt-5 mt-md-2 offer-item no-pad-mob">
@@ -288,7 +289,7 @@
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Hassle-free payroll solutions, RTI submissions, and auto-enrolment support for businesses of all sizes.</p>
                                     <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
-                                     <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                     <a href="payroll-services.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>  
                             </div>
                             <div id="BookkeepingAndAccountsPreparation" class="mt-5 mt-md-2 offer-item no-pad-mob">
@@ -297,7 +298,7 @@
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Maintain accurate records, ensure full HMRC compliance, simplify finances, and manage your accounts with ease.</p>
                                     <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
-                                     <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                     <a href="bookkeeping.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>  
                             </div>
                             <div id="FinancialPlanningAndForecasting" class="mt-5 mt-md-2 offer-item no-pad-mob">
@@ -315,7 +316,7 @@
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Your tax return, Our professional priority. Navigate your tax responsibilities with clarity and assurance through our Self-Assessment service.</p>
                                     <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
-                                     <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+                                     <a href="self-assessment-tax-returns.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
                             </div>
                         </div>
@@ -664,7 +665,7 @@
             title = r.service.title;
         }
         html += `
-        <div class="d-flex flex-column justify-content-between mb-5 review-card-bg">
+        <div class="d-flex flex-column justify-content-between mb-5 review-card-bg shadow">
             <!-- Review Ratings-->
             <div class="d-flex flex-row justify-content-between align-items-center ratings-pack">
                 <img src="images/review-star.png" class="review-star"/>
@@ -672,7 +673,7 @@
                 <img src="images/review-star.png" class="review-star"/>
                 <img src="images/review-star.png" class="review-star"/>
                 <img src="images/review-star.png" class="review-star"/>
-                <span class="fw-semibold display-6">${rating}</span>
+                <span class="fw-semibold display-6 ms-3">${rating}</span>
             </div>
             <!-- Review Heading-->
                 <div class="d-flex">
@@ -681,7 +682,8 @@
                 <p class="review-para">
                 <span>${review}</span>
             </p>
-            <div class="d-flex flex-row align-items-center mt-5">
+            <a href="https://www.feefo.com/en-GB/reviews/consultax-accountants-limited" class="read-review">Read All Reviews<svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+            <div class="d-none d-md-flex flex-row justify-content-center align-items-center mt-5">
                 <div class="w-50 d-flex flex-row align-items-center">
                 <img src="images/review-avatar.png" class="review-avatar" />
                     <p class="mb-0 cmt-author">${customerName}</p>
@@ -692,6 +694,21 @@
                         <p class="mb-0 author-location">${location}</p>
                     </div>
                     <div class="w-50 d-flex flex-row justify-content-end">
+                        <p class="mb-0 cmt-date">${new Date(r.last_updated_date).toLocaleDateString()}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex d-md-none flex-column mt-5">
+                <div class="w-100 d-flex flex-row justify-content-center align-items-center">
+                <img src="images/review-avatar.png" class="review-avatar" />
+                    <p class="mb-0 cmt-author">${customerName}</p>
+                </div>
+                <div class="d-flex flex-row w-100 mt-4">
+                    <div class="w-100 d-flex flex-row justify-content-between">
+                        <svg fill="#d9d9d9" width="24px" height="24px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.114-0.011c-6.559 0-12.114 5.587-12.114 12.204 0 6.93 6.439 14.017 10.77 18.998 0.017 0.020 0.717 0.797 1.579 0.797h0.076c0.863 0 1.558-0.777 1.575-0.797 4.064-4.672 10-12.377 10-18.998 0-6.618-4.333-12.204-11.886-12.204zM16.515 29.849c-0.035 0.035-0.086 0.074-0.131 0.107-0.046-0.032-0.096-0.072-0.133-0.107l-0.523-0.602c-4.106-4.71-9.729-11.161-9.729-17.055 0-5.532 4.632-10.205 10.114-10.205 6.829 0 9.886 5.125 9.886 10.205 0 4.474-3.192 10.416-9.485 17.657zM16.035 6.044c-3.313 0-6 2.686-6 6s2.687 6 6 6 6-2.687 6-6-2.686-6-6-6zM16.035 16.044c-2.206 0-4.046-1.838-4.046-4.044s1.794-4 4-4c2.207 0 4 1.794 4 4 0.001 2.206-1.747 4.044-3.954 4.044z"></path> </g></svg>
+                        <p class="mb-0 author-location">${location}</p>
+                    </div>
+                    <div class="w-100 d-flex flex-row justify-content-end">
                         <p class="mb-0 cmt-date">${new Date(r.last_updated_date).toLocaleDateString()}</p>
                     </div>
                 </div>

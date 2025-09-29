@@ -15,12 +15,11 @@
 </head>
 <body>
 <!-- Header -->
-    <header>
-        <!-- Navbar -->
-        <navbar class="sticky-top">
+ <header class="sticky-top">
+    <navbar>
             <?php include 'includes/navbar.php'; ?>            
-        </navbar>
-    </header>
+    </navbar>
+ </header>
     <!-- Main Section -->
     <main>
         <?php include 'includes/breadcrumbs.php'; ?>
@@ -142,7 +141,7 @@
         <div class="container-fluid mt-5 pb-5">
                     <div class="container">
                         <h2 class="section-head">Frequently Asked Questions</h2>
-                        <div class="accordion" id="CompanyFormation">
+                        <div class="accordion mt-5" id="CompanyFormation">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CF-one" aria-expanded="true" aria-controls="CF-one">

@@ -6,7 +6,8 @@
     <title></title>
     <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
-     
+     <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet"/>
     <!-- Font -->
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300&display=swap" rel="stylesheet"/>
 </head>
@@ -47,6 +48,7 @@
                             <li><a class="dropdown-item nav-link-navbar" href="tax-planning.php">Tax Planning</a></li>
                             <li><a class="dropdown-item nav-link-navbar" href="management-accounts.php">Management Accounts</a></li>
                             <li><a class="dropdown-item nav-link-navbar" href="dubai-tax-accountant.php">Dubai Tax Accountant</a></li>
+                            <li><a class="dropdown-item nav-link-navbar" href="expat-tax.php">Expat Tax</a></li>
                         </ul>
                         </li>
 
@@ -66,7 +68,7 @@
 
                         <!-- Pricing -->
                         <li class="nav-item">
-                        <a class="nav-link-navbar" href="#">Pricing</a>
+                        <a class="nav-link-navbar" href="pricing.php">Pricing</a>
                         </li>
 
                         <!-- About Dropdown -->
@@ -95,6 +97,6 @@
             </nav>
         </div>
         </div>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

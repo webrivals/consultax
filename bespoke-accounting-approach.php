@@ -15,12 +15,11 @@
 </head>
 <body>
 <!-- Header -->
-    <header>
-        <!-- Navbar -->
-        <navbar class="sticky-top">
+ <header class="sticky-top">
+    <navbar>
             <?php include 'includes/navbar.php'; ?>            
-        </navbar>
-    </header>
+    </navbar>
+ </header>
     <!-- Main Section -->
     <main>
         <?php include 'includes/breadcrumbs.php'; ?>
@@ -34,7 +33,7 @@
                         </h1>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-3">
                     <div class="col-12 col-md-6">
                         <p class="section-para">
                             At Consultax Chartered Accountants, UK-based accounting firm, we understand that every business
@@ -79,7 +78,7 @@
                 <h2 class="section-head"> Our Bespoke Accounting Services Include: </h2>
                 <div class="row">
                     <div class="col-12 col-md-6" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
-                        <div class="bespoke-sec-card" id="abt-card-1">
+                        <div class="bespoke-sec-card shadow" id="abt-card-1">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head" style="color:#ffffff;">Bespoke Financial Planning</p>
                             <p class="abt-card-desc" style="color:#ffffff;">We start by gaining a clear understanding of your business and financial ambitions, then craft a
@@ -90,7 +89,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
-                        <div class="bespoke-sec-card">
+                        <div class="bespoke-sec-card shadow">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Specialist Tax Services</p>
                             <p class="abt-card-desc">Our tailored tax planning and compliance support is designed to maximise efficiency while keeping
@@ -103,7 +102,7 @@
                 </div>
                 <div class="row mt-5 mt-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
                     <div class="col-12 col-md-6">
-                        <div class="bespoke-sec-card">
+                        <div class="bespoke-sec-card shadow">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Custom Reporting and Insightful Analysis</p>
                             <p class="abt-card-desc">We provide more than just numbers. Our tailored reports offer clear, data-driven insights into your
@@ -113,7 +112,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
-                        <div class="bespoke-sec-card">
+                        <div class="bespoke-sec-card shadow">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Dedicated Accountant Support</p>
                             <p class="abt-card-desc">We have a team of dedicated accountant who truly understands your business - its goals, pressures,
@@ -139,7 +138,7 @@
                     can confidently focus on what you do best, knowing that your financial foundation is in expert
                     hands.
                 </p>
-                <ul class="mt-3">
+                <ul class="mt-4">
                     <li class="vap-li">
                         <span class="commit-head">Expertise in all areas of Finance and Accounting sector</span>
                     </li>

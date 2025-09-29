@@ -15,12 +15,11 @@
 </head>
 <body>
 <!-- Header -->
-    <header>
-        <!-- Navbar -->
-        <navbar class="sticky-top">
+ <header class="sticky-top">
+    <navbar>
             <?php include 'includes/navbar.php'; ?>            
-        </navbar>
-    </header>
+    </navbar>
+ </header>
     <!-- Main Section -->
     <main>
         <?php include 'includes/breadcrumbs.php'; ?>

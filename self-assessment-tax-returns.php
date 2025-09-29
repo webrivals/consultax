@@ -15,12 +15,11 @@
 </head>
 <body>
 <!-- Header -->
-    <header class="sticky-top">
-        <!-- Navbar -->
-        <navbar >
+ <header class="sticky-top">
+    <navbar>
             <?php include 'includes/navbar.php'; ?>            
-        </navbar>
-    </header>
+    </navbar>
+ </header>
     <!-- Main Section -->
     <main>
         <?php include 'includes/breadcrumbs.php'; ?>
@@ -104,7 +103,7 @@
                     <div class="col-12">
                         <section class="tax-return-section container my-5">
                             <h2 class="section-head mb-0">Who Needs to Submit a Tax Return?</h2>
-                            <div class="table-responsive" style="border-radius: 15px; overflow: hidden;">
+                            <div class="table-responsive">
                                 <table class="table table-bordered rounded table-hover align-middle mt-5" style="border-radius: 15px;">
                                     <thead class="bg-theme-primary" style="background:#0E456D !important;">
                                         <!-- Table Header Row -->
@@ -187,7 +186,7 @@
                         </p>
                     </div>
                 </div>
-                <p class="mt-4 mb-3 section-sub-head">Take a Look at Our Value-Added Points:</p>
+                <p class="mt-1 mb-3 section-sub-head">Take a Look at Our Value-Added Points:</p>
                     <div class="row mt-2">
                         <div class="col-12 col-md-6">
                             <ul>
@@ -373,7 +372,5 @@
     });
 </script>
 <?php include 'includes/script.php'; ?>
-<script src="js/breadcrumb.js"></script>
-<script src="js/scroll-top.js"></script>
 </body>
 </html>

@@ -7,10 +7,17 @@
                         <img src="images/home-icon.svg" class="bcrumb-icon"/> Home
                     </a>
                 </li>
-                <li class="breadcrumb-item text-white display-6 fw-semibold active text-center" aria-current="page">
-                    
+                <li class="breadcrumb-item text-white display-6 fw-semibold active text-center" aria-current="page" id="breadcrumb-current">
+              
                 </li>
             </ol>
         </nav>
     </div>
 </div>
+<script>
+  // Get the page title from the document
+  const pageTitle = document.title;
+  
+  // Set it in the breadcrumb
+  document.getElementById('breadcrumb-current').textContent = pageTitle;
+</script>

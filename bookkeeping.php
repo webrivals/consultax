@@ -16,13 +16,10 @@
 <body>
 <!-- Header -->
  <header class="sticky-top">
-<!-- Navbar -->
-        <nav>
+    <navbar>
             <?php include 'includes/navbar.php'; ?>            
-        </nav>
+    </navbar>
  </header>
-        
-
     <!-- Main Section -->
     <main>
         <?php include 'includes/breadcrumbs.php'; ?>
@@ -100,7 +97,7 @@
                 <h2 class="section-head"> Our Bookkeeping Services </h2>
                 <div class="row mt-5">
                     <div class="col-12 col-md-6" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
-                        <div class="bkeep-sec-card shadow" id="abt-card-1">
+                        <div class="bkeep-sec-card mt-5 shadow" id="abt-card-1">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head" style="color:#ffffff;">Streamlined Invoicing, <span class="service-hl" style="background:#0e456d;">Sorted<span></p>
                             <p class="abt-card-desc" style="color:#ffffff;">
@@ -111,7 +108,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <div class="col-12 col-md-6 mt-5" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
                         <div class="bkeep-sec-card shadow">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Precise Bank Reconciliations,<span class="service-hl">Handled Right</span></p>
@@ -122,9 +119,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-5">
+                <div class="row mt-0 mt-md-5">
                     <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
-                        <div class="bkeep-sec-card shadow">
+                        <div class="bkeep-sec-card position-relative shadow">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Smart Asset Tracking, <span class="service-hl">Made Simple</span></p>
                             <p class="abt-card-desc">
@@ -153,7 +150,7 @@
         <div class="container-fluid mt-5 pb-5">
             <div class="container">
                 <h2 class="section-head">Frequently Asked Questions</h2>
-                <div class="accordion" id="BookKeeping">
+                <div class="accordion mt-5" id="BookKeeping">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#BookK-one" aria-expanded="true" aria-controls="BookK-one">

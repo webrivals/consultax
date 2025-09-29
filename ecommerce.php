@@ -15,12 +15,11 @@
 </head>
 <body>
 <!-- Header -->
-    <header>
-        <!-- Navbar -->
-        <navbar class="sticky-top">
+ <header class="sticky-top">
+    <navbar>
             <?php include 'includes/navbar.php'; ?>            
-        </navbar>
-    </header>
+    </navbar>
+ </header>
     <!-- Main Section -->
     <main>
         <?php include 'includes/breadcrumbs.php'; ?>
@@ -82,7 +81,7 @@
                 </p>
                 <div class="row mt-5">
                     <div class="col-12 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="400">
-                        <div class="bkeep-sec-card" id="abt-card-1">
+                        <div class="bkeep-sec-card shadow" id="abt-card-1">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head" style="color:#ffffff;">VAT and Tax Returns</p>
                             <p class="abt-card-desc" style="color:#ffffff;">
@@ -94,7 +93,7 @@
                         </div>
                         </div>
                         <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-                            <div class="bkeep-sec-card">
+                            <div class="bkeep-sec-card shadow">
                                 <img src="images/asterisk.svg" class="feature-star"/>
                                 <p class="abt-card-head">Annual Accounts Preparation</p>
                                 <p class="abt-card-desc">
@@ -108,7 +107,7 @@
                 </div>
                 <div class="row mt-0 mt-md-4">
                     <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
-                        <div class="bkeep-sec-card">
+                        <div class="bkeep-sec-card shadow">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Payroll Management</p>
                             <p class="abt-card-desc">
@@ -120,7 +119,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
-                        <div class="bkeep-sec-card">
+                        <div class="bkeep-sec-card shadow">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Financial Analysis and Forecasting</p>
                             <p class="abt-card-desc">
@@ -134,7 +133,7 @@
                 </div>
                 <div class="row mt-0 mt-md-4">
                     <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
-                        <div class="bkeep-sec-card">
+                        <div class="bkeep-sec-card shadow">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Bookkeeping</p>
                             <p class="abt-card-desc">
@@ -146,7 +145,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900">
-                        <div class="bkeep-sec-card">
+                        <div class="bkeep-sec-card shadow">
                             <img src="images/asterisk.svg" class="feature-star"/>
                             <p class="abt-card-head">Tax Planning</p>
                             <p class="abt-card-desc">
@@ -165,7 +164,7 @@
             <div class="container-fluid mt-5 pb-5">
                 <div class="container">
                 <p class="section-head">Frequently Asked Questions</p>
-                <div class="accordion" id="ECOM">
+                <div class="accordion mt-5" id="ECOM">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ECOM-one" aria-expanded="true" aria-controls="ECOM-one">
