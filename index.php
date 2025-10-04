@@ -42,7 +42,7 @@
                         </div>
                         <!-- Hero Section Para for Desktop Screens -->
                         <div class="mt-5 order-1 order-md-2 d-none d-lg-flex">
-                            <p class="hero-para">
+                            <p class="hero-para mt-5">
                                 Experienced <span class="hero-link-bold"><a class="hero-link-bold-a">UK Tax Accountant</a></span> and <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Specialist Tax Advisor</a></span>, providing tailored <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Tax
                                 Planning Services</a></span> to
                                 individuals and businesses across the UK. Effortlessly manage your taxes, unlock
@@ -270,7 +270,6 @@
                                 <img src="images/offer-card1.png" class="offer-imgs"/>
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">From personal tax returns to corporate tax strategies, we help you stay ahead and save more.</p>
-                                    <!-- <a href="#" class="text-decoration-none align-self-center offer-link">Know More</a> -->
                                      <a href="tax-planning.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
                             </div>
@@ -279,7 +278,6 @@
                                 <img src="images/offer-card2.jpg" class="offer-imgs"/>
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Navigate the complexities of VAT and GST with expert support that ensures full accuracy and maximised savings.</p>
-                                    <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
                                      <a href="vat.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
                             </div>
@@ -288,7 +286,6 @@
                                 <img src="images/offer-card3.jpg" class="offer-imgs"/>
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Hassle-free payroll solutions, RTI submissions, and auto-enrolment support for businesses of all sizes.</p>
-                                    <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
                                      <a href="payroll-services.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>  
                             </div>
@@ -297,7 +294,6 @@
                                 <img src="images/offer-card4.jpg" class="offer-imgs"/>
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Maintain accurate records, ensure full HMRC compliance, simplify finances, and manage your accounts with ease.</p>
-                                    <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
                                      <a href="bookkeeping.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>  
                             </div>
@@ -306,7 +302,6 @@
                                 <img src="images/offer-card5.jpg" class="offer-imgs"/>
                                  <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Gain clarity on your finances with expert insights, tailored to help you grow and make informed decisions.</p>
-                                    <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
                                      <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
                             </div>
@@ -315,7 +310,6 @@
                                 <img src="images/offer-card6.jpg" class="offer-imgs"/>
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Your tax return, Our professional priority. Navigate your tax responsibilities with clarity and assurance through our Self-Assessment service.</p>
-                                    <!-- <a href="#" class="text-decoration-none offer-link">Know More</a> -->
                                      <a href="self-assessment-tax-returns.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
                                 </div>
                             </div>

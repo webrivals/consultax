@@ -959,7 +959,7 @@ ul {
 }
 .accordion{
     background:black !important;
-    border:none;
+    outline:none !important;
 }
 .accordion-button:focus {
   box-shadow: none !important;
@@ -977,6 +977,8 @@ ul {
 }
 .accordion{
     background: #ffffff !important;
+    border:none !important;
+    outline: none !important;
 }
 .accordion-item{
     margin-bottom: 20px;
@@ -990,16 +992,75 @@ ul {
 .child-accordion {
     margin-top: 20px;
 }
+.accordion-button{
+    box-shadow: var(--box-shadow);
+}
 /* Remove blue background when accordion is open */
 .accordion-button:not(.collapsed) {
     background-color: #fff !important;
-    box-shadow: none; /* remove inner shadow */
+    box-shadow: var(--box-shadow);
+}
+.accordion-button:not(.collapsed) .accordion-header{
+    background-color: #fff !important;
+    box-shadow: var(--box-shadow);
 }
 
 /* Optional: Remove focus outline */
 .accordion-button:focus {
     box-shadow: none;
 }
+
+/* ensure top + bottom borders remain visible at all times */
+.accordion-button {
+  border: 2px solid #f1f1f1 !important; /* replace outline with border for consistency */
+  border-radius: var(--border-radius) !important;
+  box-shadow: var(--box-shadow);
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* when open, keep same border — prevent top disappearing */
+.accordion-button:not(.collapsed) {
+  border-color: #f1f1f1 !important;
+  background-color: #fff !important;
+  position: relative;
+  z-index: 2;
+}
+
+/* remove Bootstrap’s default border removal */
+.accordion-button::after {
+  border: none !important;
+}
+
+/* optional – maintain slight spacing between items */
+.accordion-item {
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
+/* Dropdown background and shadow */
+.navbar .dropdown-menu {
+  background-color: #fff; /* your theme color */
+  border: none;
+  color:#0E456D;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Dropdown link styling */
+.navbar .dropdown-menu .dropdown-item {
+  color: #fff; /* text color */
+  padding: 10px 20px;
+  transition: background 0.3s ease;
+}
+
+/* Hover/active states */
+.navbar .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown-menu .dropdown-item:focus {
+  background-color: #08314F !important; /* slightly darker */
+  color: #fff !important;
+}
+
 
 /* Bookkeeping */
 
@@ -1100,7 +1161,7 @@ ul {
 }
 .price-type{
     font-size: 16px;
-    color:#f1f1f1 !important;
+    /* color:#f9f9f9 !important; */
 }
 .chk-mark-span{
     margin-right:10px;
@@ -1237,7 +1298,7 @@ ul {
         background:var(--bg-primary);
     }
     .foot-link-head{
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .footer-comp-desc {
         font-size: 20px;
@@ -1255,6 +1316,13 @@ ul {
     }
     .blog-title {
         font-weight: 500;
+    }
+     .dropdown-menu.show {
+        border: none;
+        margin-left:15px;
+    }
+    .footer-logo {
+        margin-bottom: 20px;
     }
 }
 
@@ -1476,6 +1544,19 @@ ul {
         font-weight: 500;
         color: var(--color-primary);
     }
+    .dropdown-menu.show {
+        border: none;
+        margin-left:15px;
+    }
+    .dropdown-item.nav-link-navbar{
+        padding:0px 15px;
+    }
+        #breadcrumb-bg{
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='600' height='560' preserveAspectRatio='none' viewBox='0 0 600 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3crect width='600' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M90.73 347.17 a120.48 120.48 0 1 0 240.96 0 a120.48 120.48 0 1 0 -240.96 0z' fill='rgba(14%2c 69%2c 109%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M358.66 169.58 a98.56 98.56 0 1 0 197.12 0 a98.56 98.56 0 1 0 -197.12 0z' fill='rgba(14%2c 69%2c 109%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M204.1726750819073 249.96861815372492L197.80987148953068 371.3781432170316 319.21939655283734 377.74094680940823 325.58220014521396 256.33142174610157z' fill='rgba(14%2c 69%2c 109%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M518.3688094082803 419.5779132511388L663.9429049748989 396.52124159906936 640.8862333228294 250.9471460324508 495.31213775621086 274.0038176845203z' fill='rgba(14%2c 69%2c 109%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-20.638589806087708 53.34107369652052L54.100194923269136 123.03611797624079 121.2733689781711-23.919581257654627z' fill='rgba(14%2c 69%2c 109%2c 1)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='600' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+    }
 }
 
 /* Extra small phones */
@@ -1647,6 +1728,9 @@ ul {
     .cta-redirect-page{
         font-size: 14px;
     }
-    
+    .dropdown-menu.show {
+        border: none;
+        margin-left:15px;
+    }
     
 }

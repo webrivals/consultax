@@ -259,7 +259,7 @@
                 <div class="container-fluid mt-5 pb-5">
                     <div class="container">
                         <h2 class="section-head">Frequently Asked Questions</h2>
-                        <div class="accordion" id="SelfAssessmentTaxReturns">
+                        <div class="accordion mt-5" id="SelfAssessmentTaxReturns">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SATR-one" aria-expanded="true" aria-controls="SATR-one">

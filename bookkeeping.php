@@ -240,11 +240,7 @@
     <footer>
         <?php include 'includes/footer.php'; ?>            
     </footer>
-    <?php include 'includes/scroll-top.php'; ?>
 <!--JavaScript-->
  <?php include 'includes/script.php'; ?>
-<script src="js/breadcrumb.js"></script>
-<script src="js/scroll-top.js"></script>
-
 </body>
 </html>
