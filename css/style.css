@@ -26,24 +26,38 @@ body{
     box-sizing: border-box;
     overflow-x: hidden !important;
     position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;   
+    -ms-user-select: none;    
+    user-select: none;  
+    cursor: pointer;
+}
+img {
+  -webkit-user-drag: none;
+   user-drag: none;
 }
 .bdr-radi{
     border-radius: var(--border-radius) !important;
 }
 .testimonial-carousel {
+    height:90vh;
   overflow: hidden;
-  height: 60vh; /* adjust as you want */
   position: relative;
 }
 
 #reviews {
-  display: flex;
-  flex-direction: column;
+  display: block;
   animation: scrollReviews 90s linear infinite;
+  will-change: transform;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
+
 @keyframes scrollReviews {
   0% { transform: translateY(0); }
-  100% { transform: translateY(-50%); } /* scroll half, because of duplication */
+  100% { transform: translateY(-50%); }
 }
 
 /* Optional: pause on hover */
@@ -108,6 +122,29 @@ a{
   text-underline-offset: 4px !important;
 }
 
+/* highlight current page */
+.nav-link-navbar.active,
+.dropdown-item.active {
+  text-decoration: underline !important;
+  text-decoration-color: var(--bg-secondary) !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 4px !important;
+  color: var(--color-primary) !important;
+}
+
+/* when parent dropdown is active */
+.dropdown-toggle.active {
+  color: var(--color-primary) !important;
+  font-weight: 700 !important;
+}
+
+/* highlight active dropdown item background */
+.dropdown-menu .active {
+  background-color: #f1f1f1 !important;
+}
+
+
+
 /* dropdown menu items (use Bootstrap .dropdown-item but adapt color) */
 .dropdown-menu .dropdown-item {
   color: var(--color-primary) !important;
@@ -164,6 +201,11 @@ a{
     color:#ffffff;
     font-weight:700;
     font-size:28px;
+}
+.hero-link-bold-a-mob{
+    font-size: 23px !important;
+    color:#ffffff !important;
+    font-weight:500;
 }
 .hero-contact-btn{
     color:#ffffff;

@@ -1,4 +1,3 @@
-<body> 
 <section class="section-container pb-3 shadow-top" style="margin-top:80px;" id="footer" aria-labelled="Footer">
     <div class="container-fluid">
         <div class="container">
@@ -104,4 +103,3 @@
     once: true      // animate only once while scrolling
   });
 </script>
-</body>

@@ -4,21 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAX Planning</title>
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet"/>
-    <!-- Bootstrap CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
-    <!-- Font -->
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,300,400,500,700,900&display=swap" rel="stylesheet">
-    <!-- AOS CSS -->
     <?php include 'includes/header.php'; ?>
 </head>
 <body>
 <!-- Header -->
  <header class="sticky-top">
-    <navbar>
+    <nav>
             <?php include 'includes/navbar.php'; ?>            
-    </navbar>
+    </nav>
  </header>
     <!-- Main Section -->
     <main>
