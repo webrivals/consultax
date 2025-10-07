@@ -93,7 +93,7 @@
                 <div class="row mt-4">
                     <div class="col-12 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                         <div class="bkeep-sec-card shadow" id="abt-card-1">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head" style="color:#ffffff;">Expert Business Decisions</p>
                             <p class="abt-card-desc" style="color:#ffffff;">
                                 Consultax Chartered Accountants is a results-driven firm with deep expertise in supporting
@@ -104,7 +104,7 @@
                         </div>
                         <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
                             <div class="bkeep-sec-card shadow">
-                                <img src="images/asterisk.svg" class="feature-star"/>
+                                <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                                 <p class="abt-card-head">Strategic Financial Decisions</p>
                                 <p class="abt-card-desc">
                                     We offer invaluable insights that transform your raw management figures into clear, professional, and actionable reports. These reports become powerful tools for your management team, enabling smarter strategic decisions, improving operational efficiency, and fuelling long-term business success.
@@ -113,7 +113,7 @@
                         </div>
                         <div class="col-12 col-md-6 mt-5 mt-md-4"data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Accurate Account Management</p>
                             <p class="abt-card-desc">
                                 Our dedicated financial accountant ensures the accuracy and integrity of your monthly or quarterly account reports. They expertly reconcile even the most complex balance sheet items, identify discrepancies before they become issues, and ensure your financial records are always precise.
@@ -122,7 +122,7 @@
                     </div>
                     <div class="col-12 col-md-6 mt-5 mt-md-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Reliable Financial Oversight</p>
                             <p class="abt-card-desc">
                                 Our dedicated financial accountant ensures accurate monthly or quarterly reports. They expertly reconcile complex balance sheet items so you stay on top of finances. With their attention to detail, you’ll never miss important obligations. Enjoy a clear, up-to-date view of your management accounts.

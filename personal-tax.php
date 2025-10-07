@@ -88,7 +88,7 @@
                 <div class="row mt-5">
                     <div class="col-12 col-md-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                         <div class="bkeep-sec-card shadow" id="abt-card-1">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head" style="color:#ffffff;">Income Tax</p>
                             <p class="abt-card-desc" style="color:#ffffff;">Unlock the full potential of your income with Consultax&#39;s expert Income Tax Services. Our team
                                 navigates the ins and outs of tax regulations to maximise your deductions, minimise liabilities, and
@@ -98,7 +98,7 @@
                         </div>
                         <div class="col-12 col-md-4 mt-5 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
                             <div class="bkeep-sec-card shadow">
-                                <img src="images/asterisk.svg" class="feature-star"/>
+                                <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                                 <p class="abt-card-head">Capital Gains Tax</p>
                                 <p class="abt-card-desc">Manage your investments with confidence through Consultax’s Capital Gains Tax Services. Our
                                     seasoned experts offer strategic insights to reduce liabilities, optimise gains, and help you keep more
@@ -107,7 +107,7 @@
                         </div>
                         <div class="col-12 col-md-4 mt-5 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Property Tax</p>
                             <p class="abt-card-desc">
                                 Owning property shouldn’t come with tax headaches. At Consultax, we cut through the complexity -

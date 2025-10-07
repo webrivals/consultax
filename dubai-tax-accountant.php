@@ -102,7 +102,7 @@
                 <div class="row mt-5">
                     <div class="col-12 col-md-6" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
                         <div class="bkeep-sec-card shadow" id="abt-card-1">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head" style="color:#ffffff;">Smart Bookkeeping Solutions</p>
                             <p class="abt-card-desc" style="color:#ffffff;">From invoicing to real-time expense tracking, our bookkeeping services are designed to streamline
                                 your financial operations. Gain actionable insights and maintain full visibility over your cash flow and
@@ -113,7 +113,7 @@
                     </div>
                     <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Accurate Reconciliation</p>
                             <p class="abt-card-desc">
                                 From invoicing to real-time expense tracking, our bookkeeping services streamline your financial operations. 
@@ -127,7 +127,7 @@
                 <div class="row mt-md-4">
                     <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Payroll Management</p>
                             <p class="abt-card-desc">
                                 We handle every aspect of payroll - from accurate salary calculations and statutory deductions to
@@ -138,7 +138,7 @@
                     </div>
                     <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Financial Reporting and Audit</p>
                             <p class="abt-card-desc">Our expert accountants deliver in-depth financial reporting and audit services, ensuring 
                                 every transaction is accurately documented and compliant with regulations. With a focus on precision, we provide 

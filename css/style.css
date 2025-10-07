@@ -83,8 +83,12 @@ a{
 }
 .contact-btn{
     background:var(--bg-secondary) !important;
-    border-radius:var(--border-radius);
+    transition: background 0.4s ease;
 }
+.contact-btn:hover{
+    background:#32CD32 !important;
+}
+
 .nav-link-navbar {
     padding: 0.5rem 1rem;  /* top-bottom, left-right */
     display: block;
@@ -207,16 +211,41 @@ a{
     color:#ffffff !important;
     font-weight:500;
 }
-.hero-contact-btn{
-    color:#ffffff;
-    background:var(--bg-secondary);
-    padding:10px 20px;
-    border-radius:5px;
-    font-size:22px;
-    font-weight:700;
-    cursor:pointer;
-    text-transform: capitalize;
+.hero-contact-btn {
+    position: relative;
+    color: #ffffff;
+    background: var(--bg-secondary);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    border: none;
+    transition: color 0.4s ease;
 }
+
+.hero-contact-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+
+.hero-contact-btn:hover::before {
+    left: 0;
+}
+
+.hero-contact-btn:hover {
+    color: var(--bg-secondary);
+}
+
 .section-container{
     padding: 40px 0px 40px;
     position: relative;
@@ -268,7 +297,7 @@ ul{
 .section-stamps{
     color:var(---color-orange);
     font-weight:600;
-    font-size:25px;
+    font-size:14px;
     text-align: center;
     letter-spacing: 1px;
     padding:5px 20px;
@@ -544,12 +573,6 @@ ul{
 .bg-color{
     background:#E6ECF0;/*rename the class*/
 }
-.principle-icon-div{
-    width:20%;
-}
-.principle-text-div{
-    width:80%;
-}
 .principle-head{
     font-size:24px;
     color:var(--bg-primary);
@@ -788,13 +811,21 @@ ul li{
 }
 .foot-links {
   font-size: 20px;
-  color: var(--bg-primary);
   font-weight: 400;
-  transition: color 0.3s ease;
+  text-decoration: none;
+  background: linear-gradient(to right, #1A8FE3 50%, var(--bg-primary) 50%);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: background-position 0.5s ease;
 }
+
 .foot-links:hover {
-  color: #1A8FE3 !important;
+  background-position: right center; /* slide the gradient to fill from left to right */
 }
+
+
 .foot-hr{
     background:var(--bg-primary);
 }
@@ -1216,16 +1247,11 @@ ul {
     border:none !important;
 }
 .price-buy {
+    font-size: 16px;
   transition: background-color 0.5s ease-in-out;
 }
-
 .price-buy:hover {
   background: var(--bg-secondary) !important;
-}
-.price-buy:hover ~ svg path
-{
-  fill: #32CD32; /* green */
-  transition: fill 0.3s ease-in-out;
 }
 .price-page-links {
     color:#000000;
@@ -1240,7 +1266,25 @@ ul {
 
 /* Large tablets & small desktops */
 @media (max-width: 1200px) {
-  
+
+    
+    
+}
+
+@media (max-width: 1024px) {
+    .hero-head{
+        font-size:45px;
+    }
+    .navbar-logo {
+        width: 200px;
+        height: 65px;
+    }
+    .no-pad-mob{
+        padding:0px;
+    }
+    .nav-link-navbar{
+        font-size: 16px;
+    }
 }
 
 /* Show dropdown on hover (desktop only) */
@@ -1252,11 +1296,6 @@ ul {
   .dropdown-item{
     padding:10px;
   }
-}
-
-/* Tablets (portrait + landscape) */
-@media (max-width: 992px) {
-  
 }
 
 /* Large phones / small tablets */

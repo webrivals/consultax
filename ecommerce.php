@@ -75,7 +75,7 @@
                 <div class="row mt-5">
                     <div class="col-12 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="400">
                         <div class="bkeep-sec-card shadow" id="abt-card-1">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head" style="color:#ffffff;">VAT and Tax Returns</p>
                             <p class="abt-card-desc" style="color:#ffffff;">
                                 Managing VAT for eCommerce, especially with international sales, can be complex and time-consuming. 
@@ -87,7 +87,7 @@
                         </div>
                         <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                             <div class="bkeep-sec-card shadow">
-                                <img src="images/asterisk.svg" class="feature-star"/>
+                                <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                                 <p class="abt-card-head">Annual Accounts Preparation</p>
                                 <p class="abt-card-desc">
                                     We take care of preparing and submitting your annual accounts to Companies House with precision
@@ -101,7 +101,7 @@
                 <div class="row mt-0 mt-md-4">
                     <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Payroll Management</p>
                             <p class="abt-card-desc">
                                 Let us handle your payroll with complete accuracy and efficiency. From calculating salaries and 
@@ -113,7 +113,7 @@
                     </div>
                     <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Financial Analysis and Forecasting</p>
                             <p class="abt-card-desc">
                                 We work alongside you to drive smart business growth, focusing on cash flow, performance trends, and
@@ -127,7 +127,7 @@
                 <div class="row mt-0 mt-md-4">
                     <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Bookkeeping</p>
                             <p class="abt-card-desc">
                                 Using the latest software and smart tools, we take the hassle out of managing your daily finances.
@@ -139,7 +139,7 @@
                     </div>
                     <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Tax Planning</p>
                             <p class="abt-card-desc">
                                 We work closely with you to design a smart, tailored tax strategy built around your unique goals. 

@@ -91,7 +91,7 @@
                 <div class="row mt-5">
                     <div class="col-12 col-md-6" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
                         <div class="bkeep-sec-card mt-5 shadow" id="abt-card-1">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head" style="color:#ffffff;">Streamlined Invoicing, <span class="service-hl" style="background:#0e456d;">Sorted<span></p>
                             <p class="abt-card-desc" style="color:#ffffff;">
                                 With Consultax, sending professional invoices is effortless. Automate recurring bills, monitor payments, and stay 
@@ -103,7 +103,7 @@
                     </div>
                     <div class="col-12 col-md-6 mt-5" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Precise Bank Reconciliations,<span class="service-hl">Handled Right</span></p>
                             <p class="abt-card-desc">At Consultax, we keep your records in perfect sync with your bank statements. Our team reviews
                                 every transaction, swiftly resolving discrepancies to prevent errors and spot potential fraud. With
@@ -115,7 +115,7 @@
                 <div class="row mt-0 mt-md-5">
                     <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
                         <div class="bkeep-sec-card position-relative shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Smart Asset Tracking, <span class="service-hl">Made Simple</span></p>
                             <p class="abt-card-desc">
                                 We take the hassle out of managing fixed assets and depreciation. From purchase to disposal, 
@@ -127,7 +127,7 @@
                     </div>
                     <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1200">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Clear Cash Flow, <span class="service-hl">Better Control</span></p>
                             <p class="abt-card-desc">Our expert cash flow management keeps your ins and outs in perfect balance, helping you budget
                                 wisely and invest where it counts. We spot inefficiencies, boost profit margins, and streamline

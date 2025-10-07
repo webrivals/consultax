@@ -139,7 +139,7 @@
                 <div class="row mt-5">
                     <div class="col-12 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                         <div class="bkeep-sec-card shadow" id="abt-card-1">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head" style="color:#ffffff;">Tailored Tax Planning, All Under One Roof</p>
                             <p class="abt-card-desc" style="color:#ffffff;">
                                 At Consultax, we offer both business and personal tax planning, delivered through a fully bespoke approach. 
@@ -151,7 +151,7 @@
                         </div>
                         <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
                             <div class="bkeep-sec-card shadow">
-                                <img src="images/asterisk.svg" class="feature-star"/>
+                                <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                                 <p class="abt-card-head">Well-Experienced</p>
                                 <p class="abt-card-desc">
                                     With decades of experience, Consultax Chartered Accountants delivers tailored tax planning services to optimise personal and business finances. Our seasoned professionals navigate the complexities of tax and financial needs, providing clear guidance and ensuring you stay on track for long-term success.
@@ -160,7 +160,7 @@
                         </div>
                         <div class="col-12 col-md-6 mt-5 mt-md-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Focused on Your Success</p>
                             <p class="abt-card-desc">
                                 At Consultax, we’re dedicated to helping you stay ahead in an ever-evolving business landscape.
@@ -172,7 +172,7 @@
                     </div>
                     <div class="col-12 col-md-6 mt-5 mt-md-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
                         <div class="bkeep-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Valuable Business Advice</p>
                             <p class="abt-card-desc">
                                 A fruitful conversation can open the path towards lasting financial stability for your business. Let’s

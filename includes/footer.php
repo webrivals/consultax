@@ -1,9 +1,9 @@
-<section class="section-container pb-3 shadow-top" style="margin-top:80px;" id="footer" aria-labelled="Footer">
+<section class="section-container pb-3 shadow-top" style="margin-top:80px;" id="footer" aria-label="Footer">
     <div class="container-fluid">
         <div class="container">
             <div class="row gap-5 mb-5 justify-content-between">
                 <div class="col-12 col-lg-5">
-                    <img src="images/consultax-logo1.png" class="footer-logo"/>
+                    <img src="images/consultax-logo1.png" class="footer-logo" alt="Consultax Logo">
                     <p class="footer-comp-desc">
                         Consultax Chartered is a team of
                         London-based Chartered Accountants
@@ -56,13 +56,13 @@
                 <div class="col-12 d-flex flex-row justify-content-between">
                     <a href="https://www.facebook.com/consultaxaccountants" target="_blank" class="col-6">
                         <div class="d-flex flex-row align-items-center">
-                            <img src="images/FB-logo.png" class="foot-social-icons"/>
+                            <img src="images/FB-logo.png" class="foot-social-icons" alt="Facebook Logo">
                             <p class="mb-0 ms-3 foot-social-text">Facebook</p>
                         </div>
                     </a>
                     <a href="#" target="_blank" class="col-6">
                         <div class="d-flex flex-row align-items-center">
-                            <img src="images/Insta-logo.png" class="foot-social-icons"/>
+                            <img src="images/Insta-logo.png" class="foot-social-icons" alt="Instagram Logo">
                             <p class="mb-0 ms-3 foot-social-text">Instagram</p>
                         </div>
                     </a>
@@ -71,7 +71,7 @@
         </div>
         </div>
     </div>
-    <hr class="foot-hr"/>
+    <hr class="foot-hr">
     <div class="container-fluid">
         <div class="container">
             <div class="row align-items-center">
@@ -81,13 +81,13 @@
                 <div class="d-none d-md-flex col-12 col-md-5 col-lg-4 d-flex flex-row justify-content-between">
                     <a href="https://www.facebook.com/consultaxaccountants" target="_blank">
                         <div class="d-flex flex-row align-items-center">
-                            <img src="images/FB-logo.png" class="foot-social-icons"/>
+                            <img src="images/FB-logo.png" class="foot-social-icons" alt="Facebook Logo">
                             <p class="mb-0 ms-1 foot-social-text">Facebook</p>
                         </div>
                     </a>
                     <a href="#" target="_blank">
                         <div class="d-flex flex-row align-items-center">
-                            <img src="images/Insta-logo.png" class="foot-social-icons"/>
+                            <img src="images/Insta-logo.png" class="foot-social-icons"  alt="Instagram Logo">
                             <p class="mb-0 ms-1 foot-social-text">Instagram</p>
                         </div>
                     </a>

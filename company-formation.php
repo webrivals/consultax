@@ -25,16 +25,16 @@
                 <p class="section-para">Establishing a company protects your business assets and ensures personal and business finances remain distinct.</p>
                 <ul class="mt-3">
                     <li class="vap-li">
-                        <span class="commit-head">Trusted and Approved :</span> <span class="commit-desc">Officially recognised by Companies House as a fully authorised formation agent.</span>
+                        <span class="commit-head">Trusted and Approved :</span><span class="commit-desc">Officially recognised by Companies House as a fully authorised formation agent.</span>
                     </li>
                     <li class="vap-li">
-                        <span class="commit-head">Expert UK Support :</span> <span class="commit-desc">Our senior specialists offer tailored, one-to-one help via phone, email, and live chat.</span>
+                        <span class="commit-head">Expert UK Support :</span><span class="commit-desc">Our senior specialists offer tailored, one-to-one help via phone, email, and live chat.</span>
                     </li>
                     <li class="vap-li">
-                        <span class="commit-head">Time and Cost Efficient :</span> <span class="commit-desc">Swift, stress-free service that lets you gets on with growing your business.</span>
+                        <span class="commit-head">Time and Cost Efficient :</span><span class="commit-desc">Swift, stress-free service that lets you gets on with growing your business.</span>
                     </li>
                     <li class="vap-li">
-                        <span class="commit-head">Accountancy You Can Rely On :</span> <span class="commit-desc">Professional accountants ensuring accurate records and full compliance post-formation.</span>
+                        <span class="commit-head">Accountancy You Can Rely On :</span><span class="commit-desc">Professional accountants ensuring accurate records and full compliance post-formation.</span>
                     </li>
                 </ul>
             </div>

@@ -27,7 +27,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-12 col-md-5">
-                        <img src="images/about-page-img.jpg" class="img-fluid img-bdr"/>
+                        <img src="images/about-page-img.jpg" class="img-fluid img-bdr" alt="Company About Image">
                     </div>
                     <div class="col-12 col-md-7 my-auto">
                         <p class="mt-4 mt-md-0  section-para">We're a modern, tax-savvy firm based in London and the Midlands, supporting local businesses and
@@ -40,7 +40,7 @@
                 <div class="row flex-row-reverse d-flex flex-row justify-content-between mt-5">
                     <h2 class="section-head">About CEO, <span class="fw-semibold txt-theme-secondary">Mr. Varun Gupta</span></h2>
                     <div class="col-12 col-md-5">
-                        <img src="images/CEO.jpg" class="img-fluid img-bdr"/>
+                        <img src="images/CEO.jpg" class="img-fluid img-bdr" alt="Company Managing Director">
                     </div>
                     <div class="col-12 col-md-6 my-auto">
                         <p class="mt-4 mt-md-0 section-para">Founder and director graduated from University of Warwick with a First Class in BSc (Hons) in
@@ -63,21 +63,21 @@
                 <div class="row mt-4">
                     <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
                         <div class="abt-sec-card shadow" id="abt-card-1">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head" style="color:#ffffff;">Proven Expertise</p>
                             <p class="abt-card-desc" style="color:#ffffff;">Our team of professional Chartered Accountants brings years of experience, industry knowledge, and a commitment to excellence, ensuring your business is in skilled hands.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 mt-5 mt-md-0"  data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
                         <div class="abt-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Transparent Communication</p>
                             <p class="abt-card-desc">We prioritise clear, consistent, and transparent communication, giving you full confidence in every financial decision and strategy we recommend.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 mt-5 mt-md-0"  data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
                         <div class="abt-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Tailored Solutions</p>
                             <p class="abt-card-desc">We understand that each business is unique. Consultax provides customised financial strategies designed specifically to meet your goals and challenges.</p>
                         </div>
@@ -86,21 +86,21 @@
                 <div class="row mt-5 mt-md-4">
                     <div class="col-12 col-md-4"  data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
                         <div class="abt-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Compliance Assurance</p>
                             <p class="abt-card-desc">Our professionals stay up-to-date on the latest tax regulations and financial standards, ensuring your business remains compliant and fully protected.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="900">
                         <div class="abt-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Proactive Support</p>
                             <p class="abt-card-desc">We offer proactive advice beyond routine services, identifying potential risks and opportunities to help your business thrive in an evolving market.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 mt-5 mt-md-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
                         <div class="abt-sec-card shadow">
-                            <img src="images/asterisk.svg" class="feature-star"/>
+                            <img src="images/asterisk.svg" class="feature-star" alt="Feature Star">
                             <p class="abt-card-head">Long-Term Partnership</p>
                             <p class="abt-card-desc">We aim to build lasting relationships with our clients, providing guidance and support through every stage of your business journey.</p>
                         </div>

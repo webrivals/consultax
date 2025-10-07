@@ -7,5 +7,5 @@
     </div>
     <!-- WhatsApp Chat Icon -->
     <a href="https://wa.me/442030846407" target="_blank" id="whatsappBtn" title="Chat with us">
-        <img src="images/wa-icon.svg" alt="WhatsApp Chat" class="whatsapp-icon"/>
+        <img src="images/wa-icon.svg" alt="WhatsApp Chat" class="whatsapp-icon">
     </a>

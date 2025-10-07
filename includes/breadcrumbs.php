@@ -4,7 +4,7 @@
             <ol class="breadcrumb d-flex flex-column flex-md-row justify-content-center align-items-center p-5">
                 <li class="breadcrumb-item">
                     <a href="index.php" class="txt-theme-secondary display-5 fw-medium mb-0">
-                        <img src="images/home-icon.svg" class="bcrumb-icon"/> Home
+                        <img src="images/home-icon.svg" class="bcrumb-icon" alt="Home Icon"> Home
                     </a>
                 </li>
                 <li class="breadcrumb-item text-white display-6 fw-semibold active text-center" aria-current="page" id="breadcrumb-current">
