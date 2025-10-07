@@ -255,7 +255,7 @@
                     <!-- We offer Section for Mobile -->
                     <div class="row d-block d-lg-none mb-5">
                         <div class="col-12 ">
-                            <div id="TaxPlanningAndComplianceMob" class="mt-5 mt-md-2 offer-item ">
+                            <div id="TaxPlanningAndComplianceMob" class="mt-3 mt-md-2 offer-item ">
                                 <h4 class="offer-panel-head-mob">Tax Planning and Compliance</h4>
                                 <img src="images/offer-card1.png" class="offer-imgs" alt="Tax Planning and Compliance">
                                 <div class="d-flex flex-column">
@@ -263,7 +263,7 @@
                                      <a href="tax-planning.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
                                 </div>
                             </div>
-                            <div id="VATAndGSTAdvisoryMob" class="mt-5 mt-md-2 offer-item ">
+                            <div id="VATAndGSTAdvisoryMob" class="mt-3 mt-md-2 offer-item ">
                                 <h4 class="offer-panel-head-mob">VAT and GST Advisory</h4>
                                 <img src="images/offer-card2.jpg" class="offer-imgs" alt="VAT and GST Advisory">
                                 <div class="d-flex flex-column">
@@ -271,7 +271,7 @@
                                      <a href="vat.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More  <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
                                 </div>
                             </div>
-                            <div id="PayrollServicesMob" class="mt-5 mt-md-2 offer-item ">
+                            <div id="PayrollServicesMob" class="mt-3 mt-md-2 offer-item ">
                                 <h4 class="offer-panel-head-mob">Payroll Services</h4>
                                 <img src="images/offer-card3.jpg" class="offer-imgs" alt="Payroll Services">
                                 <div class="d-flex flex-column">
@@ -279,7 +279,7 @@
                                      <a href="payroll-services.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More  <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
                                 </div>  
                             </div>
-                            <div id="BookkeepingAndAccountsPreparationMob" class="mt-5 mt-md-2 offer-item ">
+                            <div id="BookkeepingAndAccountsPreparationMob" class="mt-3 mt-md-2 offer-item">
                                 <h4 class="offer-panel-head-mob">Bookkeeping and Accounts Preparation</h4>
                                 <img src="images/offer-card4.jpg" class="offer-imgs" alt="Bookkeeping and Accounts Preparation">
                                 <div class="d-flex flex-column">
@@ -287,7 +287,7 @@
                                      <a href="bookkeeping.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More  <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
                                 </div>  
                             </div>
-                            <div id="FinancialPlanningAndForecastingMob" class="mt-5 mt-md-2 offer-item ">
+                            <div id="FinancialPlanningAndForecastingMob" class="mt-3 mt-md-2 offer-item ">
                                 <h4 class="offer-panel-head-mob">Business Advisory and Financial Forecasting</h4>
                                 <img src="images/offer-card5.jpg" class="offer-imgs" alt="Business Advisory and Financial Forecasting">
                                  <div class="d-flex flex-column">
@@ -295,7 +295,7 @@
                                      <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More  <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
                                 </div>
                             </div>
-                            <div id="SelfAssessmentTaxReturnsMob" class="mt-5 mt-md-2 offer-item ">
+                            <div id="SelfAssessmentTaxReturnsMob" class="mt-3 mt-md-2 offer-item ">
                                 <h4 class="offer-panel-head-mob">Self-Assessment Tax Returns</h4>
                                 <img src="images/offer-card6.jpg" class="offer-imgs" alt="Self-Assessment Tax Returns">
                                 <div class="d-flex flex-column">
