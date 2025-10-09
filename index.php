@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Expert Tax Accounting UK - Consultax Chartered Accountants</title>
+    <meta name="description" content="We are expert tax accountants provide comprehensive range of expert accounting UK and tax services tailored to meet your financial needs. Contact us today.">
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Font -->
@@ -25,45 +25,48 @@
     <!-- Main Section -->
     <main>
         <!-- Hero Section -->
-        <section id="hero-section" class="py-5 section-container" aria-label="Hero Section" data-aos="fade-up">
-            <div class="container-fluid ">
-                <div class="container">
-                    <div class="d-flex flex-column justify-content-between">
-                        <div class="d-flex">
-                            <h1 class="align-self-start hero-head">
-                                Empowering Growth Through <br>
-                                Modern Accounting
-                            </h1>
-                        </div>
-                        <div class="d-flex w-100 flex-column order-2 order-md-1 flex-lg-row justify-content-center justify-content-lg-between align-items-center mt-3 mb-0">
-                            <a href="tel:+442030846407" class="hero-contact-btn align-self-lg-end" data-aos="zoom-in"
-                            data-aos-easing="linear"
-                            data-aos-duration="500">Consult Now</a>
-                            <img src="images/Ratings.png" class="img-fluid ms-lg-auto d-none d-md-block rating-img" alt="Client Rating">
-                        </div>
-                        <!-- Hero Section Para for Desktop Screens -->
-                        <div class="mt-5 order-1 order-md-2 d-none d-lg-flex">
-                            <p class="hero-para">
-                                Experienced <span class="hero-link-bold"><a class="hero-link-bold-a">UK Tax Accountant</a></span> and <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Specialist Tax Advisor</a></span>, providing tailored <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Tax
-                                Planning Services</a></span> to
-                                individuals and businesses across the UK. Effortlessly manage your taxes, unlock
-                                greater returns, and maintain full compliance with trusted expertise.
+            <section id="hero-section" class="py-5 section-container" aria-label="Hero Section" data-aos="fade-up">
+                <div class="container-fluid position-relative">
+                    <!-- LCP Image for performance -->
+                    <img src="images/hero-bg.webp" alt="Empowering Growth Through Modern Accounting" class="hero-lcp-img visually-hidden" fetchpriority="high">
+                    <!-- Optional background div for styling -->
+                    <div class="hero-bg" style="background-image: url('images/hero-bg.webp');"></div>
+                    <div class="container">
+                        <div class="d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <h1 class="align-self-start hero-head">
+                                    Empowering Growth Through <br>
+                                    Modern Accounting
+                                </h1>
+                            </div>
+                            <div class="d-flex w-100 flex-column order-2 order-md-1 flex-lg-row justify-content-center justify-content-lg-between align-items-center mt-3 mb-0">
+                                <a href="tel:+442030846407" class="hero-contact-btn align-self-lg-end" data-aos="zoom-in"
+                                data-aos-easing="linear"
+                                data-aos-duration="500">Consult Now</a>
+                                <img src="images/Ratings.png" class="img-fluid ms-lg-auto d-none d-md-block rating-img" alt="Client Rating">
+                            </div>
+                            <!-- Hero Section Para for Desktop Screens -->
+                            <div class="mt-5 order-1 order-md-2 d-none d-lg-flex">
+                                <p class="hero-para">
+                                    Experienced <span class="hero-link-bold"><a class="hero-link-bold-a">UK Tax Accountant</a></span> and <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Specialist Tax Advisor</a></span>, providing tailored <span class="hero-link-bold"><a href="#" class="hero-link-bold-a">Tax Planning Services</a></span> to
+                                    individuals and businesses across the UK. Effortlessly manage your taxes, unlock
+                                    greater returns, and maintain full compliance with trusted expertise.
+                                </p>
+                            </div>
+                            <!-- Hero Section Para for Mobile/Tablet Screens -->                         
+                            <div class="mt-5 mb-0 mb-md-5 mb-lg-0 d-flex d-md-none flex-row justify-content-center typewriter"> 
+                                <span class="hero-link-bold typewriter-wrapper">
+                                    <a href="#" class="hero-link-bold-a-mob text-white typed"></a>
+                                </span>
+                            </div>
+                            <img src="images/Ratings.png" class="img-fluid ms-auto d-block d-md-none rating-img" alt="Client Rating">
+                            <p class="hero-para d-block d-lg-none">
+                                Experienced in guiding individuals and businesses across the UK, helping them effortlessly manage their taxes, maximize returns, and maintain full compliance with trusted expertise.
                             </p>
                         </div>
-                        <!-- Hero Section Para for Mobile/Tablet Screens -->                         
-                        <div class="mt-5 mb-0 mb-md-5 mb-lg-0 d-flex d-md-none flex-row justify-content-center typewriter"> 
-                            <span class="hero-link-bold typewriter-wrapper">
-                                <a href="#" class="hero-link-bold-a-mob text-white typed" aria-hidden="true"></a>
-                            </span>
-                        </div>
-                        <img src="images/Ratings.png" class="img-fluid ms-auto d-block d-md-none rating-img" alt="Client Rating">
-                        <p class="hero-para d-block d-lg-none">
-                            Experienced in guiding individuals and businesses across the UK, helping them effortlessly manage their taxes, maximize returns, and maintain full compliance with trusted expertise.
-                        </p>
                     </div>
-                </div>
-            </div>  
-        </section>
+                </div>  
+            </section>
         <!-- Main Section -->
         <!-- Tesimonials Section -->
          <div class="container-fluid mb-5 mt-5">
@@ -132,7 +135,7 @@
                                 <div class="legend">
                                 <div class="legend-item">
                                     <div class="legend-color" style="background-color: rgba(200,200,200,0.4);"></div>
-                                    Normal (Before Automation)
+                                    Normal
                                 </div>
                                 <div class="legend-item">
                                     <div class="legend-color" style="background-color: #1a8fe3;"></div>
@@ -140,7 +143,7 @@
                                 </div>
                                 </div>
                             </div>
-                            <p class="text-start section-para mt-4">Businesses save up to 7% of their net GST monthly, while individuals make the most by filing with us. Get expert guidance, faster processing, and hassle free compliance ensuring you keep more of what you earn, every single month.</p>
+                            <p class="text-start section-para mt-4">Cut through compliance bottlenecks with intelligent automation: file GST returns in a third of the time, reconcile invoices at 5× the standard rate, and generate e-waybills in seconds. Individual tax returns completed in under minutes with accuracy built in.</p>
                         </div>
                     </div>
                     <!-- GST Savings Line Chart -->
@@ -150,7 +153,7 @@
                             <div class="chart-section" id="lineChartSection">
                                 <canvas id="monthlyGSTSavingsChart"></canvas>
                             </div>
-                            <p class="text-start section-para mt-4">Cut through compliance bottlenecks with intelligent automation: file GST returns in a third of the time, reconcile invoices at 5× the standard rate, and generate e-waybills in seconds. Individual tax returns completed in under minutes with accuracy built in.</p>
+                            <p class="text-start section-para mt-4">Businesses save up to 7% of their net GST monthly, while individuals make the most by filing with us. Get expert guidance, faster processing, and hassle free compliance ensuring you keep more of what you earn, every single month.</p>
                         </div>
                     </div>
                     <!-- Donut Charts -->
@@ -192,7 +195,6 @@
                             <p class="text-start section-para mt-4">Our systems are built to deliver accurate, real time compliance across VAT, GST, payroll, and corporate tax obligations. Whether you re a business or an individual, we ensure every submission meets HMRC standards first time, every time.</p>
                         </div>
                     </div>
-                 
             </div>
         </div>
      </section>
@@ -202,7 +204,7 @@
             <div class="container">
                 <div class="text-center mt-4">
                     <h6 class="section-stamps">We Offer</h6>
-                    <h2 class="section-head">Proud moments built on trust and results</h2>
+                    <h2 class="section-head">Professional Accounting Services Tailored to you</h2>
                 </div>
                     <div class="row">
                         <div class="col-12">
@@ -215,20 +217,32 @@
                     <!-- Scroll Spy nav tabs here here -->
                         <div class="col-12 col-md-4">
                             <div class="d-flex align-items-start h-100">
-                            <div class="nav flex-column nav-pills justify-content-between h-100 me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                <a class="nav-link-offer active" href="#TaxPlanningAndCompliance" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">Tax Planning and Compliance</a>
-                                <a class="nav-link-offer" href="#VATAndGSTAdvisory" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">VAT and GST Advisory</a>
-                                <a class="nav-link-offer" href="#PayrollServices" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">Payroll Services</a>
-                                <a class="nav-link-offer" href="#BookkeepingAndAccountsPreparation" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">Bookkeeping and Accounts Preparation</a>
-                                <a class="nav-link-offer" href="#FinancialPlanningAndForecasting" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">Financial Planning and Forecasting</a>
-                                <a class="nav-link-offer" href="#SelfAssessmentTaxReturns" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="300">Self-Assessment Tax Returns</a>
-                            </div>
+                                <div class="nav flex-column nav-pills justify-content-between h-100 me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                      <a class="nav-link-offer active" id="tab-TaxPlanningAndCompliance" data-bs-toggle="pill" href="#TaxPlanningAndCompliance" role="tab" aria-controls="TaxPlanningAndCompliance" aria-selected="true">
+                                        Tax Planning and Compliance
+                                    </a>
+                                    <a class="nav-link-offer" id="tab-VATAndGSTAdvisory" data-bs-toggle="pill" href="#VATAndGSTAdvisory" role="tab" aria-controls="VATAndGSTAdvisory" aria-selected="false">
+                                        VAT and GST Advisory
+                                    </a>
+                                    <a class="nav-link-offer" id="tab-PayrollServices" data-bs-toggle="pill" href="#PayrollServices" role="tab" aria-controls="PayrollServices" aria-selected="false">
+                                        Payroll Services
+                                    </a>
+                                    <a class="nav-link-offer" id="tab-BookkeepingAndAccountsPreparation" data-bs-toggle="pill" href="#BookkeepingAndAccountsPreparation" role="tab" aria-controls="BookkeepingAndAccountsPreparation" aria-selected="false">
+                                        Bookkeeping and Accounts Preparation
+                                    </a>
+                                    <a class="nav-link-offer" id="tab-FinancialPlanningAndForecasting" data-bs-toggle="pill" href="#FinancialPlanningAndForecasting" role="tab" aria-controls="FinancialPlanningAndForecasting" aria-selected="false">
+                                        Financial Planning and Forecasting
+                                    </a>
+                                    <a class="nav-link-offer" id="tab-SelfAssessmentTaxReturns" data-bs-toggle="pill" href="#SelfAssessmentTaxReturns" role="tab" aria-controls="SelfAssessmentTaxReturns" aria-selected="false">
+                                        Self-Assessment Tax Returns
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <!-- Scroll Spy content will appear here -->
                         <div class="col-12 col-md-8 scroll-container" data-bs-spy="scroll" data-bs-target="#v-pills-tab" data-bs-smooth-scroll="true" tabindex="0" style="height:50vh;overflow-y:scroll;">
                             <div id="TaxPlanningAndCompliance" class="offer-item">
-                                <img src="images/offer-card1.png" class="offer-imgs" alt="Tax Planning and Compliance">
+                                <img src="images/offer-card1.png" class="offer-imgs" alt="Tax Planning and Compliance" loading="lazy">
                                 <h4 class="offer-panel-head">Tax Planning and Compliance</h4>
                                 <div class="d-flex flex-md-column justify-content-md-start flex-lg-row justify-content-lg-between align-items-lg-center">
                                     <p class="offer-panel-desc">From personal tax returns to corporate tax strategies, we help you stay ahead and save more.</p>
@@ -236,7 +250,7 @@
                                 </div>
                             </div>
                             <div id="VATAndGSTAdvisory" class="offer-item">
-                                <img src="images/offer-card2.jpg" class="offer-imgs" alt="VAT and GST Advisory">
+                                <img src="images/offer-card2.jpg" class="offer-imgs" alt="VAT and GST Advisory" loading="lazy">
                                 <h4 class="offer-panel-head">VAT and GST Advisory</h4>
                                 <div class="d-flex flex-row justify-content-between align-items-center">
                                     <p class="offer-panel-desc">Navigate the complexities of VAT and GST with expert support that ensures full accuracy and maximised savings.</p>
@@ -244,7 +258,7 @@
                                 </div>
                             </div>
                             <div id="PayrollServices" class="offer-item">
-                                <img src="images/offer-card3.jpg" class="offer-imgs" alt="Payroll Services">
+                                <img src="images/offer-card3.jpg" class="offer-imgs" alt="Payroll Services" loading="lazy">
                                 <h4 class="offer-panel-head">Payroll Services</h4>
                                 <div class="d-flex flex-row justify-content-between align-items-center">
                                     <p class="offer-panel-desc">Hassle-free payroll solutions, RTI submissions, and auto-enrolment support for businesses of all sizes.</p>
@@ -252,7 +266,7 @@
                                 </div>  
                             </div>
                             <div id="BookkeepingAndAccountsPreparation" class="offer-item">
-                                <img src="images/offer-card4.jpg" class="offer-imgs" alt="Bookkeeping and Accounts Preparation">
+                                <img src="images/offer-card4.jpg" class="offer-imgs" alt="Bookkeeping and Accounts Preparation" loading="lazy">
                                 <h4 class="offer-panel-head">Bookkeeping and Accounts Preparation</h4>
                                 <div class="d-flex flex-row justify-content-between align-items-center">
                                     <p class="offer-panel-desc">Maintain accurate records, ensure full HMRC compliance, simplify finances, and manage your accounts with ease.</p>
@@ -260,7 +274,7 @@
                                 </div>  
                             </div>
                             <div id="FinancialPlanningAndForecasting" class="offer-item">
-                                <img src="images/offer-card5.jpg" class="offer-imgs" alt="Business Advisory and Financial Forecasting">
+                                <img src="images/offer-card5.jpg" class="offer-imgs" alt="Business Advisory and Financial Forecasting" loading="lazy">
                                 <h4 class="offer-panel-head">Business Advisory and Financial Forecasting</h4>
                                  <div class="d-flex flex-row justify-content-between align-items-center">
                                     <p class="offer-panel-desc">Gain clarity on your finances with expert insights, tailored to help you grow and make informed decisions.</p>
@@ -268,7 +282,7 @@
                                 </div>
                             </div>
                             <div id="SelfAssessmentTaxReturns" class="offer-item">
-                                <img src="images/offer-card6.jpg" class="offer-imgs" alt="Self-Assessment Tax Returns">
+                                <img src="images/offer-card6.jpg" class="offer-imgs" alt="Self-Assessment Tax Returns" loading="lazy">
                                 <h4 class="offer-panel-head">Self-Assessment Tax Returns</h4>
                                 <div class="d-flex flex-row justify-content-between align-items-center">
                                     <p class="offer-panel-desc">Your tax return, Our professional priority. Navigate your tax responsibilities with clarity and assurance through our Self-Assessment service.</p>
@@ -282,7 +296,7 @@
                         <div class="col-12 no-pad-mob">
                             <div id="TaxPlanningAndComplianceMob" class="mt-3 mt-md-2 offer-item dashed-bdr">
                                 <h4 class="offer-panel-head-mob">Tax Planning and Compliance</h4>
-                                <img src="images/offer-card1.png" class="offer-imgs" alt="Tax Planning and Compliance">
+                                <img src="images/offer-card1.png" class="offer-imgs" alt="Tax Planning and Compliance" loading="lazy">
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">From personal tax returns to corporate tax strategies, we help you stay ahead and save more.</p>
                                      <a href="tax-planning.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -290,7 +304,7 @@
                             </div>
                             <div id="VATAndGSTAdvisoryMob" class="mt-3 mt-md-2 offer-item dashed-bdr">
                                 <h4 class="offer-panel-head-mob">VAT and GST Advisory</h4>
-                                <img src="images/offer-card2.jpg" class="offer-imgs" alt="VAT and GST Advisory">
+                                <img src="images/offer-card2.jpg" class="offer-imgs" alt="VAT and GST Advisory" loading="lazy">
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Navigate the complexities of VAT and GST with expert support that ensures full accuracy and maximised savings.</p>
                                      <a href="vat.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More  <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -298,7 +312,7 @@
                             </div>
                             <div id="PayrollServicesMob" class="mt-3 mt-md-2 offer-item dashed-bdr">
                                 <h4 class="offer-panel-head-mob">Payroll Services</h4>
-                                <img src="images/offer-card3.jpg" class="offer-imgs" alt="Payroll Services">
+                                <img src="images/offer-card3.jpg" class="offer-imgs" alt="Payroll Services" loading="lazy">
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Hassle-free payroll solutions, RTI submissions, and auto-enrolment support for businesses of all sizes.</p>
                                      <a href="payroll-services.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More  <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -306,7 +320,7 @@
                             </div>
                             <div id="BookkeepingAndAccountsPreparationMob" class="mt-3 mt-md-2 offer-item dashed-bdr">
                                 <h4 class="offer-panel-head-mob">Bookkeeping and Accounts Preparation</h4>
-                                <img src="images/offer-card4.jpg" class="offer-imgs" alt="Bookkeeping and Accounts Preparation">
+                                <img src="images/offer-card4.jpg" class="offer-imgs" alt="Bookkeeping and Accounts Preparation" loading="lazy">
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Maintain accurate records, ensure full HMRC compliance, simplify finances, and manage your accounts with ease.</p>
                                      <a href="bookkeeping.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More  <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -314,7 +328,7 @@
                             </div>
                             <div id="FinancialPlanningAndForecastingMob" class="mt-3 mt-md-2 offer-item dashed-bdr">
                                 <h4 class="offer-panel-head-mob">Business Advisory and Financial Forecasting</h4>
-                                <img src="images/offer-card5.jpg" class="offer-imgs" alt="Business Advisory and Financial Forecasting">
+                                <img src="images/offer-card5.jpg" class="offer-imgs" alt="Business Advisory and Financial Forecasting" loading="lazy">
                                  <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Gain clarity on your finances with expert insights, tailored to help you grow and make informed decisions.</p>
                                      <a href="#" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More  <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -322,7 +336,7 @@
                             </div>
                             <div id="SelfAssessmentTaxReturnsMob" class="mt-3 mt-md-2 offer-item dashed-bdr">
                                 <h4 class="offer-panel-head-mob">Self-Assessment Tax Returns</h4>
-                                <img src="images/offer-card6.jpg" class="offer-imgs" alt="Self-Assessment Tax Returns">
+                                <img src="images/offer-card6.jpg" class="offer-imgs" alt="Self-Assessment Tax Returns" loading="lazy">
                                 <div class="d-flex flex-column">
                                     <p class="offer-panel-desc-mob">Your tax return, Our professional priority. Navigate your tax responsibilities with clarity and assurance through our Self-Assessment service.</p>
                                      <a href="self-assessment-tax-returns.php" class="mt-2 align-self-center align-self-md-start offer-mob-redirect">Know More  <svg class="redirect-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.63605 18.364L18.364 5.63603M18.364 5.63603L8.46446 5.63604M18.364 5.63603V15.5355" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -344,7 +358,7 @@
                         <div class="d-flex flex-column mt-5">
                             <div class="row">
                                 <div class="col-12 col-md-2 justify-content-center align-items-center text-center principle-icon-div">
-                                    <img src="images/principle-1.png" class="principle-imgs" alt="Remarkably Simple">
+                                    <img src="images/principle-1.png" class="principle-imgs" alt="Remarkably Simple"  loading="lazy">
                                 </div>
                                 <div class="col-12 col-md-10 d-flex flex-column text-start justify-content-center principle-text-div">
                                     <p class="principle-head">Remarkably Simple</p>
@@ -353,7 +367,7 @@
                             </div>
                             <div class="row mt-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                                 <div class="col-12 col-md-2 d-flex justify-content-center align-items-center text-center principle-icon-div">
-                                    <img src="images/principle-2.png" class="principle-imgs" alt="Genuinely Transparent">
+                                    <img src="images/principle-2.png" class="principle-imgs" alt="Genuinely Transparent" loading="lazy">
                                 </div>
                                 <div class="col-12 col-md-10 d-flex flex-column text-start justify-content-center principle-text-div">
                                     <p class="principle-head">Genuinely Transparent</p>
@@ -362,7 +376,7 @@
                             </div>
                             <div class="row mt-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                                 <div class="col-12 col-md-2 d-flex justify-content-center align-items-center text-center principle-icon-div">
-                                    <img src="images/principle-3.png" class="principle-imgs" alt="Peace of Mind">
+                                    <img src="images/principle-3.png" class="principle-imgs" alt="Peace of Mind" loading="lazy">
                                 </div>
                                 <div class="col-12 col-md-10 d-flex flex-column text-start justify-content-center principle-text-div">
                                     <p class="principle-head">Peace of Mind</p>
@@ -371,7 +385,7 @@
                             </div>
                             <div class="row mt-5"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                                 <div class="col-12 col-md-2 d-flex justify-content-center align-items-center text-center principle-icon-div">
-                                    <img src="images/principle-4.png" class="principle-imgs" alt="No Hidden Charges">
+                                    <img src="images/principle-4.png" class="principle-imgs" alt="No Hidden Charges" loading="lazy">
                                 </div>
                                 <div class="col-12 col-md-10 d-flex flex-column text-start justify-content-between principle-text-div">
                                     <p class="principle-head">No Hidden Charges</p>
@@ -380,7 +394,7 @@
                             </div>
                             <div class="row mt-5"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                                 <div class="col-12 col-md-2 d-flex justify-content-center align-items-center text-center principle-icon-div">
-                                    <img src="images/principle-5.png" class="principle-imgs" alt="Refer a Friend">
+                                    <img src="images/principle-5.png" class="principle-imgs" alt="Refer a Friend" loading="lazy">
                                 </div>
                                 <div class="col-12 col-md-10 d-flex flex-column text-start justify-content-center principle-text-div">
                                     <p class="principle-head">Refer a Friend</p>
@@ -435,7 +449,7 @@
                             <div class="feature-card-mob">
                                 <p class="feature-head-mob">CLIENT COMMITMENT</p>
                                 <div class="text-center">
-                                    <img src="images/client-commitment.png" class="core-values-mob-icons" alt="Client Commitment">
+                                    <img src="images/client-commitment.png" class="core-values-mob-icons" alt="Client Commitment" loading="lazy">
                                 </div>  
                                 <p class="feature-desc-mob text-dark">You're never just a number. We listen closely, tailor every solution, and put your needs at the centre of everything we do.</p>
                             </div>
@@ -443,7 +457,7 @@
                             <div class="feature-card-mob">
                                 <p class="feature-head-mob">EXPERTISE</p>
                                 <div class="text-center">
-                                    <img src="images/expertise.png" class="core-values-mob-icons" alt="Expertise">
+                                    <img src="images/expertise.png" class="core-values-mob-icons" alt="Expertise" loading="lazy">
                                 </div>
                                 <p class="feature-desc-mob text-dark">Tax is our speciality. Our qualified team stays ahead of the curve to deliver precise, compliant, and forward-thinking advice.</p>
                             </div>
@@ -452,7 +466,7 @@
                             <div class="feature-card-mob">
                                 <p class="feature-head-mob">INTEGRITY</p>
                                 <div class="text-center">
-                                    <img src="images/integrity.png" class="core-values-mob-icons" alt="Integrity">
+                                    <img src="images/integrity.png" class="core-values-mob-icons" alt="Integrity" loading="lazy">
                                 </div>
                                 <p class="feature-desc-mob text-dark">We do what’s right - always. Clear advice, honest communication, and full transparency are the foundation of our work.</p>
                             </div>
@@ -469,8 +483,8 @@
                         <p class="text-white section-head-cta">Need a Hand with your Tax Return ?</p>
                         <div class="row mt-5">
                             <div class="col-12 col-md-6">
-                                <p class="cta-tagline">Your Goals, Our Focus - </p>
-                                <p class="cta-tagline">Accounting with Purpose </p>
+                                <p class="cta-tagline text-white">Your Goals, Our Focus - </p>
+                                <p class="cta-tagline text-white">Accounting with Purpose </p>
                             </div>
                             <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center">
                                 <a href="tel:+442030846407" class="text-decoration-none cta-redirect" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800" >Request Your Consultation Today</a>
@@ -519,12 +533,12 @@
                         <div class="row mt-5">
                             <div class="col-12 col-lg-4" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="800" >
                                 <div class="d-flex flex-column mt-5 mt-lg-0 blog-card">
-                                    <img src="images/blog-1.png" class="blog-card-img" alt="Blog Image 1">
+                                    <img src="images/blog-1.png" class="blog-card-img" alt="Blog Image 1" loading="lazy">
                                     <div class="p-3">
                                     <p class="blog-title">The Role of Chartered Accountants in driving Business Growth</p>
                                         <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
                                             <div class="d-flex flex-row">
-                                                <img src="images/calendar.png" class="blog-calendar-icon" alt="Blog Calender Icon">
+                                                <img src="images/calendar.png" class="blog-calendar-icon" alt="Blog Calender Icon" loading="lazy">
                                                 <p class="blog-date">Jan 27, 2025</p>
                                             </div>
                                             <div class="d-flex">
@@ -536,12 +550,12 @@
                             </div>
                             <div class="col-12 col-lg-4" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="1000">
                                 <div class="d-flex flex-column mt-5 mt-lg-0 blog-card">
-                                    <img src="images/blog-2.png" class="blog-card-img" alt="Blog Image 2">
+                                    <img src="images/blog-2.png" class="blog-card-img" alt="Blog Image 2" loading="lazy">
                                     <div class="p-3">
                                         <p class="blog-title">Why Outsourcing Your Accounting Needs is Essential for Driving Business Growth</p>
                                             <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
                                                 <div class="d-flex flex-row">
-                                                    <img src="images/calendar.png" class="blog-calendar-icon" alt="Blog Calender Icon">
+                                                    <img src="images/calendar.png" class="blog-calendar-icon" alt="Blog Calender Icon" loading="lazy">
                                                     <p class="blog-date">Jan 27, 2025</p>
                                                 </div>
                                             <div class="d-flex">
@@ -553,12 +567,12 @@
                             </div>
                             <div class="col-12 col-lg-4" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="1200">
                                 <div class="d-flex flex-column mt-5 mt-lg-0 blog-card">
-                                    <img src="images/blog-1.png" class="blog-card-img" alt="Blog Image 3">
+                                    <img src="images/blog-1.png" class="blog-card-img" alt="Blog Image 3" loading="lazy">
                                     <div class="p-3">
                                         <p class="blog-title">Expert Tax Planning Tips for Expats and NRIs and more</p>
                                             <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
                                                 <div class="d-flex flex-row">
-                                                    <img src="images/calendar.png" class="blog-calendar-icon" alt="Blog Calender Icon">
+                                                    <img src="images/calendar.png" class="blog-calendar-icon" alt="Blog Calender Icon" loading="lazy">
                                                     <p class="blog-date">Jan 27, 2025</p>
                                                 </div>
                                             <div class="d-flex">
@@ -597,7 +611,7 @@
                             <div class="col-12 col-lg-4 mt-5 mt-lg-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
                                 <div class="d-flex flex-column justify-content-center align-items-center p-3 contact-card">
                                     <svg width="64px" height="64px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#0E456D"><path fill="#0E456D" d="M192 128v704h384V128H192zm-32-64h448a32 32 0 0 1 32 32v768a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32z"></path><path fill="#0E456D" d="M256 256h256v64H256v-64zm0 192h256v64H256v-64zm0 192h256v64H256v-64zm384-128h128v64H640v-64zm0 128h128v64H640v-64zM64 832h896v64H64v-64z"></path><path fill="#0E456D" d="M640 384v448h192V384H640zm-32-64h256a32 32 0 0 1 32 32v512a32 32 0 0 1-32 32H608a32 32 0 0 1-32-32V352a32 32 0 0 1 32-32z"></path></svg>
-                                    <a href="https://maps.app.goo.gl/YQVGu7MvkKGMXZW56" class="text-decoration-none contact-link text-center" target="_blank">71 75 Shelton Street, Covent Garden, London WC2H 9JQ</a>
+                                    <a href="https://maps.app.goo.gl/YQVGu7MvkKGMXZW56" class="text-decoration-none contact-link text-center" target="_blank">71-75 Shelton Street, Covent Garden, London WC2H 9JQ</a>
                                 </div>
                             </div>
                         </div>
@@ -650,13 +664,11 @@
 
     <script>
         async function loadFeefoReviews() {
-    //const response = await fetch("https://api.feefo.com/api-feefo/api/10/reviews/summary/service?origin=www.consultax.co.uk&merchant_identifier=consultax-accountants-limited&since_period=YEAR");
     const response = await fetch("feefo-proxy.php");
     const data = await response.json();
 
     let html = "";
     data.reviews.forEach(r => {
-        console.log(r);
         let customerName = 'Anonymous';
         let rating = 0;
         let title = '';
@@ -744,7 +756,7 @@
 
     loadFeefoReviews();
     </script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
 <script>
 // ----------------- Horizontal Bar Chart -----------------
 function drawBarChart() {
@@ -904,7 +916,5 @@ observeSection('barChartSection', drawBarChart);
 observeSection('lineChartSection', drawLineChart);
 observeSection('donutChartSection', drawDonutCharts);
 </script>
-</body>
-</html>
 </body>
 </html>
