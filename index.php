@@ -477,7 +477,7 @@
             </div>
          </section>
         <!-- CTA Section -->
-            <section class="section-container bg-blue-two" id="CTA" aria-label="Request Call Section">
+            <section class="section-container cta-bg-home" id="CTA" aria-label="Request Call Section">
                 <div class="container-fluid ">
                     <div class="container">
                         <p class="text-white section-head-cta">Need a Hand with your Tax Return ?</p>

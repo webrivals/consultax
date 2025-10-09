@@ -6,7 +6,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid no-pad-mob">
         <a class="navbar-brand" href="index.php">
-          <img src="images/consultax-logo1.png" class="navbar-logo" alt="consultax-logo">
+          <img src="images/consultax-logo1.webp" class="navbar-logo" alt="consultax-logo">
         </a>
         <!-- Mobile Toggler -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
