@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row gap-5 mb-5 justify-content-between">
                 <div class="col-12 col-lg-5">
-                    <img src="images/consultax-logo1.png" class="footer-logo" alt="Consultax Logo">
+                    <img src="images/consultax-logo1.webp" class="footer-logo" alt="Consultax Logo">
                     <p class="footer-comp-desc">
                         Consultax Chartered is a team of
                         London-based Chartered Accountants

@@ -542,7 +542,7 @@
                                                 <p class="blog-date">Jan 27, 2025</p>
                                             </div>
                                             <div class="d-flex">
-                                                <a href="#" class="text-decoration-none blog-redirect">Read More</a>
+                                                <a href="blog.php?post=the-role-of-chartered-accountants-in-driving-business-growth" class="text-decoration-none blog-redirect">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -559,7 +559,7 @@
                                                     <p class="blog-date">Jan 27, 2025</p>
                                                 </div>
                                             <div class="d-flex">
-                                                <a href="#" class="text-decoration-none blog-redirect">Read More</a>
+                                                <a href="blog.php?post=why-outsourcing-your-accounting-needs-is-essential-for-driving-business-growth" class="text-decoration-none blog-redirect">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -576,7 +576,7 @@
                                                     <p class="blog-date">Jan 27, 2025</p>
                                                 </div>
                                             <div class="d-flex">
-                                                <a href="#" class="text-decoration-none blog-redirect">Read More</a>
+                                                <a href="blog.php?post=tax-planning-tips-for-expats-and-nris" class="text-decoration-none blog-redirect">Read More</a>
                                             </div>
                                         </div>
                                     </div>
