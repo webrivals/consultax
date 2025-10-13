@@ -842,8 +842,34 @@ ul{
     background:#f9f9f9;
 }
 .blog-side-links{
-    color:var(--color-primary) !;
-
+    color:var(--color-primary) !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+.blog-links-li{
+    margin-top:10px; 
+}
+.blog-icons{
+    height:24px;
+    width:24px;
+    margin-right:10px;
+}
+.blog-cmt-post-btn{
+    background:var(--bg-primary);
+}
+.blog-cmt-post-btn:hover{
+    background:#32CD32;
+}
+.blog-category-stamp{
+    outline:1px solid #000000;
+    padding:5px;
+    margin-bottom:0px;
+    border-radius: 3px;
+    margin-left:10px;
+}
+.blog-open-para li{
+    margin-left: 20px;
+    list-style: disc;
 }
 
 .contact-highlight{
@@ -1327,6 +1353,19 @@ ul {
     border: 3px dashed #f1f1f1;
     border-radius:5px;
 }
+
+/*Privacy Policy Page*/ 
+.privacy-bullets li{
+    list-style: disc !important;
+    margin-left: 20px !important;
+    
+}
+
+
+
+
+
+
 /* Default: Desktop / Large screens (no media query needed) */
 /* Large tablets & small desktops */
 @media (max-width: 1200px) {

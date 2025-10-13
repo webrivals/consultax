@@ -32,8 +32,8 @@
                         <li class="foot-link-li"><a href="about.php" class="foot-links">About</a></li>
                         <li class="foot-link-li"><a href="#" class="foot-links">Contact Us</a></li>
                         <li class="foot-link-li"><a href="#" class="foot-links">Blogs</a></li>
-                        <li class="foot-link-li"><a href="#" class="foot-links">Privacy Policy</a></li>
-                        <li class="foot-link-li"><a href="#" class="foot-links">Terms & Conditions</a></li>
+                        <li class="foot-link-li"><a href="privacy-policy.php" class="foot-links">Privacy Policy</a></li>
+                        <li class="foot-link-li"><a href="terms-conditions.php" class="foot-links">Terms & Conditions</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-lg-2">
