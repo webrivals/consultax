@@ -125,7 +125,7 @@
                     <h6 class="section-stamps">Features</h6>
                     <h2 class="section-head">All our Services are Built to</h2>
                 </div>
-                <!-- Test for Infographics -->
+                <!-- Infographics  Here -->
                         <!-- Horizontal Bar Chart -->
                     <div class="row mt-3 mt-lg-5">
                         <div class="col-12">
@@ -753,17 +753,19 @@
     }
 
     loadFeefoReviews();
-    </script>
+</script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
-<script>
-// ----------------- Horizontal Bar Chart -----------------
-function drawBarChart() {
+<script defer>
+document.addEventListener('DOMContentLoaded', function() {
+
+  // ----------------- Horizontal Bar Chart -----------------
+ function drawBarChart() {
   const ctx = document.getElementById('complianceHorizontalBarChart').getContext('2d');
   const labels = ['GST Returns', 'Invoice Reconciliation', 'E-Waybills', 'Individual Tax Returns'];
   const baseValues = [1,1,1,1];
   const improvementValues = [3,5,10,2];
 
-  function generateShades(n) {
+  function generateShades(n){
     const start=[199,230,250], end=[26,143,227];
     const shades=[];
     for(let i=0;i<n;i++){
@@ -777,142 +779,167 @@ function drawBarChart() {
 
   const improvementDatasets=[];
   improvementValues.forEach((value,idx)=>{
-    const shades=generateShades(value);
+    const shades = generateShades(value);
     shades.forEach(shade=>{
-      const dataBlock=Array(labels.length).fill(0);
-      dataBlock[idx]=1;
-      improvementDatasets.push({data:dataBlock, backgroundColor:shade, barPercentage:0.6, borderRadius:0});
+      const dataBlock = Array(labels.length).fill(0);
+      improvementDatasets.push({data:dataBlock, backgroundColor:shade, barPercentage:0.6, borderRadius:0, label:`improvement-${idx}`});
     });
   });
 
-  const data = {
-    labels: labels,
-    datasets: [{label:'Normal', data:baseValues, backgroundColor:'rgba(200,200,200,0.4)', borderRadius:5, barPercentage:0.6}, ...improvementDatasets]
-  };
-
-  const options = {
+  const datasets = [{label:'Normal', data:baseValues.map(()=>0), backgroundColor:'rgba(200,200,200,0.4)', borderRadius:5, barPercentage:0.6}, ...improvementDatasets];
+  const chart = new Chart(ctx, {type:'bar', data:{labels, datasets}, options:{
     indexAxis:'y',
     responsive:true,
     maintainAspectRatio:false,
     plugins:{legend:{display:false}, tooltip:{enabled:false}},
-    animation:{duration:1500, easing:'easeOutQuart'},
     scales:{
-      x:{stacked:true, beginAtZero:true, max:10, title:{display:true, text:'Speed', color:'#333', font:{size:14,weight:'bold'}}, ticks:{font:{size:13}, color:'#333'}, grid:{display:false}},
-      y:{stacked:true, title:{display:true, text:'Tasks', color:'#333', font:{size:14,weight:'bold'}}, ticks:{font:{size:13}, color:'#333'}, grid:{display:false}}
-    }
-  };
-
-  new Chart(ctx, {type:'bar', data:data, options:options});
-}
-
-// ----------------- Line Chart -----------------
-function drawLineChart() {
-  const ctx = document.getElementById("monthlyGSTSavingsChart").getContext("2d");
-  const gradientBlue = ctx.createLinearGradient(0,0,0,400);
-  gradientBlue.addColorStop(0,"rgba(14,69,109,0.35)");
-  gradientBlue.addColorStop(1,"rgba(14,69,109,0)");
-
-  const gradientLightBlue = ctx.createLinearGradient(0,0,0,400);
-  gradientLightBlue.addColorStop(0,"rgba(26,143,227,0.35)");
-  gradientLightBlue.addColorStop(1,"rgba(26,143,227,0)");
-
-  const data = {
-    labels:["Week 1","Week 2","Week 3","Week 4"],
-    datasets:[
-      {label:"Businesses", data:[3,4.5,5.8,7], borderColor:"#0E456D", backgroundColor:gradientBlue, tension:0.4, fill:true, borderWidth:3, pointRadius:0},
-      {label:"Individuals", data:[4,6,8,9.5], borderColor:"#1a8fe3", backgroundColor:gradientLightBlue, tension:0.4, fill:true, borderWidth:3, pointRadius:0}
-    ]
-  };
-
-  const options = {
-    responsive:true,
-    maintainAspectRatio:false,
-    interaction:{mode:"index", intersect:false},
-    scales:{
-      y:{beginAtZero:false, max:10, ticks:{color:"#333", font:{size:13}, callback:v=>v+"%"}, grid:{color:"rgba(0,0,0,0.05)"}},
-      x:{ticks:{color:"#333", font:{size:13,weight:"600"}}, grid:{display:false}}
-    },
-    plugins:{
-      legend:{position:"bottom", labels:{usePointStyle:true, color:"#333", font:{size:13}}},
-      tooltip:{backgroundColor:"rgba(0,0,0,0.75)", titleFont:{size:13}, bodyFont:{size:12}, callbacks:{label:ctx=>`${ctx.dataset.label}: ${ctx.parsed.y}%`}}
-    },
-    animation:{duration:1500, easing:"easeOutQuart"}
-  };
-
-  new Chart(ctx, {type:"line", data:data, options:options});
-}
-
-// ----------------- Donut Charts -----------------
-const totalBlocks=7;
-const baseColor='#e0e0e0';
-const blueShades=['rgba(26,143,227,0.3)','rgba(26,143,227,0.45)','rgba(26,143,227,0.6)','rgba(26,143,227,0.7)','rgba(26,143,227,0.8)','rgba(26,143,227,0.9)','rgba(26,143,227,1)'];
-
-function getUniqueRandomPercents(count,min=95,max=99){
-  const numbers=new Set();
-  while(numbers.size<count) numbers.add(Math.floor(Math.random()*(max-min+1))+min);
-  return Array.from(numbers);
-}
-
-function getBlockColors(percent){
-  const filledBlocks=Math.round(percent/100*totalBlocks);
-  const colors=[];
-  for(let i=0;i<totalBlocks;i++) colors.push(i<filledBlocks?blueShades[i]:baseColor);
-  return colors;
-}
-
-function createDonutChart(ctx, percentId, targetPercent){
-  const initialColors=getBlockColors(0);
-  const chart=new Chart(ctx,{
-    type:'doughnut',
-    data:{labels:Array(totalBlocks).fill(''), datasets:[{data:Array(totalBlocks).fill(100/totalBlocks), backgroundColor:initialColors, borderWidth:1, borderColor:'#fff'}]},
-    options:{
-      cutout:'50%',
-      rotation:-90,
-      circumference:360,
-      plugins:{tooltip:false, legend:false},
-      animation:{
-        duration:2000,
-        easing:'easeOutCubic',
-        onProgress:function(animation){
-          const currentPercent=targetPercent*(animation.currentStep/animation.numSteps);
-          animation.chart.data.datasets[0].backgroundColor=getBlockColors(currentPercent);
-          animation.chart.update('none');
-          document.getElementById(percentId).innerText=Math.round(currentPercent)+'%';
-        }
+      x:{
+        stacked:true,
+        beginAtZero:true,
+        max:10,
+        title:{display:true, text:'Speed', color:'#333', font:{size:14,weight:'bold'}},
+        ticks:{font:{size:13}, color:'#333'},
+        grid:{display:false}
+      },
+      y:{
+        stacked:true,
+        title:{display:true, text:'Tasks', color:'#333', font:{size:14,weight:'bold'}},
+        ticks:{font:{size:13}, color:'#333'},
+        grid:{display:false}
       }
-    }
-  });
-  return chart;
-}
+    },
+    animation:{duration:0} // we’ll animate manually
+  }});
 
-function drawDonutCharts(){
-  const [vatPercent,gstPercent,payrollPercent,corporatePercent]=getUniqueRandomPercents(4,95,99);
-  createDonutChart(document.getElementById('vatCircle').getContext('2d'),'vatPercent',vatPercent);
-  createDonutChart(document.getElementById('gstCircle').getContext('2d'),'gstPercent',gstPercent);
-  createDonutChart(document.getElementById('payrollCircle').getContext('2d'),'payrollPercent',payrollPercent);
-  createDonutChart(document.getElementById('corporateCircle').getContext('2d'),'corporatePercent',corporatePercent);
-}
-
-// ----------------- Scroll Trigger -----------------
-function observeSection(id, drawFunc){
-  const section=document.getElementById(id);
-  let drawn=false;
-  const observer=new IntersectionObserver(entries=>{
-    entries.forEach(entry=>{
-      if(entry.isIntersecting && !drawn){
-        entry.target.classList.add('visible');
-        drawFunc();
-        drawn=true;
+  // Animate manually
+  const totalFrames = 60;
+  let frame = 0;
+  function animate() {
+    frame++;
+    // Normal bar
+    chart.data.datasets[0].data = baseValues.map(v => v * frame / totalFrames);
+    // Improvement bars
+    let datasetIndex = 1;
+    improvementValues.forEach((value,labelIndex)=>{
+      for(let i=0;i<value;i++){
+        chart.data.datasets[datasetIndex].data[labelIndex] = 1 * (frame/totalFrames);
+        datasetIndex++;
       }
     });
-  },{threshold:0.4});
-  observer.observe(section);
+    chart.update('none');
+    if(frame<totalFrames) requestAnimationFrame(animate);
+  }
+  animate();
 }
 
-// Trigger all charts on scroll
-observeSection('barChartSection', drawBarChart);
-observeSection('lineChartSection', drawLineChart);
-observeSection('donutChartSection', drawDonutCharts);
+
+  // ----------------- Line Chart -----------------
+  function drawLineChart() {
+    const ctx = document.getElementById("monthlyGSTSavingsChart").getContext("2d");
+    const gradientBlue = ctx.createLinearGradient(0,0,0,400);
+    gradientBlue.addColorStop(0,"rgba(14,69,109,0.35)");
+    gradientBlue.addColorStop(1,"rgba(14,69,109,0)");
+    const gradientLightBlue = ctx.createLinearGradient(0,0,0,400);
+    gradientLightBlue.addColorStop(0,"rgba(26,143,227,0.35)");
+    gradientLightBlue.addColorStop(1,"rgba(26,143,227,0)");
+
+    const data = {
+      labels:["Week 1","Week 2","Week 3","Week 4"],
+      datasets:[
+        {label:"Businesses", data:[3,4.5,5.8,7], borderColor:"#0E456D", backgroundColor:gradientBlue, tension:0.4, fill:true, borderWidth:3, pointRadius:0},
+        {label:"Individuals", data:[4,6,8,9.5], borderColor:"#1a8fe3", backgroundColor:gradientLightBlue, tension:0.4, fill:true, borderWidth:3, pointRadius:0}
+      ]
+    };
+    const options = {
+      responsive:true,
+      maintainAspectRatio:false,
+      interaction:{mode:"index", intersect:false},
+      scales:{
+        y:{beginAtZero:false, max:10, ticks:{color:"#333", font:{size:13}, callback:v=>v+"%"}, grid:{color:"rgba(0,0,0,0.05)"}},
+        x:{ticks:{color:"#333", font:{size:13,weight:"600"}}, grid:{display:false}}
+      },
+      plugins:{
+        legend:{position:"bottom", labels:{usePointStyle:true, color:"#333", font:{size:13}}},
+        tooltip:{backgroundColor:"rgba(0,0,0,0.75)", titleFont:{size:13}, bodyFont:{size:12}, callbacks:{label:ctx=>`${ctx.dataset.label}: ${ctx.parsed.y}%`}}
+      },
+      animation:{duration:1500, easing:"easeOutQuart"}
+    };
+    new Chart(ctx, {type:"line", data:data, options:options});
+  }
+
+  // ----------------- Donut Charts -----------------
+  const totalBlocks=7;
+  const baseColor='#e0e0e0';
+  const blueShades=['rgba(26,143,227,0.3)','rgba(26,143,227,0.45)','rgba(26,143,227,0.6)','rgba(26,143,227,0.7)','rgba(26,143,227,0.8)','rgba(26,143,227,0.9)','rgba(26,143,227,1)'];
+
+  function getUniqueRandomPercents(count,min=95,max=99){
+    const numbers=new Set();
+    while(numbers.size<count) numbers.add(Math.floor(Math.random()*(max-min+1))+min);
+    return Array.from(numbers);
+  }
+
+  function getBlockColors(percent){
+    const filledBlocks=Math.round(percent/100*totalBlocks);
+    const colors=[];
+    for(let i=0;i<totalBlocks;i++) colors.push(i<filledBlocks?blueShades[i]:baseColor);
+    return colors;
+  }
+
+  function createDonutChart(ctx, percentId, targetPercent){
+    const initialColors=getBlockColors(0);
+    const chart=new Chart(ctx,{
+      type:'doughnut',
+      data:{labels:Array(totalBlocks).fill(''), datasets:[{data:Array(totalBlocks).fill(100/totalBlocks), backgroundColor:initialColors, borderWidth:1, borderColor:'#fff'}]},
+      options:{
+        cutout:'50%',
+        rotation:-90,
+        circumference:360,
+        plugins:{tooltip:false, legend:false},
+        animation:{
+          duration:2000,
+          easing:'easeOutCubic',
+          onProgress:function(animation){
+            const currentPercent=targetPercent*(animation.currentStep/animation.numSteps);
+            animation.chart.data.datasets[0].backgroundColor=getBlockColors(currentPercent);
+            animation.chart.update('none');
+            document.getElementById(percentId).innerText=Math.round(currentPercent)+'%';
+          }
+        }
+      }
+    });
+    return chart;
+  }
+
+  function drawDonutCharts(){
+    const [vatPercent,gstPercent,payrollPercent,corporatePercent]=getUniqueRandomPercents(4,95,99);
+    createDonutChart(document.getElementById('vatCircle').getContext('2d'),'vatPercent',vatPercent);
+    createDonutChart(document.getElementById('gstCircle').getContext('2d'),'gstPercent',gstPercent);
+    createDonutChart(document.getElementById('payrollCircle').getContext('2d'),'payrollPercent',payrollPercent);
+    createDonutChart(document.getElementById('corporateCircle').getContext('2d'),'corporatePercent',corporatePercent);
+  }
+
+  // ----------------- Scroll Trigger -----------------
+  function observeSection(id, drawFunc){
+    const section=document.getElementById(id);
+    let drawn=false;
+    const observer=new IntersectionObserver(entries=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting && !drawn){
+          entry.target.classList.add('visible');
+          drawFunc();
+          drawn=true;
+        }
+      });
+    },{threshold:0.4});
+    observer.observe(section);
+  }
+
+  // Trigger charts
+  observeSection('barChartSection', drawBarChart);
+  observeSection('lineChartSection', drawLineChart);
+  observeSection('donutChartSection', drawDonutCharts);
+
+});
 </script>
 </body>
 </html>

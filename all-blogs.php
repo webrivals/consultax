@@ -22,6 +22,21 @@ $blogsToShow = array_slice($blogs, $start, $blogsPerPage);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Blogs</title>
     <?php include 'includes/header.php'; ?>
+    <style>
+        /* Active pagination styling */
+        .pagination .page-item.active .page-link {
+            background-color: #0e456d;
+            border-color: #0e456d;
+            color: #fff;
+        }
+        .pagination .page-item .page-link {
+            color: #0e456d;
+        }
+        .pagination .page-item .page-link:hover {
+            background-color: #0e456d;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
 
@@ -61,7 +76,7 @@ $blogsToShow = array_slice($blogs, $start, $blogsPerPage);
                 <?php endif; ?>
 
                 <?php for ($i = 1; $i <= $totalPages; $i++): ?>
-                    <li class="page-item <?php echo $i === $currentPage ? 'active' : ''; ?>">
+                    <li class="page-item <?php echo ((int)$i === (int)$currentPage) ? 'active' : ''; ?>">
                         <a class="page-link" href="?page=<?php echo $i; ?>"><?php echo $i; ?></a>
                     </li>
                 <?php endfor; ?>

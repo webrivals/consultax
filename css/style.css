@@ -677,7 +677,7 @@ ul{
     margin-top:10px;
 }
 .cta-bg-home {
-  background-image: url(../images/cta-bg-home2.png) !important;
+  background-image: url(../images/cta-bg-home.svg) !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -874,7 +874,11 @@ ul{
     margin-left: 20px;
     list-style: disc;
 }
-
+.pagination .page-item.active .page-link {
+    background-color: #0e456d;
+    border-color: #0e456d;
+    color: #fff;
+}
 .contact-highlight{
     color: var(--bg-secondary);
     font-weight: 700;
