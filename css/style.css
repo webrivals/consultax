@@ -145,7 +145,7 @@ a{
 .dropdown-menu .active {
   background-color: #f1f1f1 !important;
 }
-  .chart-section {
+.chart-section {
     width: 100%;
     /* max-width: 900px; */
     margin: 0px auto;
@@ -811,6 +811,10 @@ ul{
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.blog-title-open{
+    color: var(--bg-primary);
+    font-size: 28px;
 }
 .blog-calendar-icon{
     width:20px;
@@ -1941,6 +1945,9 @@ ul {
     }
     .chart-section{
         padding:0px;
+    }    
+    .blog-open-para {
+        font-size: 16px;
     }
     
 }
