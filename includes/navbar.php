@@ -89,7 +89,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             </li>
             <!-- Referrals -->
             <li class="nav-item">
-              <a class="nav-link-navbar <?= $current_page == 'referrals.php' ? 'active' : '' ?>" href="#">Referrals</a>
+              <a class="nav-link-navbar <?= $current_page == 'referrals.php' ? 'active' : '' ?>" href="referrals.php">Referrals</a>
             </li>
             <!-- Contact -->
             <li class="nav-item">
