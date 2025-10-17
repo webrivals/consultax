@@ -66,7 +66,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <li><a class="dropdown-item nav-link-navbar <?= $current_page == 'landlords.php' ? 'active' : '' ?>" href="landlords.php">Landlords</a></li>
                 <li><a class="dropdown-item nav-link-navbar <?= $current_page == 'sole-traders.php' ? 'active' : '' ?>" href="sole-traders.php">Sole Traders</a></li>
                 <li><a class="dropdown-item nav-link-navbar <?= $current_page == 'limited-companies.php' ? 'active' : '' ?>" href="limited-companies.php">Limited Companies</a></li>
-                <li><a class="dropdown-item nav-link-navbar" href="#">Small And Medium Businesses</a></li>
+                <li><a class="dropdown-item nav-link-navbar" href="small-and-medium-business-accounting.php">Small And Medium Business</a></li>
               </ul>
             </li>
             <!-- Pricing -->

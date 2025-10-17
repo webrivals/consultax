@@ -39,7 +39,7 @@
                 </ul>        
             </div>
         </div>
-        <!-- Methodology VAT Section -->
+        <!-- Methodology TAX Planning Section -->
         <div class="container-fluid py-3" style="background:#E6ECF0;">
             <div class="container">
                     <h2 class="section-head mt-5">Our Working Methodology</h2>
